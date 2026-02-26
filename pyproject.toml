@@ -8,10 +8,10 @@ description = "SciComp - A Cross-Platform Scientific Computing Suite for Researc
 readme = "README.md"
 license = {text = "MIT"}
 authors = [
-    {name = "UC Berkeley SciComp Team", email = "scicomp@berkeley.edu"},
+    {name = "Meshal Alawein", email = "contact@meshal.ai"},
 ]
 maintainers = [
-    {name = "Meshal Alawein", email = "meshal@berkeley.edu"},
+    {name = "Meshal Alawein", email = "contact@meshal.ai"},
 ]
 keywords = [
     "berkeley", "scicomp", "quantum", "physics", "scientific-computing",
@@ -92,12 +92,10 @@ all = [
 berkeley-scicomp = "Python.utils.cli:main"
 bsc = "Python.utils.cli:main"
 [project.urls]
-Homepage = "https://github.com/berkeley/scicomp"
-Documentation = "https://berkeley-scicomp.readthedocs.io"
-Repository = "https://github.com/berkeley/scicomp"
-"Bug Reports" = "https://github.com/berkeley/scicomp/issues"
-Changelog = "https://github.com/berkeley/scicomp/blob/main/CHANGELOG.md"
-Download = "https://pypi.org/project/berkeley-scicomp/"
+Homepage = "https://github.com/alawein/scicomp"
+Repository = "https://github.com/alawein/scicomp"
+"Bug Reports" = "https://github.com/alawein/scicomp/issues"
+Changelog = "https://github.com/alawein/scicomp/blob/main/CHANGELOG.md"
 [tool.setuptools]
 packages = ["Python"]
 include-package-data = true

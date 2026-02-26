@@ -3,7 +3,7 @@
 **Generated:** 2025-08-07  
 **Repository:** SciComp - A Cross-Platform Scientific Computing Suite  
 **Institution:** University of California, Berkeley  
-**Lead Developer:** Meshal Alawein (meshal@berkeley.edu)
+**Lead Developer:** Meshal Alawein (contact@meshal.ai)
 
 ---
 
@@ -164,7 +164,7 @@ The SciComp framework has undergone comprehensive testing, validation, and optim
 ### **Quick Deployment**
 ```bash
 # 1. Clone repository
-git clone https://github.com/berkeley/scicomp.git
+git clone https://github.com/alawein/scicomp.git
 cd scicomp
 
 # 2. Install dependencies
@@ -252,6 +252,6 @@ The SciComp framework has successfully passed all critical tests and meets produ
 
 ---
 
-**Contact:** meshal@berkeley.edu | [GitHub](https://github.com/berkeley/scicomp)
+**Contact:** contact@meshal.ai | [GitHub](https://github.com/alawein/scicomp)
 
 **License:** MIT | **Copyright:** © 2025 Meshal Alawein, UC Berkeley

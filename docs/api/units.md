@@ -4,7 +4,7 @@
 Unit Conversion Module
 Provides comprehensive unit conversion capabilities for scientific computing,
 including energy, length, time, mass, and other physical quantities.
-Author: Meshal Alawein (meshal@berkeley.edu)
+Author: Meshal Alawein (contact@meshal.ai)
 Institution: University of California, Berkeley
 License: MIT
 Copyright © 2025 Meshal Alawein — All rights reserved.

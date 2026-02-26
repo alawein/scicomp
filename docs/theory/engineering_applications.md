@@ -1,6 +1,6 @@
 # Engineering Applications Theory Reference
 **SciComp - Engineering Foundation**
-*Author: Meshal Alawein (meshal@berkeley.edu)*
+*Author: Meshal Alawein (contact@meshal.ai)*
 *Institution: University of California, Berkeley*
 *Created: 2025*
 ---

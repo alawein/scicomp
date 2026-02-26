@@ -3,17 +3,13 @@ message: "If you use this software, please cite it as below."
 type: software
 authors:
 - family-names: "Alawein"
-  given-names: "Dr. Meshal"
-  email: "meshal@berkeley.edu"
-  affiliation: "University of California, Berkeley"
-  orcid: "https://orcid.org/0009-0009-0009-0009"
-  website: "https://malawein.com"
-title: "SciComp: Professional Scientific Computing Portfolio"
+  given-names: "Meshal"
+  email: "contact@meshal.ai"
+title: "SciComp: Cross-Platform Scientific Computing Framework"
 version: 1.0.0
-doi: 10.5281/zenodo.1234567
 date-released: 2025-01-01
-url: "https://github.com/alaweimm90/SciComp"
-repository-code: "https://github.com/alaweimm90/SciComp"
+url: "https://github.com/alawein/scicomp"
+repository-code: "https://github.com/alawein/scicomp"
 license: MIT
 keywords:
   - scientific computing
@@ -25,13 +21,8 @@ keywords:
   - MATLAB
   - Mathematica
   - physics simulation
-  - educational software
 abstract: >-
-  SciComp is a comprehensive, cross-platform scientific computing framework
-  that showcases expertise in computational physics, quantum computing, and
-  physics-informed machine learning. The repository provides equivalent
-  implementations across Python, MATLAB, and Mathematica platforms, designed
-  for both research applications and educational purposes. Key features include
-  quantum physics simulations, quantum computing algorithms, physics-informed
-  neural networks, and advanced scientific visualization following UC Berkeley's
-  visual identity standards.
+  SciComp is a cross-platform scientific computing framework
+  for quantum mechanics, thermal transport, and physics-informed
+  machine learning. Provides equivalent implementations across
+  Python, MATLAB, and Mathematica.

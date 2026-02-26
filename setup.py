@@ -63,17 +63,15 @@ setup(
     long_description=get_long_description(),
     long_description_content_type='text/markdown',
     # Author and contact
-    author='UC Berkeley SciComp Team',
-    author_email='scicomp@berkeley.edu',
+    author='Meshal Alawein',
+    author_email='contact@meshal.ai',
     maintainer='Meshal Alawein',
-    maintainer_email='meshal@berkeley.edu',
+    maintainer_email='contact@meshal.ai',
     # URLs
-    url='https://github.com/berkeley/scicomp',
+    url='https://github.com/alawein/scicomp',
     project_urls={
-        'Documentation': 'https://berkeley-scicomp.readthedocs.io',
-        'Bug Reports': 'https://github.com/berkeley/scicomp/issues',
-        'Source': 'https://github.com/berkeley/scicomp',
-        'Download': 'https://pypi.org/project/berkeley-scicomp/',
+        'Repository': 'https://github.com/alawein/scicomp',
+        'Bug Reports': 'https://github.com/alawein/scicomp/issues',
     },
     # Package discovery
     packages=find_packages(include=['Python', 'Python.*']),

@@ -82,7 +82,7 @@ WORKDIR /app/your-code
 #### From Source
 ```bash
 # Clone the repository
-git clone https://github.com/berkeley/scicomp.git
+git clone https://github.com/alawein/scicomp.git
 cd scicomp
 # Create virtual environment
 python -m venv venv
@@ -429,8 +429,8 @@ gc.collect()
 ### Getting Help
 If you encounter issues not covered here:
 1. **Check Documentation**: https://berkeley-scicomp.readthedocs.io
-2. **GitHub Issues**: https://github.com/berkeley/scicomp/issues
-3. **Discussions**: https://github.com/berkeley/scicomp/discussions
+2. **GitHub Issues**: https://github.com/alawein/scicomp/issues
+3. **Discussions**: https://github.com/alawein/scicomp/discussions
 4. **Email Support**: scicomp@berkeley.edu
 ---
 ## 🚀 Next Steps
@@ -460,9 +460,9 @@ MIT License - see [LICENSE](../LICENSE) file for details.
 The SciComp is developed at the **University of California, Berkeley**.
 **Contact Information**:
 - **Email**: scicomp@berkeley.edu
-- **Principal Architect**: Meshal Alawein (meshal@berkeley.edu)
+- **Principal Architect**: Meshal Alawein (contact@meshal.ai)
 - **Institution**: University of California, Berkeley
-- **GitHub**: https://github.com/berkeley/scicomp
+- **GitHub**: https://github.com/alawein/scicomp
 ---
 **🐻💙💛 Go Bears! Fiat Lux - Let There Be Light 💙💛🐻**
 *University of California, Berkeley - Scientific Computing Excellence Since 1868*

@@ -1,6 +1,6 @@
 # 🚀 SciComp - GPU Testing Guide
 ![Berkeley SciComp](https://img.shields.io/badge/SciComp-003262?style=flat-square&logo=university)
-[![GPU Support](https://img.shields.io/badge/GPU-CUDA%20ready-green?style=flat-square)](https://github.com/berkeley/scicomp)
+[![GPU Support](https://img.shields.io/badge/GPU-CUDA%20ready-green?style=flat-square)](https://github.com/alawein/scicomp)
 **University of California, Berkeley**
 **GPU-Accelerated Scientific Computing**
 ---
@@ -206,7 +206,7 @@ The SciComp includes complete GPU acceleration code with CPU fallbacks. GPU test
 ## 📞 **GPU Testing Support**
 For GPU testing support or to report GPU-specific issues:
 **Primary Contact:** Meshal Alawein
-**Email:** [meshal@berkeley.edu](mailto:meshal@berkeley.edu)
+**Email:** [contact@meshal.ai](mailto:contact@meshal.ai)
 **Subject:** Berkeley SciComp GPU Testing
 **Include in your report:**
 - GPU hardware specifications

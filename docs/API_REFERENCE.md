@@ -199,7 +199,7 @@ Complete API reference for all modules in the SciComp.
 - [Installation Guide](../docs/INSTALLATION_GUIDE.md)
 - [Contributing Guide](../CONTRIBUTING.md)
 - [Examples](../examples/)
-- [GitHub Repository](https://github.com/berkeley/scicomp)
+- [GitHub Repository](https://github.com/alawein/scicomp)
 ---
 **🐻💙💛 University of California, Berkeley 💙💛🐻**
 *Scientific Computing Excellence Since 1868*

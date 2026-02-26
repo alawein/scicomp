@@ -3,7 +3,7 @@
 [![Contributors Welcome](https://img.shields.io/badge/contributors-welcome-brightgreen?style=flat-square)](https://github.com/berkeley/scicomp/contribute)
 **Welcome to the SciComp community!**
 We're excited that you're interested in contributing to our scientific computing suite. This guide will help you get started with contributing code, documentation, examples, or bug reports.
-**Author**: Meshal Alawein (meshal@berkeley.edu)
+**Author**: Meshal Alawein (contact@meshal.ai)
 **Institution**: University of California, Berkeley
 **License**: MIT
 ---
@@ -36,7 +36,7 @@ We're excited that you're interested in contributing to our scientific computing
 - [Community](#community)
 ---
 ## 🤝 Code of Conduct
-This project follows the [Berkeley SciComp Code of Conduct](CODE_OF_CONDUCT.md). By participating, you agree to uphold this code. Please report unacceptable behavior to [meshal@berkeley.edu](mailto:meshal@berkeley.edu).
+This project follows the [Berkeley SciComp Code of Conduct](CODE_OF_CONDUCT.md). By participating, you agree to uphold this code. Please report unacceptable behavior to [contact@meshal.ai](mailto:contact@meshal.ai).
 ---
 ## 🚀 Getting Started
 ### Prerequisites
@@ -309,7 +309,7 @@ def quantum_tunneling_probability(
 ### Communication Channels
 - **Issues**: GitHub issues for bugs and features
 - **Discussions**: GitHub discussions for questions
-- **Email**: [meshal@berkeley.edu](mailto:meshal@berkeley.edu) for direct contact
+- **Email**: [contact@meshal.ai](mailto:contact@meshal.ai) for direct contact
 ### Berkeley Community
 - **Students**: UC Berkeley students and researchers
 - **Faculty**: Berkeley physics and engineering faculty
@@ -356,7 +356,7 @@ The SciComp serves UC Berkeley's educational mission:
 ---
 ## 📞 Contact
 **Primary Developer**: Meshal Alawein
-**Email**: [meshal@berkeley.edu](mailto:meshal@berkeley.edu)
+**Email**: [contact@meshal.ai](mailto:contact@meshal.ai)
 **Institution**: University of California, Berkeley
 **GitHub**: [@berkeley-scicomp](https://github.com/berkeley-scicomp)
 ---

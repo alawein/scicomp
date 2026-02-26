@@ -255,7 +255,7 @@ copies or substantial portions of the Software.
 **Meshal Alawein**
 *Principal Investigator*
 University of California, Berkeley
-📧 meshal@berkeley.edu
+📧 contact@meshal.ai
 🌐 [Berkeley SciComp Website](https://berkeley-scicomp.github.io)
 ---
 *This documentation is continuously updated. Last revision: 2025*
