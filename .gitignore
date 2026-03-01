@@ -429,3 +429,6 @@ id_ed25519
 # Keep essential configuration templates
 !**/config_template.*
 !**/example_config.*
+
+# Backup directories
+.backup_*/
