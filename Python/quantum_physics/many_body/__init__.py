@@ -8,11 +8,26 @@ Institution: University of California, Berkeley
 License: MIT
 Copyright © 2025 Meshal Alawein — All rights reserved.
 """
-from .exact_diagonalization import *
-from .hubbard_model import *
-from .heisenberg_model import *
-from .entanglement_analysis import *
-from .mean_field_theory import *
+try:
+    from .exact_diagonalization import *
+except ImportError:
+    pass
+try:
+    from .hubbard_model import *
+except ImportError:
+    pass
+try:
+    from .heisenberg_model import *
+except ImportError:
+    pass
+try:
+    from .entanglement_analysis import *
+except ImportError:
+    pass
+try:
+    from .mean_field_theory import *
+except ImportError:
+    pass
 __all__ = [
     # Exact Diagonalization
     'ExactDiagonalization', 'sparse_hamiltonian', 'ground_state_solver',

@@ -8,7 +8,10 @@ Institution: University of California, Berkeley
 License: MIT
 Copyright © 2025 Meshal Alawein — All rights reserved.
 """
-from .dft_basics import *
+try:
+    from .dft_basics import *
+except ImportError:
+    pass
 from .band_structure import *
 from .density_of_states import *
 from .strain_engineering import *

@@ -35,7 +35,8 @@ try:
 except ImportError as e:
     print(f"Warning: Some ML physics modules not available: {e}")
     MODULES_AVAILABLE = False
-from Python.utils.constants import hbar, me, e, pi
+from Python.utils.constants import hbar, me, e
+from math import pi
 class TestSchrodingerPINN(unittest.TestCase):
     """Test Schrödinger equation PINN implementation."""
     def setUp(self):

@@ -122,7 +122,7 @@ def _register_berkeley_colormaps():
     # Blue-Gold gradient
     blue_gold_colors = [BERKELEY_BLUE, CALIFORNIA_GOLD]
     blue_gold_cmap = LinearSegmentedColormap.from_list('berkeley_blue_gold', blue_gold_colors)
-    plt.cm.register_cmap(name='berkeley_blue_gold', cmap=blue_gold_cmap)
+    mpl.colormaps.register(blue_gold_cmap, name='berkeley_blue_gold', force=True)
     # Full spectrum using Berkeley colors
     spectrum_colors = [
         BERKELEY_BLUE,
@@ -133,11 +133,11 @@ def _register_berkeley_colormaps():
         CALIFORNIA_GOLD
     ]
     spectrum_cmap = LinearSegmentedColormap.from_list('berkeley_spectrum', spectrum_colors)
-    plt.cm.register_cmap(name='berkeley_spectrum', cmap=spectrum_cmap)
+    mpl.colormaps.register(spectrum_cmap, name='berkeley_spectrum', force=True)
     # Sequential blue
     blue_colors = ['white', BERKELEY_BLUE]
     blue_cmap = LinearSegmentedColormap.from_list('berkeley_blues', blue_colors)
-    plt.cm.register_cmap(name='berkeley_blues', cmap=blue_cmap)
+    mpl.colormaps.register(blue_cmap, name='berkeley_blues', force=True)
 class BerkeleyPlot:
     """
     Berkeley-styled plotting class for scientific figures.

@@ -35,7 +35,7 @@ try:
 except ImportError as e:
     print(f"Warning: Some quantum computing modules not available: {e}")
     MODULES_AVAILABLE = False
-from Python.utils.constants import pi
+from math import pi
 class TestQuantumGates(unittest.TestCase):
     """Test quantum gate implementations and properties."""
     def setUp(self):

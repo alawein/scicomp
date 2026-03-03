@@ -24,7 +24,7 @@ License: MIT
 Copyright © 2025 Meshal Alawein — All rights reserved.
 """
 import numpy as np
-from scipy.integrate import quad, trapz
+from scipy.integrate import quad, trapezoid as trapz
 from scipy.interpolate import griddata, interp1d
 from scipy.optimize import minimize_scalar
 import matplotlib.pyplot as plt

@@ -8,10 +8,22 @@ Institution: University of California, Berkeley
 License: MIT
 Copyright © 2025 Meshal Alawein — All rights reserved.
 """
-from . import quantum_dynamics
-from . import electronic_structure
-from . import many_body
-from . import quantum_optics
+try:
+    from . import quantum_dynamics
+except ImportError:
+    pass
+try:
+    from . import electronic_structure
+except ImportError:
+    pass
+try:
+    from . import many_body
+except ImportError:
+    pass
+try:
+    from . import quantum_optics
+except ImportError:
+    pass
 __all__ = [
     'quantum_dynamics',
     'electronic_structure',

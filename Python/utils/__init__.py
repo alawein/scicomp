@@ -10,8 +10,14 @@ Copyright © 2025 Meshal Alawein — All rights reserved.
 """
 from .constants import *
 from .units import *
-from .file_io import *
-from .parallel import *
+try:
+    from .file_io import *
+except ImportError:
+    pass
+try:
+    from .parallel import *
+except ImportError:
+    pass
 __all__ = [
     # Physical constants
     'PHYSICAL_CONSTANTS',

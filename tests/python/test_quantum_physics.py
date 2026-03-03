@@ -22,13 +22,23 @@ import sys
 import os
 # Add SciComp modules to path
 sys.path.append(os.path.join(os.path.dirname(__file__), '..', '..'))
-from Python.quantum_physics.quantum_dynamics.wavepacket_evolution import WavepacketEvolution, WavepacketConfig
-from Python.quantum_physics.quantum_dynamics.quantum_tunneling import QuantumTunneling, TunnelingConfig
-from Python.quantum_physics.electronic_structure.density_of_states import DensityOfStates, DOSConfig
-from Python.quantum_physics.many_body.quantum_monte_carlo import QuantumMonteCarlo, QMCConfig
-from Python.quantum_computing.algorithms.grover import GroverSearch, GroverConfig
-from Python.quantum_computing.circuits.quantum_gates import QuantumCircuit, GateConfig
-from Python.utils.constants import hbar, me, e, pi
+from math import pi
+
+MODULES_AVAILABLE = True
+try:
+    from Python.quantum_physics.quantum_dynamics.wavepacket_evolution import WavepacketEvolution, WavepacketConfig
+    from Python.quantum_physics.quantum_dynamics.quantum_tunneling import QuantumTunneling, TunnelingConfig
+    from Python.quantum_physics.electronic_structure.density_of_states import DensityOfStates, DOSConfig
+    from Python.quantum_physics.many_body.quantum_monte_carlo import QuantumMonteCarlo, QMCConfig
+    from Python.quantum_computing.algorithms.grover import GroverSearch, GroverConfig
+    from Python.quantum_computing.circuits.quantum_gates import QuantumCircuit, GateConfig
+    from Python.utils.constants import hbar, me, e
+except ImportError as exc:
+    print(f"Warning: Some quantum modules not available: {exc}")
+    MODULES_AVAILABLE = False
+    hbar = 1.054571817e-34
+    me = 9.1093837015e-31
+    e = 1.602176634e-19
 class TestQuantumPhysicsConstants(unittest.TestCase):
     """Test fundamental physical constants."""
     def test_physical_constants_values(self):

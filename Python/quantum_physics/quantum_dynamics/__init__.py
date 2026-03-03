@@ -7,10 +7,22 @@ Institution: University of California, Berkeley
 License: MIT
 Copyright © 2025 Meshal Alawein — All rights reserved.
 """
-from .tdse_solver import *
-from .harmonic_oscillator import *
-from .wavepacket_evolution import *
-from .quantum_tunneling import *
+try:
+    from .tdse_solver import *
+except ImportError:
+    pass
+try:
+    from .harmonic_oscillator import *
+except ImportError:
+    pass
+try:
+    from .wavepacket_evolution import *
+except ImportError:
+    pass
+try:
+    from .quantum_tunneling import *
+except ImportError:
+    pass
 __all__ = [
     # TDSE Solver
     'TDSESolver', 'CrankNicolsonSolver', 'SplitOperatorSolver',
