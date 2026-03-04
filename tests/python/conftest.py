@@ -39,3 +39,8 @@ def _ensure_stub_packages():
 
 
 _ensure_stub_packages()
+
+# numpy 2.0+ removed np.trapz — alias to np.trapezoid for backwards compat
+import numpy as np
+if not hasattr(np, 'trapz'):
+    np.trapz = np.trapezoid

@@ -116,7 +116,7 @@ class QuantumHarmonic:
         # Calculate wavefunction
         if normalized:
             # Normalization constant
-            N = (1.0 / (np.pi**0.25 * np.sqrt(2**n * scipy.special.factorial(n))))
+            N = (1.0 / (np.pi**0.25 * np.sqrt(2**n * scipy.special.factorial(n) * self.x0)))
             psi = N * np.exp(-xi**2 / 2) * H_n(xi)
         else:
             psi = np.exp(-xi**2 / 2) * H_n(xi)

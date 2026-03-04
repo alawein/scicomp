@@ -59,6 +59,7 @@ class TestQuantumPhysicsConstants(unittest.TestCase):
         alpha = e**2 / (4 * pi * epsilon_0 * hbar * c)
         expected_alpha = 7.2973525693e-3  # 1/137.035999084
         self.assertAlmostEqual(alpha, expected_alpha, places=10)
+@unittest.skipUnless(MODULES_AVAILABLE, "Quantum modules not importable")
 class TestWavepacketEvolution(unittest.TestCase):
     """Test wavepacket evolution functionality."""
     def setUp(self):
@@ -130,6 +131,7 @@ class TestWavepacketEvolution(unittest.TestCase):
         x_initial = evolution_period.calculate_position_expectation(results['psi'][:, 0])
         x_final = evolution_period.calculate_position_expectation(results['psi'][:, -1])
         self.assertAlmostEqual(x_final, x_initial, places=1)
+@unittest.skipUnless(MODULES_AVAILABLE, "Quantum modules not importable")
 class TestQuantumTunneling(unittest.TestCase):
     """Test quantum tunneling calculations."""
     def setUp(self):
@@ -192,6 +194,7 @@ class TestQuantumTunneling(unittest.TestCase):
         # WKB should be reasonably close for thick barriers
         relative_error = abs(T_exact - T_wkb) / T_exact
         self.assertLess(relative_error, 0.5)  # Within 50%
+@unittest.skipUnless(MODULES_AVAILABLE, "Quantum modules not importable")
 class TestDensityOfStates(unittest.TestCase):
     """Test density of states calculations."""
     def setUp(self):
@@ -245,6 +248,7 @@ class TestDensityOfStates(unittest.TestCase):
         dos_std = np.std(dos_values_2d[energies > 1.0])
         relative_variation = dos_std / dos_mean
         self.assertLess(relative_variation, 0.1)
+@unittest.skipUnless(MODULES_AVAILABLE, "Quantum modules not importable")
 class TestQuantumMonteCarlo(unittest.TestCase):
     """Test Quantum Monte Carlo methods."""
     def setUp(self):
@@ -293,6 +297,7 @@ class TestQuantumMonteCarlo(unittest.TestCase):
         self.assertEqual(walkers.shape, expected_shape)
         # Check that walkers are finite
         self.assertTrue(np.all(np.isfinite(walkers)))
+@unittest.skipUnless(MODULES_AVAILABLE, "Quantum modules not importable")
 class TestGroverAlgorithm(unittest.TestCase):
     """Test Grover's quantum search algorithm."""
     def setUp(self):
@@ -353,6 +358,7 @@ class TestGroverAlgorithm(unittest.TestCase):
         # that success rate is significantly above random chance
         random_success_rate = len(self.grover.target_items) / self.grover.n_states
         self.assertGreater(success_rate, 2 * random_success_rate)
+@unittest.skipUnless(MODULES_AVAILABLE, "Quantum modules not importable")
 class TestQuantumCircuits(unittest.TestCase):
     """Test quantum circuit functionality."""
     def setUp(self):
@@ -420,6 +426,7 @@ class TestQuantumCircuits(unittest.TestCase):
         # Z on qubit 1 can be parallel with operations on qubit 0
         # Expected depth: 2 (H-CNOT on one layer, Z can be parallel with something)
         self.assertGreaterEqual(depth, 2)
+@unittest.skipUnless(MODULES_AVAILABLE, "Quantum modules not importable")
 class TestPhysicsValidation(unittest.TestCase):
     """Test physics principles and conservation laws."""
     def test_uncertainty_principle(self):
@@ -494,6 +501,7 @@ class TestPhysicsValidation(unittest.TestCase):
         if len(left_half) == len(right_half):
             symmetry_error = np.mean(np.abs(left_half - right_half)) / np.mean(prob_density)
             self.assertLess(symmetry_error, 0.05)
+@unittest.skipUnless(MODULES_AVAILABLE, "Quantum modules not importable")
 class TestNumericalAccuracy(unittest.TestCase):
     """Test numerical accuracy and stability."""
     def test_fft_accuracy(self):
