@@ -54,3 +54,5 @@ CPU fallback, quantum simulations, and physics-informed neural networks.
 - Functions: `snake_case`
 - Constants: `UPPER_SNAKE_CASE`
 - MATLAB files: `camelCase.m`
+
+See [CLAUDE.md](CLAUDE.md) | [SSOT.md](SSOT.md)
