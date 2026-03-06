@@ -1,3 +1,10 @@
+---
+type: guide
+authority: canonical
+audience: [ai-agents, contributors]
+last-verified: 2026-03-03
+---
+
 # Claude AI Assistant Guide
 
 ## Repository Context
@@ -55,3 +62,6 @@ pip install -e ".[dev]"
 ## Architecture
 
 Modular scientific computing library with three parallel implementations (Python, MATLAB, Mathematica). Python core provides quantum mechanics (Bell states, VQE, QAOA, Jaynes-Cummings), GPU-accelerated numerics with CuPy/CUDA automatic fallback, physics-informed neural networks for PDEs, and thermal transport solvers. Cross-platform validation suite ensures numerical consistency across all three languages.
+
+## Governance
+See [AGENTS.md](AGENTS.md) for rules. See [SSOT.md](SSOT.md) for current state.
