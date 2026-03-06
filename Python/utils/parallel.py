@@ -11,7 +11,7 @@ Copyright © 2025 Meshal Alawein — All rights reserved.
 import multiprocessing as mp
 import concurrent.futures
 import numpy as np
-from typing import Callable, Any, List, Optional, Union, Iterator, Tuple
+from typing import Callable, Any, Dict, List, Optional, Union, Iterator, Tuple
 from functools import partial
 import psutil
 import warnings
