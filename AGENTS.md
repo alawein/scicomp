@@ -1,11 +1,11 @@
----
+﻿---
 type: normative
 authority: canonical
 audience: [agents, contributors, maintainers]
 last-verified: 2026-03-01
 ---
 
-# AGENTS -- scicomp
+# AGENTS — scicomp
 
 > Cross-platform scientific computing framework for quantum mechanics,
 > thermal transport, and physics-informed machine learning.

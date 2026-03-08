@@ -1,11 +1,11 @@
----
+﻿---
 type: guide
 authority: canonical
 audience: [ai-agents, contributors]
 last-verified: 2026-03-03
 ---
 
-# Claude AI Assistant Guide
+# CLAUDE.md — scicomp
 
 ## Repository Context
 
