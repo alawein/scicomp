@@ -1,8 +1,8 @@
-﻿---
+---
 type: normative
 authority: canonical
 audience: [agents, contributors, maintainers]
-last-verified: 2026-03-01
+last-verified: 2026-03-09
 ---
 
 # AGENTS — scicomp

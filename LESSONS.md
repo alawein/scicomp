@@ -2,6 +2,7 @@
 type: lessons
 authority: observed
 audience: [ai-agents, contributors, future-self]
+last-verified: 2026-03-09
 last-updated: 2026-03-04
 ---
 
