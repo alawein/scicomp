@@ -162,6 +162,7 @@ markers = [
 # Coverage configuration
 [tool.coverage.run]
 source = ["Python"]
+relative_files = true
 omit = [
     "*/tests/*",
     "*/test_*",
