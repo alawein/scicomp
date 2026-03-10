@@ -1,0 +1,40 @@
+{
+  "ignores": [".backup_*/**"],
+  "config": {
+    "default": true,
+    // Line length — scientific prose and URLs regularly exceed 80 chars
+    "MD013": false,
+    // Heading style — allow both atx (#) and setext (underline)
+    "MD003": false,
+    // Blanks around headings — entire codebase uses compact style
+    "MD022": false,
+    // Multiple top-level headings — template files use multiple H1s
+    "MD025": false,
+    // Duplicate headings — CHANGELOGs reuse Added/Changed/Fixed
+    "MD024": false,
+    // Trailing punctuation in headings
+    "MD026": false,
+    // Blanks around fences — compact code block style throughout
+    "MD031": false,
+    // Blanks around lists — compact list style throughout
+    "MD032": false,
+    // Bare URLs
+    "MD034": false,
+    // Inline HTML — some docs use badges and other HTML
+    "MD033": false,
+    // Fenced code language — many generic code blocks
+    "MD040": false,
+    // Link fragments — emoji headings break anchor resolution
+    "MD051": false,
+    // Emphasis as heading — some docs use bold as section markers
+    "MD036": false,
+    // Heading increment — auto-generated docs skip heading levels
+    "MD001": false,
+    // Table spacing
+    "MD058": false,
+    // Table column style — auto-generated tables
+    "MD060": false,
+    // Spaces inside emphasis — scientific notation uses * for multiplication
+    "MD037": false
+  }
+}
