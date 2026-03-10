@@ -15,7 +15,10 @@ last-verified: 2026-03-09
 
 ## Purpose
 
-SciComp — Cross-platform scientific computing framework for quantum mechanics, thermal transport, and physics-informed ML. Equivalent implementations across Python, MATLAB, and Mathematica. GPU acceleration via CuPy/CUDA.
+SciComp — Cross-platform scientific computing framework for
+quantum mechanics, thermal transport, and physics-informed ML.
+Equivalent implementations across Python, MATLAB, and Mathematica.
+GPU acceleration via CuPy/CUDA.
 
 ## Current State
 
@@ -26,7 +29,7 @@ SciComp — Cross-platform scientific computing framework for quantum mechanics,
 
 ## Structure
 
-```
+```text
 scicomp/
 ├── python/       # Python implementations
 ├── matlab/       # MATLAB equivalents

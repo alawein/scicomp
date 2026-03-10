@@ -3,7 +3,10 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Python](https://img.shields.io/badge/Python-3.8+-green.svg)](https://www.python.org/)
 
-Cross-platform scientific computing framework for quantum mechanics, thermal transport, and physics-informed machine learning. Provides equivalent implementations across Python, MATLAB, and Mathematica for both research and education.
+Cross-platform scientific computing framework for quantum mechanics,
+thermal transport, and physics-informed machine learning. Provides
+equivalent implementations across Python, MATLAB, and Mathematica
+for both research and education.
 
 ## Features
 
@@ -23,7 +26,8 @@ cd scicomp
 pip install -e .
 ```
 
-Requirements: Python 3.8+, NumPy, SciPy, Matplotlib. Optional: CUDA 11.0+, TensorFlow 2.0+.
+Requirements: Python 3.8+, NumPy, SciPy, Matplotlib.
+Optional: CUDA 11.0+, TensorFlow 2.0+.
 
 ## Usage
 
@@ -61,7 +65,7 @@ wolframscript -f tests/mathematica/test_symbolic_quantum.nb
 
 ## Project Structure
 
-```
+```text
 scicomp/
 ├── Python/          # Core implementation
 │   ├── Quantum/     # Quantum mechanics/computing
@@ -90,7 +94,8 @@ MIT License -- see [LICENSE](LICENSE).
 
 ## Author
 
-**Meshal Alawein**
+### Meshal Alawein
+
 - Email: [contact@meshal.ai](mailto:contact@meshal.ai)
 - GitHub: [github.com/alawein](https://github.com/alawein)
 - LinkedIn: [linkedin.com/in/alawein](https://linkedin.com/in/alawein)

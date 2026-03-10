@@ -8,7 +8,7 @@
 
 ## Reporting a Vulnerability
 
-Please report security vulnerabilities to: contact@meshal.ai
+Please report security vulnerabilities to: <contact@meshal.ai>
 
 **Do not open public issues for security vulnerabilities.**
 
