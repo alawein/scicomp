@@ -432,3 +432,6 @@ id_ed25519
 
 # Backup directories
 .backup_*/
+.ruff_cache/
+.venv/
+.vercel/
