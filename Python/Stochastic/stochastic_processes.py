@@ -148,6 +148,7 @@ class BrownianMotion(StochasticProcess):
         # Generate fBm
         Z = self.rng.normal(0, 1, n_steps + 1)
         fBm = L @ Z
+        fBm[0] = 0.0  # fBm(0) = 0 by definition
         return t, fBm
 class RandomWalk(StochasticProcess):
     """

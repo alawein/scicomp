@@ -121,16 +121,17 @@ class TestSpectralAnalyzer:
         return SpectralAnalyzer(sampling_rate=1000)
     def test_power_spectrum(self, analyzer):
         """Test power spectrum computation."""
-        # Generate test signal
-        t = np.linspace(0, 1, 1000)
+        # Generate test signal (use longer duration for better frequency resolution)
+        t = np.linspace(0, 2, 2000)
         signal = np.sin(2 * np.pi * 50 * t) + 0.5 * np.sin(2 * np.pi * 120 * t)
         # Compute PSD
         f, Pxx = analyzer.compute_power_spectrum(signal, method='welch')
         assert len(f) == len(Pxx)
         assert np.all(Pxx >= 0)  # Power should be non-negative
-        # Check peaks at expected frequencies
-        peaks_idx = np.argsort(Pxx)[-2:]  # Two highest peaks
-        peak_freqs = sorted(f[peaks_idx])
+        # Check peaks at expected frequencies using scipy peak detection
+        from scipy.signal import find_peaks as _find_peaks
+        peak_indices, _ = _find_peaks(Pxx, height=np.max(Pxx) * 0.05)
+        peak_freqs = sorted(f[peak_indices][np.argsort(Pxx[peak_indices])[-2:]])
         assert peak_freqs[0] == pytest.approx(50, rel=0.1)
         assert peak_freqs[1] == pytest.approx(120, rel=0.1)
     def test_cross_spectrum(self, analyzer):

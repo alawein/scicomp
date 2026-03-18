@@ -67,6 +67,8 @@ class SignalProcessor:
             phases = phase if isinstance(phase, list) else [phase] * len(freqs)
             for f, a, p in zip(freqs, amps, phases):
                 signal_data += a * np.sin(2 * np.pi * f * t + p)
+        elif signal_type == 'noise':
+            signal_data = amplitude * np.random.randn(len(t))
         else:
             raise ValueError(f"Unknown signal type: {signal_type}")
         # Add noise if specified
