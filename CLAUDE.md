@@ -5,6 +5,8 @@ audience: [ai-agents, contributors]
 last-verified: 2026-03-03
 ---
 
+<!-- CUSTOM OVERRIDE: domain-specific guide | Intentional specialization for cross-platform scientific computing framework (Python, MATLAB, Mathematica parity required) -->
+
 # CLAUDE.md — scicomp
 
 ## Repository Context

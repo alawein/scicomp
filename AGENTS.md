@@ -5,6 +5,8 @@ audience: [agents, contributors, maintainers]
 last-verified: 2026-03-09
 ---
 
+<!-- CUSTOM OVERRIDE: domain-specific governance | Intentional specialization for cross-platform scientific computing (GPU/CPU fallback, Colab compatibility, multi-language parity rules) -->
+
 # AGENTS — scicomp
 
 > Cross-platform scientific computing framework for quantum mechanics,
