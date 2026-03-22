@@ -1,0 +1,11 @@
+{
+  "_governanceHooksVersion": "1.0.0",
+  "_templateSource": "github.com/alawein/_pkos/templates/governance-hooks",
+  "project_name": "scicomp",
+  "project_type": "project",
+  "hooks": {
+    "pre-commit": "bash .claude/hooks/scope-binding-check.sh --warn-only",
+    "post-commit": "bash .claude/hooks/observability-log.sh --log-to docs/operations/session-log.md",
+    "hourly": "bash .claude/hooks/drift-detection.sh"
+  }
+}
