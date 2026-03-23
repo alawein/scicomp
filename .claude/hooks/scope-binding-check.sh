@@ -3,7 +3,7 @@ set -e
 
 # =============================================================================
 # scope-binding-check.sh — Governance Hook (I-4: Scope Binding)
-# Version: 1.0.0
+# Version: 1.1.0
 # Source:  _pkos/templates/governance-hooks/hooks/scope-binding-check.sh
 # =============================================================================
 #
@@ -17,7 +17,15 @@ set -e
 #
 # Configuration:
 #   SCOPE_THRESHOLD  — max files before warning (default: 3)
+#   Set per-project overrides in .claude/hooks/config.env
 # =============================================================================
+
+# Source per-project configuration if it exists
+SCRIPT_DIR="$(cd "$(dirname "$0")" && pwd)"
+if [ -f "$SCRIPT_DIR/config.env" ]; then
+  # shellcheck source=/dev/null
+  source "$SCRIPT_DIR/config.env"
+fi
 
 SCOPE_THRESHOLD="${SCOPE_THRESHOLD:-3}"
 warn_only=${1:-false}

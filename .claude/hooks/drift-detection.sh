@@ -3,7 +3,7 @@ set -e
 
 # =============================================================================
 # drift-detection.sh — Governance Hook (I-2: Drift Is Debt)
-# Version: 1.0.0
+# Version: 1.1.0
 # Source:  _pkos/templates/governance-hooks/hooks/drift-detection.sh
 # =============================================================================
 #
@@ -16,7 +16,18 @@ set -e
 #   bash drift-detection.sh /path/to/_pkos          # explicit template source
 #
 # Checked files: CLAUDE.md, AGENTS.md, GUIDELINES.md
+#
+# Configuration:
+#   DRIFT_CHECK_INTERVAL — set per-project in .claude/hooks/config.env
+#   (used by the scheduler/settings.json, not by this script directly)
 # =============================================================================
+
+# Source per-project configuration if it exists
+SCRIPT_DIR="$(cd "$(dirname "$0")" && pwd)"
+if [ -f "$SCRIPT_DIR/config.env" ]; then
+  # shellcheck source=/dev/null
+  source "$SCRIPT_DIR/config.env"
+fi
 
 # Default: walk up from .claude/hooks/ to repo root, then to sibling _pkos
 template_source=${1:-../../../_pkos}

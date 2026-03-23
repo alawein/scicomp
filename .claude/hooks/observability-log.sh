@@ -3,7 +3,7 @@ set -e
 
 # =============================================================================
 # observability-log.sh — Governance Hook (I-3: Observability)
-# Version: 1.0.0
+# Version: 1.1.0
 # Source:  _pkos/templates/governance-hooks/hooks/observability-log.sh
 # =============================================================================
 #
@@ -18,7 +18,15 @@ set -e
 # Configuration:
 #   --log-to <path>  — override the default log file location
 #   Default log:       docs/operations/session-log.md
+#   LOG_ROTATION_SIZE — set per-project in .claude/hooks/config.env
 # =============================================================================
+
+# Source per-project configuration if it exists
+SCRIPT_DIR="$(cd "$(dirname "$0")" && pwd)"
+if [ -f "$SCRIPT_DIR/config.env" ]; then
+  # shellcheck source=/dev/null
+  source "$SCRIPT_DIR/config.env"
+fi
 
 LOG_FILE="docs/operations/session-log.md"
 
