@@ -1,11 +1,11 @@
 ---
 title: Code of Conduct
 description: Community standards and behavior expectations for the alawein organization
-last_updated: 2026-03-09
+last_updated: 2026-03-25
 category: governance
 audience: all
 status: active
-author: Morphism Systems LLC
+author: Morphism Systems Inc.
 version: 2.1.0
 tags: [governance, community, conduct, contributor-covenant]
 ---
