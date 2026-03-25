@@ -435,3 +435,5 @@ id_ed25519
 .ruff_cache/
 .venv/
 .vercel/
+# Ops reports (generated locally or in CI artifacts)
+reports/sync-report.*.json

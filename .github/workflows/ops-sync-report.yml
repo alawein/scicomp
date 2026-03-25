@@ -1,0 +1,31 @@
+# Why: reproducible JSON report for ops / future Notion/GitHub Sync without local gh CLI.
+
+name: Ops — GitHub sync report
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pull-requests: read
+  issues: read
+
+jobs:
+  report:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@34e114876b0b11c390a56381ad16ebd13914f8d5 # v4
+
+      - uses: actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020 # v4
+        with:
+          node-version: "20"
+
+      - name: Generate sync report
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: node scripts/github-sync-report.mjs
+
+      - uses: actions/upload-artifact@654628066fd6634881fcb8f56b22f9c930b80b3f # v4.3.3
+        with:
+          name: sync-report-json
+          path: reports/sync-report.*.json

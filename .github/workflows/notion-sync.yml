@@ -1,0 +1,25 @@
+# Stub: per-repo Notion push is optional. Canonical sync is alawein/alawein → Notion.
+# Why: avoids duplicating secrets in every repo until you standardize on org-level or reusable workflow.
+
+name: Notion sync (placeholder)
+
+on:
+  workflow_dispatch:
+    inputs:
+      note:
+        description: "Optional note (no-op)"
+        required: false
+        default: ""
+
+permissions:
+  contents: read
+
+jobs:
+  document:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Pointer to canonical sync
+        run: |
+          echo "::notice::Canonical Notion sync: alawein/alawein (projects.json + scripts/sync-to-notion.mjs)"
+          echo "::notice::See docs/operations/SYNC.md and RUNBOOK.md in this repo."
+          echo "TODO: Add NOTION_TOKEN + NOTION_DB_ID and either call Notion API here or use workflow_call to alawein/alawein."
