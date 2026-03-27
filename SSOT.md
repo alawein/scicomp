@@ -1,5 +1,8 @@
 ---
-type: normative
+type: canonical
+source: none
+sync: none
+sla: none
 authority: canonical
 audience: [ai-agents, contributors]
 last-verified: 2026-03-09

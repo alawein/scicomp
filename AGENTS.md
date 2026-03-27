@@ -1,3 +1,10 @@
+---
+type: canonical
+source: none
+sync: none
+sla: none
+---
+
 <!-- Template: research-library v1.0.0 -->
 <!-- Generated from _pkos governance templates. Do not edit the template sections -->
 <!-- directly in consuming projects — update the template and re-sync instead.    -->
