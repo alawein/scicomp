@@ -1,0 +1,13 @@
+name: Docs Doctrine
+
+on:
+  push:
+    paths: ["**/*.md"]
+  pull_request:
+    paths: ["**/*.md"]
+
+jobs:
+  doctrine:
+    uses: alawein/alawein/.github/workflows/doctrine-reusable.yml@main
+    with:
+      strict: "true"
