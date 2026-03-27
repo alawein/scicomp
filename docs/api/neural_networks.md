@@ -1,3 +1,10 @@
+---
+type: canonical
+source: none
+sync: none
+sla: none
+---
+
 # neural_networks
 **Module:** `Python/Machine_Learning/neural_networks.py`
 ## Overview

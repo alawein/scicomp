@@ -1,3 +1,10 @@
+---
+type: canonical
+source: none
+sync: none
+sla: none
+---
+
 # constants
 **Module:** `Python/utils/constants.py`
 ## Overview

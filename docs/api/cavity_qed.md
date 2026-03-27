@@ -1,3 +1,10 @@
+---
+type: canonical
+source: none
+sync: none
+sla: none
+---
+
 # cavity_qed
 **Module:** `Python/QuantumOptics/core/cavity_qed.py`
 ## Overview

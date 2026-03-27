@@ -1,3 +1,10 @@
+---
+type: canonical
+source: none
+sync: none
+sla: none
+---
+
 # mesh_generation
 **Module:** `Python/FEM/core/mesh_generation.py`
 ## Overview

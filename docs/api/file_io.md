@@ -1,3 +1,10 @@
+---
+type: canonical
+source: none
+sync: none
+sla: none
+---
+
 # file_io
 **Module:** `Python/utils/file_io.py`
 ## Overview

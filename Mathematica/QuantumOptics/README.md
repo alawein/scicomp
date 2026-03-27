@@ -1,3 +1,10 @@
+---
+type: canonical
+source: none
+sync: none
+sla: none
+---
+
 # QuantumOptics - Mathematica
 
 ## Theory Background

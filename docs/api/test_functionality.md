@@ -1,3 +1,10 @@
+---
+type: canonical
+source: none
+sync: none
+sla: none
+---
+
 # test_functionality
 **Module:** `Python/Linear_Algebra/test_functionality.py`
 ## Overview

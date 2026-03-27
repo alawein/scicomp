@@ -1,3 +1,10 @@
+---
+type: canonical
+source: none
+sync: none
+sla: none
+---
+
 # sampling
 **Module:** `Python/Monte_Carlo/sampling.py`
 ## Overview

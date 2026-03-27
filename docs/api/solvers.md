@@ -1,3 +1,10 @@
+---
+type: canonical
+source: none
+sync: none
+sla: none
+---
+
 # solvers
 **Module:** `Python/Multiphysics/solvers.py`
 ## Overview

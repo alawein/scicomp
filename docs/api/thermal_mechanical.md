@@ -1,3 +1,10 @@
+---
+type: canonical
+source: none
+sync: none
+sla: none
+---
+
 # thermal_mechanical
 **Module:** `Python/Multiphysics/thermal_mechanical.py`
 ## Overview

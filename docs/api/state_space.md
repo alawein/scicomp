@@ -1,3 +1,10 @@
+---
+type: canonical
+source: none
+sync: none
+sla: none
+---
+
 # state_space
 **Module:** `Python/Control/core/state_space.py`
 ## Overview

@@ -1,3 +1,10 @@
+---
+type: canonical
+source: none
+sync: none
+sla: none
+---
+
 
 # 🐻 SciComp - API Reference
 ![Berkeley SciComp](https://img.shields.io/badge/SciComp-003262?style=flat-square&logo=university)

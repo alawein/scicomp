@@ -1,3 +1,10 @@
+---
+type: canonical
+source: none
+sync: none
+sla: none
+---
+
 # linear_systems
 **Module:** `Python/Linear_Algebra/core/linear_systems.py`
 ## Overview

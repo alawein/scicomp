@@ -1,3 +1,10 @@
+---
+type: canonical
+source: none
+sync: none
+sla: none
+---
+
 # electromagnetic
 **Module:** `Python/Multiphysics/electromagnetic.py`
 ## Overview

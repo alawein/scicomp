@@ -1,3 +1,10 @@
+---
+type: canonical
+source: none
+sync: none
+sla: none
+---
+
 # Symbolic_Algebra - Mathematica
 
 ## Theory Background

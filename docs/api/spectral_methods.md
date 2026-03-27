@@ -1,3 +1,10 @@
+---
+type: canonical
+source: none
+sync: none
+sla: none
+---
+
 # spectral_methods
 **Module:** `Python/ODE_PDE/spectral_methods.py`
 ## Overview

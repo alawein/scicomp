@@ -1,3 +1,10 @@
+---
+type: canonical
+source: none
+sync: none
+sla: none
+---
+
 # visualization
 **Module:** `Python/Optics/visualization.py`
 ## Overview

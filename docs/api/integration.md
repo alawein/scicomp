@@ -1,3 +1,10 @@
+---
+type: canonical
+source: none
+sync: none
+sla: none
+---
+
 # integration
 **Module:** `Python/Monte_Carlo/integration.py`
 ## Overview

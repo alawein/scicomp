@@ -1,3 +1,10 @@
+---
+type: canonical
+source: none
+sync: none
+sla: none
+---
+
 # global_optimization
 **Module:** `Python/Optimization/global_optimization.py`
 ## Overview

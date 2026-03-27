@@ -1,3 +1,10 @@
+---
+type: canonical
+source: none
+sync: none
+sla: none
+---
+
 # quantum_operators
 **Module:** `Python/Quantum/core/quantum_operators.py`
 ## Overview

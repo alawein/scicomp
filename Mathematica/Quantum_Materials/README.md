@@ -1,3 +1,10 @@
+---
+type: canonical
+source: none
+sync: none
+sla: none
+---
+
 # Quantum_Materials - Mathematica
 
 ## Theory Background

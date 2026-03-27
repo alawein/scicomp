@@ -1,3 +1,10 @@
+---
+type: canonical
+source: none
+sync: none
+sla: none
+---
+
 # signal_analysis
 **Module:** `Python/Signal_Processing/signal_analysis.py`
 ## Overview

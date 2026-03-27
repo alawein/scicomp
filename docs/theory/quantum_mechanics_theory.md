@@ -1,3 +1,10 @@
+---
+type: canonical
+source: none
+sync: none
+sla: none
+---
+
 # Quantum Mechanics Theory Reference
 **SciComp - Theoretical Foundation**
 *Author: Meshal Alawein (contact@meshal.ai)*

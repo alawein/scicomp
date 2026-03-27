@@ -1,3 +1,10 @@
+---
+type: canonical
+source: none
+sync: none
+sla: none
+---
+
 # continuum_mechanics
 **Module:** `Python/Elasticity/core/continuum_mechanics.py`
 ## Overview

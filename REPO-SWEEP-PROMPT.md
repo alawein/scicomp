@@ -1,3 +1,10 @@
+---
+type: canonical
+source: none
+sync: none
+sla: none
+---
+
 # Repo Sweep — Universal Agent Prompt
 
 > Drop into any agent on any repo under `alawein/`. Stack-agnostic, governance-aware.

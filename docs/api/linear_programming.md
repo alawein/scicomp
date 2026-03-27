@@ -1,3 +1,10 @@
+---
+type: canonical
+source: none
+sync: none
+sla: none
+---
+
 # linear_programming
 **Module:** `Python/Optimization/linear_programming.py`
 ## Overview

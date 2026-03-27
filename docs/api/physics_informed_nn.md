@@ -1,3 +1,10 @@
+---
+type: canonical
+source: none
+sync: none
+sla: none
+---
+
 # physics_informed_nn
 **Module:** `Python/ml_physics/physics_informed_nn.py`
 ## Overview

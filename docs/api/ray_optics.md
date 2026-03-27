@@ -1,3 +1,10 @@
+---
+type: canonical
+source: none
+sync: none
+sla: none
+---
+
 # ray_optics
 **Module:** `Python/Optics/ray_optics.py`
 ## Overview

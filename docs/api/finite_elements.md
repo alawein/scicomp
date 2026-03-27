@@ -1,3 +1,10 @@
+---
+type: canonical
+source: none
+sync: none
+sla: none
+---
+
 # finite_elements
 **Module:** `Python/FEM/core/finite_elements.py`
 ## Overview

@@ -1,3 +1,10 @@
+---
+type: canonical
+source: none
+sync: none
+sla: none
+---
+
 # spin_transport
 **Module:** `Python/Spintronics/core/spin_transport.py`
 ## Overview

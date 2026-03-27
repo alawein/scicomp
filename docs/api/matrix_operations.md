@@ -1,3 +1,10 @@
+---
+type: canonical
+source: none
+sync: none
+sla: none
+---
+
 # matrix_operations
 **Module:** `Python/Linear_Algebra/core/matrix_operations.py`
 ## Overview

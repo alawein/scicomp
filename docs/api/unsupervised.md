@@ -1,3 +1,10 @@
+---
+type: canonical
+source: none
+sync: none
+sla: none
+---
+
 # unsupervised
 **Module:** `Python/Machine_Learning/unsupervised.py`
 ## Overview

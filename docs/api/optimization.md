@@ -1,3 +1,10 @@
+---
+type: canonical
+source: none
+sync: none
+sla: none
+---
+
 # optimization
 **Module:** `Python/Monte_Carlo/optimization.py`
 ## Overview

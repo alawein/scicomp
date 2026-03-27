@@ -1,3 +1,10 @@
+---
+type: canonical
+source: none
+sync: none
+sla: none
+---
+
 # GitHub ↔ Notion ops sync (this repo)
 
 ## What syncs where

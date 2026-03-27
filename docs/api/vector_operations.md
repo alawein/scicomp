@@ -1,3 +1,10 @@
+---
+type: canonical
+source: none
+sync: none
+sla: none
+---
+
 # vector_operations
 **Module:** `Python/Linear_Algebra/core/vector_operations.py`
 ## Overview

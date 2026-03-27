@@ -1,3 +1,10 @@
+---
+type: canonical
+source: none
+sync: none
+sla: none
+---
+
 # fourier_transforms
 **Module:** `Python/Signal_Processing/core/fourier_transforms.py`
 ## Overview

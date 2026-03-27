@@ -1,3 +1,10 @@
+---
+type: canonical
+source: none
+sync: none
+sla: none
+---
+
 # space_groups
 **Module:** `Python/Crystallography/core/space_groups.py`
 ## Overview

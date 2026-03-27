@@ -1,3 +1,10 @@
+---
+type: canonical
+source: none
+sync: none
+sla: none
+---
+
 # Machine Learning Physics Theory Reference
 **SciComp - ML Physics Foundation**
 *Author: Meshal Alawein (contact@meshal.ai)*

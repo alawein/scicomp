@@ -1,3 +1,10 @@
+---
+type: canonical
+source: none
+sync: none
+sla: none
+---
+
 # parallel
 **Module:** `Python/utils/parallel.py`
 ## Overview

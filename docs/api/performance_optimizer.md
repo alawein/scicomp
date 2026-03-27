@@ -1,3 +1,10 @@
+---
+type: canonical
+source: none
+sync: none
+sla: none
+---
+
 # performance_optimizer
 **Module:** `Python/utils/performance_optimizer.py`
 ## Overview

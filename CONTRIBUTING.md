@@ -1,3 +1,10 @@
+---
+type: canonical
+source: none
+sync: none
+sla: none
+---
+
 # Contributing to SciComp
 
 This project follows the [alawein org contributing standards](https://github.com/alawein/alawein/blob/main/CONTRIBUTING.md). ![Berkeley SciComp](https://img.shields.io/badge/SciComp-003262?style=flat-square&logo=university)

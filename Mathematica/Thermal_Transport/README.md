@@ -1,3 +1,10 @@
+---
+type: canonical
+source: none
+sync: none
+sla: none
+---
+
 # Thermal_Transport - Mathematica
 
 ## Theory Background

@@ -1,3 +1,10 @@
+---
+type: canonical
+source: none
+sync: none
+sla: none
+---
+
 # ode_solvers
 **Module:** `Python/ODE_PDE/ode_solvers.py`
 ## Overview

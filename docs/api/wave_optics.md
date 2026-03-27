@@ -1,3 +1,10 @@
+---
+type: canonical
+source: none
+sync: none
+sla: none
+---
+
 # wave_optics
 **Module:** `Python/Optics/wave_optics.py`
 ## Overview

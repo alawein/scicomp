@@ -1,3 +1,10 @@
+---
+type: canonical
+source: none
+sync: none
+sla: none
+---
+
 # optimal_control
 **Module:** `Python/Control/core/optimal_control.py`
 ## Overview

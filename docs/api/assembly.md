@@ -1,3 +1,10 @@
+---
+type: canonical
+source: none
+sync: none
+sla: none
+---
+
 # assembly
 **Module:** `Python/FEM/core/assembly.py`
 ## Overview

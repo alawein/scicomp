@@ -1,3 +1,10 @@
+---
+type: canonical
+source: none
+sync: none
+sla: none
+---
+
 # spectral_analysis
 **Module:** `Python/Signal_Processing/spectral_analysis.py`
 ## Overview

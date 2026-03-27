@@ -1,3 +1,10 @@
+---
+type: canonical
+source: none
+sync: none
+sla: none
+---
+
 # structure_refinement
 **Module:** `Python/Crystallography/core/structure_refinement.py`
 ## Overview

@@ -1,3 +1,10 @@
+---
+type: canonical
+source: none
+sync: none
+sla: none
+---
+
 # Computational Methods Theory Reference
 **SciComp - Computational Foundation**
 *Author: Meshal Alawein (contact@meshal.ai)*

@@ -1,3 +1,10 @@
+---
+type: canonical
+source: none
+sync: none
+sla: none
+---
+
 # boundary_conditions
 **Module:** `Python/ODE_PDE/boundary_conditions.py`
 ## Overview

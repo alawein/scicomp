@@ -1,3 +1,10 @@
+---
+type: canonical
+source: none
+sync: none
+sla: none
+---
+
 # ODE_PDE - Mathematica
 
 ## Theory Background

@@ -1,3 +1,10 @@
+---
+type: canonical
+source: none
+sync: none
+sla: none
+---
+
 # physics_informed
 **Module:** `Python/Machine_Learning/physics_informed.py`
 ## Overview

@@ -1,3 +1,10 @@
+---
+type: canonical
+source: none
+sync: none
+sla: none
+---
+
 # diffraction
 **Module:** `Python/Crystallography/core/diffraction.py`
 ## Overview

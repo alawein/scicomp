@@ -1,3 +1,10 @@
+---
+type: canonical
+source: none
+sync: none
+sla: none
+---
+
 # quantum_algorithms
 **Module:** `Python/Quantum/core/quantum_algorithms.py`
 ## Overview

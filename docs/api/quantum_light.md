@@ -1,3 +1,10 @@
+---
+type: canonical
+source: none
+sync: none
+sla: none
+---
+
 # quantum_light
 **Module:** `Python/QuantumOptics/core/quantum_light.py`
 ## Overview

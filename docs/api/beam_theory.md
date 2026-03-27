@@ -1,3 +1,10 @@
+---
+type: canonical
+source: none
+sync: none
+sla: none
+---
+
 # beam_theory
 **Module:** `Python/Elasticity/core/beam_theory.py`
 ## Overview

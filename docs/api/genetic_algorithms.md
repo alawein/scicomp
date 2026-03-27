@@ -1,3 +1,10 @@
+---
+type: canonical
+source: none
+sync: none
+sla: none
+---
+
 # genetic_algorithms
 **Module:** `Python/Optimization/genetic_algorithms.py`
 ## Overview

@@ -1,3 +1,10 @@
+---
+type: canonical
+source: none
+sync: none
+sla: none
+---
+
 # stress_strain
 **Module:** `Python/Elasticity/core/stress_strain.py`
 ## Overview

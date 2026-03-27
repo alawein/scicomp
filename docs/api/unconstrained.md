@@ -1,3 +1,10 @@
+---
+type: canonical
+source: none
+sync: none
+sla: none
+---
+
 # unconstrained
 **Module:** `Python/Optimization/unconstrained.py`
 ## Overview

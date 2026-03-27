@@ -1,3 +1,10 @@
+---
+type: canonical
+source: none
+sync: none
+sla: none
+---
+
 # robust_control
 **Module:** `Python/Control/core/robust_control.py`
 ## Overview

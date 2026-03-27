@@ -1,3 +1,10 @@
+---
+type: canonical
+source: none
+sync: none
+sla: none
+---
+
 # uncertainty
 **Module:** `Python/Monte_Carlo/uncertainty.py`
 ## Overview

@@ -1,3 +1,10 @@
+---
+type: canonical
+source: none
+sync: none
+sla: none
+---
+
 # crystal_structure
 **Module:** `Python/Crystallography/core/crystal_structure.py`
 ## Overview

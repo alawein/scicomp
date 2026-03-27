@@ -1,3 +1,10 @@
+---
+type: canonical
+source: none
+sync: none
+sla: none
+---
+
 # scientific_plots
 **Module:** `Python/Plotting/scientific_plots.py`
 ## Overview

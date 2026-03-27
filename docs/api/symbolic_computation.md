@@ -1,3 +1,10 @@
+---
+type: canonical
+source: none
+sync: none
+sla: none
+---
+
 # symbolic_computation
 **Module:** `Python/Symbolic_Algebra/core/symbolic_computation.py`
 ## Overview

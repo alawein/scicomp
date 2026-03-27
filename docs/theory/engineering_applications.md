@@ -1,3 +1,10 @@
+---
+type: canonical
+source: none
+sync: none
+sla: none
+---
+
 # Engineering Applications Theory Reference
 **SciComp - Engineering Foundation**
 *Author: Meshal Alawein (contact@meshal.ai)*

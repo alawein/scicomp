@@ -1,3 +1,10 @@
+---
+type: canonical
+source: none
+sync: none
+sla: none
+---
+
 # Machine_Learning - Mathematica
 
 ## Theory Background

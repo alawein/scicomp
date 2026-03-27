@@ -1,3 +1,10 @@
+---
+type: canonical
+source: none
+sync: none
+sla: none
+---
+
 # multi_objective
 **Module:** `Python/Optimization/multi_objective.py`
 ## Overview

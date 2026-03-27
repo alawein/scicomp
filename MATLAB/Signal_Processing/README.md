@@ -1,3 +1,10 @@
+---
+type: canonical
+source: none
+sync: none
+sla: none
+---
+
 # Signal_Processing - MATLAB
 
 ## Theory Background

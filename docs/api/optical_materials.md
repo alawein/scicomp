@@ -1,3 +1,10 @@
+---
+type: canonical
+source: none
+sync: none
+sla: none
+---
+
 # optical_materials
 **Module:** `Python/Optics/optical_materials.py`
 ## Overview

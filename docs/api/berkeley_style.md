@@ -1,3 +1,10 @@
+---
+type: canonical
+source: none
+sync: none
+sla: none
+---
+
 # berkeley_style
 **Module:** `Python/visualization/berkeley_style.py`
 ## Overview

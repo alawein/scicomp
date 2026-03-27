@@ -1,3 +1,10 @@
+---
+type: canonical
+source: none
+sync: none
+sla: none
+---
+
 # 🚀 SciComp - GPU Testing Guide
 ![Berkeley SciComp](https://img.shields.io/badge/SciComp-003262?style=flat-square&logo=university)
 [![GPU Support](https://img.shields.io/badge/GPU-CUDA%20ready-green?style=flat-square)](https://github.com/alawein/scicomp)

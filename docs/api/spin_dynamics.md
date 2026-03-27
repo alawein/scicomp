@@ -1,3 +1,10 @@
+---
+type: canonical
+source: none
+sync: none
+sla: none
+---
+
 # spin_dynamics
 **Module:** `Python/Spintronics/core/spin_dynamics.py`
 ## Overview

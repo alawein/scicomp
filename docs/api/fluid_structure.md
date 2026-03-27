@@ -1,3 +1,10 @@
+---
+type: canonical
+source: none
+sync: none
+sla: none
+---
+
 # fluid_structure
 **Module:** `Python/Multiphysics/fluid_structure.py`
 ## Overview

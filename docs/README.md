@@ -1,3 +1,10 @@
+---
+type: canonical
+source: none
+sync: none
+sla: none
+---
+
 # SciComp Documentation
 
 Documentation for scientific computing across Python, MATLAB, and Mathematica.

@@ -1,3 +1,10 @@
+---
+type: canonical
+source: none
+sync: none
+sla: none
+---
+
 # adaptive_methods
 **Module:** `Python/ODE_PDE/adaptive_methods.py`
 ## Overview

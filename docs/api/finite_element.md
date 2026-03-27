@@ -1,3 +1,10 @@
+---
+type: canonical
+source: none
+sync: none
+sla: none
+---
+
 # finite_element
 **Module:** `Python/ODE_PDE/finite_element.py`
 ## Overview

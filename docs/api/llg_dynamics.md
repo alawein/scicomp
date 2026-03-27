@@ -1,3 +1,10 @@
+---
+type: canonical
+source: none
+sync: none
+sla: none
+---
+
 # llg_dynamics
 **Module:** `Python/Spintronics/core/llg_dynamics.py`
 ## Overview

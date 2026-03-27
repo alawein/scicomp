@@ -1,3 +1,10 @@
+---
+type: canonical
+source: none
+sync: none
+sla: none
+---
+
 # stochastic_processes
 **Module:** `Python/Stochastic/stochastic_processes.py`
 ## Overview

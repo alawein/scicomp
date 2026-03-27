@@ -1,3 +1,10 @@
+---
+type: canonical
+source: none
+sync: none
+sla: none
+---
+
 # cloud_integration
 **Module:** `Python/utils/cloud_integration.py`
 ## Overview

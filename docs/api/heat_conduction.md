@@ -1,3 +1,10 @@
+---
+type: canonical
+source: none
+sync: none
+sla: none
+---
+
 # heat_conduction
 **Module:** `Python/Thermal_Transport/core/heat_conduction.py`
 ## Overview

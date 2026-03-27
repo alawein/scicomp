@@ -1,3 +1,10 @@
+---
+type: canonical
+source: none
+sync: none
+sla: none
+---
+
 # SciComp Visual Design Specifications
 ## Logo Design Concept
 ### Primary Logo

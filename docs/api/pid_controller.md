@@ -1,3 +1,10 @@
+---
+type: canonical
+source: none
+sync: none
+sla: none
+---
+
 # pid_controller
 **Module:** `Python/Control/core/pid_controller.py`
 ## Overview

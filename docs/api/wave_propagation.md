@@ -1,3 +1,10 @@
+---
+type: canonical
+source: none
+sync: none
+sla: none
+---
+
 # wave_propagation
 **Module:** `Python/Elasticity/core/wave_propagation.py`
 ## Overview
