@@ -1,4 +1,8 @@
----
+---type: canonical
+source: none
+sync: none
+sla: none
+
 title: Code of Conduct
 description: Community standards and behavior expectations for the alawein organization
 last_updated: 2026-03-25
