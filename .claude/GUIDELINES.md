@@ -1,6 +1,9 @@
 ---
-type: reference
+type: canonical
 audience: [contributors]
+source: none
+sync: none
+sla: none
 ---
 
 # Coding Guidelines
