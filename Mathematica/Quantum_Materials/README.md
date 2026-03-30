@@ -1,8 +1,8 @@
 ---
-type: canonical
-source: none
-sync: none
-sla: none
+type: derived
+source: ../README.md
+sync: manual
+sla: manual
 ---
 
 # Quantum_Materials - Mathematica

@@ -1,10 +1,9 @@
 ---
-type: canonical
-source: none
-sync: none
-sla: none
+type: derived
+source: ../README.md
+sync: manual
+sla: manual
 ---
-
 
 # 🐻 SciComp - API Reference
 ![Berkeley SciComp](https://img.shields.io/badge/SciComp-003262?style=flat-square&logo=university)
