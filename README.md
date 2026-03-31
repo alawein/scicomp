@@ -106,3 +106,8 @@ MIT License -- see [LICENSE](LICENSE).
 - Email: [contact@meshal.ai](mailto:contact@meshal.ai)
 - GitHub: [github.com/alawein](https://github.com/alawein)
 - LinkedIn: [linkedin.com/in/alawein](https://linkedin.com/in/alawein)
+
+## Ownership
+
+- **Maintainer:** @alawein
+- **Support:** GitHub Issues on this repository
