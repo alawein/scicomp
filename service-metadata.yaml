@@ -1,0 +1,14 @@
+# Service Metadata — scicomp
+# See: docs/governance/repository-standardization-program.md
+name: scicomp
+type: library
+runtime: python
+tier: tier-3
+deploy: none
+owner: alawein
+team: alawein-core
+oncall: "@alawein"
+compliance:
+  pii: false
+  soc2: false
+  hipaa: false
