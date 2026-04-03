@@ -13,7 +13,7 @@ sla: none
 Cross-platform scientific computing framework for quantum mechanics,
 thermal transport, and physics-informed machine learning. Provides
 equivalent implementations across Python, MATLAB, and Mathematica
-for both research and education.
+for both research and education — with CPU/GPU parity and reproducible examples.
 
 ## Features
 
@@ -30,6 +30,8 @@ for both research and education.
 ```bash
 uv pip install berkeley-scicomp
 ```
+
+More examples: [docs/examples.md](docs/examples.md)
 
 ## Usage Demo
 
@@ -66,6 +68,18 @@ python examples/gpu_examples.py
 # ML physics
 python examples/ml_physics_demo.py
 ```
+
+## Roadmap
+
+- **Near term:** stabilize GPU fallback paths; refresh PINN examples; document determinism tips.
+- **Mid term:** add VQE/QAOA variants and cross-platform parity checks; expand thermal transport datasets.
+- **Future:** JAX backends and distributed runners.
+
+## TODO
+
+- [ ] Add `.env.example` if future APIs require keys (none required now)
+- [ ] Add sample datasets for thermal transport demos
+- [ ] Publish determinism notes for GPU vs CPU runs
 
 ## Modules
 
@@ -116,14 +130,6 @@ scicomp/
 ## License
 
 MIT License -- see [LICENSE](LICENSE).
-
-## Author
-
-### Meshal Alawein
-
-- Email: [contact@meshal.ai](mailto:contact@meshal.ai)
-- GitHub: [github.com/alawein](https://github.com/alawein)
-- LinkedIn: [linkedin.com/in/alawein](https://linkedin.com/in/alawein)
 
 ## Ownership
 
