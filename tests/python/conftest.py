@@ -29,6 +29,19 @@ def _ensure_stub_packages():
         ('Python.FEM', 'Python/FEM'),
         ('Python.FEM.core', 'Python/FEM/core'),
         ('Python.FEM.utils', 'Python/FEM/utils'),
+        # Quantum mechanics
+        ('Python.Quantum', 'Python/Quantum'),
+        ('Python.Quantum.core', 'Python/Quantum/core'),
+        # Thermal transport
+        ('Python.Thermal_Transport', 'Python/Thermal_Transport'),
+        ('Python.Thermal_Transport.core', 'Python/Thermal_Transport/core'),
+        # Signal processing
+        ('Python.Signal_Processing', 'Python/Signal_Processing'),
+        ('Python.Signal_Processing.core', 'Python/Signal_Processing/core'),
+        # GPU acceleration
+        ('Python.gpu_acceleration', 'Python/gpu_acceleration'),
+        # Utilities
+        ('Python.utils', 'Python/utils'),
     ]
     for pkg_name, rel_path in stubs:
         if pkg_name not in sys.modules:

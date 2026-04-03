@@ -228,8 +228,8 @@ class HamiltonianOperators:
                 # Spin up hopping
                 if config[i] in [1, 3] and config[i+1] in [0, 2]:
                     new_config = config.copy()
-                    new_config[i] -= 1 if config[i] == 1 else 2
-                    new_config[i+1] += 1 if config[i+1] == 0 else 2
+                    new_config[i] -= 1    # Remove spin-up: 1→0, 3→2
+                    new_config[i+1] += 1  # Add spin-up: 0→1, 2→3
                     new_state = sum(c * 4**j for j, c in enumerate(new_config))
                     H[new_state, state] -= t
                     H[state, new_state] -= t
