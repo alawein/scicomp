@@ -5,19 +5,9 @@ sync: propagated
 sla: none
 ---
 
-<!-- Token legend:
-     AUTO-SUBSTITUTED by sync-contributing.sh (derived from git remote):
-       scicomp = GitHub slug used as heading (e.g. "bolts", "handshake-hai")
-       scicomp      = GitHub slug used in URLs  (e.g. "bolts", "handshake-hai")
-     MANUALLY FILLED in Plan 2 per-repo pass:
-       {INSTALL_COMMAND}  = e.g. "npm ci" or "uv pip install -e ."
-       {TEST_COMMAND}     = e.g. "npm test" or "pytest"
-       {VALIDATE_COMMAND} = e.g. "npm run lint && npm test" or "ruff check . && pytest"
--->
-
 # Contributing to scicomp
 
-<!-- REPO-SPECIFIC: one-line context about what this repo is -->
+Cross-platform scientific computing framework (Python, MATLAB, Mathematica).
 
 This project follows the [alawein org contributing standards](https://github.com/alawein/alawein/blob/main/CONTRIBUTING.md).
 
@@ -26,29 +16,29 @@ This project follows the [alawein org contributing standards](https://github.com
 ```bash
 git clone https://github.com/alawein/scicomp.git
 cd scicomp
-{INSTALL_COMMAND}
+pip install -e ".[dev]"
 ```
 
 ## Development Workflow
 
 1. Branch off `main` using prefix: `feat/`, `fix/`, `docs/`, `chore/`, `test/`
 2. Make your changes — keep PRs focused on a single concern
-3. Run `{TEST_COMMAND}` to validate your changes before committing
+3. Run `pytest` to validate your changes before committing
 4. Commit using [Conventional Commits](https://www.conventionalcommits.org/) — `type(scope): subject`
 5. Open a Pull Request to `main`
 
 ## Code Standards
 
-<!-- REPO-SPECIFIC: 2-4 bullets about this repo's conventions -->
-- Follow existing patterns in the codebase
-- Run linting and type checks before committing
-- Write tests for new functionality
+- Python 3.8+, ruff for linting, mypy for type checking
+- New Python features should have MATLAB/Mathematica equivalents where feasible
+- GPU code must include automatic CPU fallback
+- Must remain Google Colab compatible
 
 ## Pull Request Checklist
 
 - [ ] CI passes (no failing checks)
 - [ ] Tests added or updated for new functionality
-- [ ] `{VALIDATE_COMMAND}` passes
+- [ ] `ruff check scicomp/ && mypy scicomp/ && pytest` passes
 - [ ] `CHANGELOG.md` updated under `[Unreleased]`
 - [ ] No breaking changes without a version bump plan
 
