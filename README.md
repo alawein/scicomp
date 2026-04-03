@@ -25,6 +25,24 @@ for both research and education.
 - Signal processing: FFT, spectral methods
 - Cross-platform: Python, MATLAB, and Mathematica APIs
 
+## Quick Start
+
+```bash
+uv pip install berkeley-scicomp
+```
+
+## Usage Demo
+
+```python
+from scicomp.linalg import sparse_solve
+from scicomp.optimize import gradient_descent
+import numpy as np
+
+A = np.random.randn(100, 100)
+b = np.random.randn(100)
+x = sparse_solve(A, b)
+```
+
 ## Installation
 
 ```bash
@@ -110,4 +128,4 @@ MIT License -- see [LICENSE](LICENSE).
 ## Ownership
 
 - **Maintainer:** @alawein
-- **Support:** GitHub Issues on this repository
+- **Support:** [GitHub Issues](https://github.com/alawein/scicomp/issues)
