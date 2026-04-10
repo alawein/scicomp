@@ -1,18 +1,11 @@
 ---
 type: canonical
+authority: canonical
+audience: [ai-agents, contributors]
+last-verified: 2026-04-09
 source: none
 sync: none
 sla: none
----
-
-<!-- Template: research-library v1.0.0 -->
-<!-- Generated from _pkos governance templates. Do not edit the template sections -->
-<!-- directly in consuming projects — update the template and re-sync instead.    -->
----
-type: guide
-authority: canonical
-audience: [ai-agents, contributors]
-last-verified: 2026-03-03
 ---
 
 # CLAUDE.md — SciComp
