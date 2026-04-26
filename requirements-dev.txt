@@ -76,7 +76,7 @@ cookiecutter>=2.2.0
 # Berkeley SciComp Specific Testing
 # =============================================================================
 # Quantum computing libraries for testing
-qiskit>=0.45.0
+qiskit>=2.2.3
 cirq>=1.2.0
 pennylane>=0.32.0
 # Machine learning testing
