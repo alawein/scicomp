@@ -4,16 +4,16 @@ set -e
 # =============================================================================
 # drift-detection.sh — Governance Hook (I-2: Drift Is Debt)
 # Version: 1.1.0
-# Source:  _pkos/templates/governance-hooks/hooks/drift-detection.sh
+# Source:  knowledge-base/templates/governance-hooks/hooks/drift-detection.sh
 # =============================================================================
 #
 # Enforces Invariant I-2 (Drift Is Debt): governance files in each project
-# should stay aligned with the _pkos canonical templates. Sections marked
+# should stay aligned with the canonical governance templates. Sections marked
 # with <!-- CUSTOM OVERRIDE: ... --> are excluded from comparison.
 #
 # Usage:
-#   bash drift-detection.sh                         # auto-detect _pkos location
-#   bash drift-detection.sh /path/to/_pkos          # explicit template source
+#   bash drift-detection.sh                         # auto-detect knowledge-base location
+#   bash drift-detection.sh /path/to/template-root  # explicit template source
 #
 # Checked files: CLAUDE.md, AGENTS.md, GUIDELINES.md
 #
@@ -29,8 +29,8 @@ if [ -f "$SCRIPT_DIR/config.env" ]; then
   source "$SCRIPT_DIR/config.env"
 fi
 
-# Default: walk up from .claude/hooks/ to repo root, then to sibling _pkos
-template_source=${1:-../../../_pkos}
+# Default: walk up from .claude/hooks/ to repo root, then to sibling knowledge-base
+template_source=${1:-../../../knowledge-base}
 
 # Resolve to absolute path if relative
 if [[ ! "$template_source" = /* ]]; then
@@ -48,8 +48,8 @@ for file in CLAUDE.md AGENTS.md GUIDELINES.md; do
   grep -v "<!-- CUSTOM OVERRIDE" "$template_source/$file" > /tmp/"$file".template.filtered 2>/dev/null || true
 
   if ! diff -q /tmp/"$file".filtered /tmp/"$file".template.filtered > /dev/null 2>&1; then
-    echo "DRIFT DETECTED in $file (non-custom sections differ from _pkos template)"
-    echo "  Run: npx morphism sync-template --dry-run"
+    echo "DRIFT DETECTED in $file (non-custom sections differ from the template source)"
+    echo "  Run: npx kohyr sync-template --dry-run"
     drift_found=1
   fi
 done

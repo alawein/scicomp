@@ -4,7 +4,7 @@ set -e
 # =============================================================================
 # observability-log.sh — Governance Hook (I-3: Observability)
 # Version: 1.1.0
-# Source:  _pkos/templates/governance-hooks/hooks/observability-log.sh
+# Source:  knowledge-base/templates/governance-hooks/hooks/observability-log.sh
 # =============================================================================
 #
 # Enforces Invariant I-3 (Observability): every mutation must leave a trace.

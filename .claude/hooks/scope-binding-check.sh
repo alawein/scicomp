@@ -4,7 +4,7 @@ set -e
 # =============================================================================
 # scope-binding-check.sh — Governance Hook (I-4: Scope Binding)
 # Version: 1.1.0
-# Source:  _pkos/templates/governance-hooks/hooks/scope-binding-check.sh
+# Source:  knowledge-base/templates/governance-hooks/hooks/scope-binding-check.sh
 # =============================================================================
 #
 # Enforces Invariant I-4 (Scope Binding): every commit should represent one

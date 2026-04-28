@@ -1,170 +1,65 @@
 ---
 type: canonical
-authority: canonical
-audience: [ai-agents, contributors]
-last-verified: 2026-04-09
 source: none
 sync: none
 sla: none
+authority: canonical
+audience: [ai-agents, contributors]
+last_updated: 2026-04-15
+last-verified: 2026-04-15
 ---
 
 # CLAUDE.md — SciComp
 
-## Repository Context
+## Workspace identity
 
-**Name:** SciComp
-**Type:** research-library
-**Purpose:** Cross-platform scientific computing framework for quantum mechanics, thermal
-transport, and physics-informed machine learning. Provides equivalent implementations across
-Python, MATLAB, and Mathematica for both research and education, with GPU acceleration via
-CuPy/CUDA.
+SciComp is a research-library repo for cross-platform scientific computing
+across Python, MATLAB, and Mathematica. The repo is broad, but the work should
+still read like computational physics and numerical methods, not like a generic
+"AI for science" bundle.
 
----
+Shared voice and research-writing contract:
 
-## Tech Stack
+- <https://github.com/alawein/alawein/blob/main/docs/style/VOICE.md>
+- <https://github.com/alawein/alawein/blob/main/prompt-kits/AGENT.md>
 
-- **Language:** Python 3.8+
-- **Additional languages:** MATLAB, Mathematica
-- **Core deps:** NumPy, SciPy, Matplotlib, SymPy, h5py
-- **Build:** setuptools (`pyproject.toml` + legacy `setup.py`)
-- **Testing:** pytest, pytest-cov, pytest-benchmark
-- **Linting:** ruff, mypy
+## Directory structure
 
-<!-- EXTENSION SLOT: Toolchain
-     Add project-specific toolchain details here (HPC tools, simulation
-     engines, external solvers, GPU frameworks, etc.)
--->
-- **GPU:** CuPy (GPU acceleration with automatic CPU fallback)
-- **ML:** TensorFlow, PyTorch, scikit-learn (optional)
-- **Citation:** `CITATION.cff` for academic attribution
+- `Python/`: canonical Python package and CLI surface
+- `MATLAB/`: MATLAB implementations
+- `Mathematica/`: symbolic notebooks and analytical workflows
+- `examples/`: runnable demonstrations
+- `tests/`: required verification across surfaces
+- `docs/`: theory, installation, API, and troubleshooting
+- `performance_baselines.json`: reference performance data
 
----
+## Governance rules
 
-## Commands
+1. Keep `Python/` as the canonical Python import boundary. Do not silently
+   collapse the repo into a lowercase or `src/` layout.
+2. Preserve cross-platform parity where it is part of the repo contract.
+3. GPU paths must degrade cleanly to CPU paths when acceleration is unavailable.
+4. Numerical changes need tolerance-aware tests and explicit rationale.
+5. Do not rewrite the repo into one framework-specific subculture. Python,
+   MATLAB, and Mathematica each remain first-class surfaces.
+6. Treat performance baselines and reference examples as measurement surfaces,
+   not casual copy.
 
-### Setup
+## Code conventions
+
+- Public Python behavior lives under `Python/`.
+- Comments explain the mathematical idea, numerical assumption, or stability
+  tradeoff before implementation detail.
+- Keep notation and terminology consistent across the three language surfaces.
+- Avoid renaming directory conventions just to look more conventional.
+
+## Build and test commands
 
 ```bash
 pip install -e ".[dev]"
-```
-
-### Test
-
-```bash
-pytest
-pytest --cov=scicomp
-# Cross-platform validation
+pytest --cov=Python
+ruff check Python/
+mypy Python/
 python scripts/validate_framework.py
 matlab -batch "run('tests/matlab/test_heat_transfer.m')"
 ```
-
-### Lint / Format
-
-```bash
-ruff check scicomp/
-mypy scicomp/
-```
-
-<!-- EXTENSION SLOT: Additional Commands
-     Add project-specific command sections here (benchmarks, agents,
-     SSOT, simulation workflows, HPC job submission, etc.)
--->
-
----
-
-## Architecture Overview
-
-Modular scientific computing library with three parallel implementations (Python, MATLAB,
-Mathematica). Python core provides quantum mechanics (Bell states, VQE, QAOA,
-Jaynes-Cummings), GPU-accelerated numerics with CuPy/CUDA automatic fallback,
-physics-informed neural networks for PDEs, and thermal transport solvers. Cross-platform
-validation suite ensures numerical consistency across all three languages.
-
----
-
-## Project Structure
-
-```
-scicomp/
-├── scicomp/               # Core Python package
-├── matlab/                # MATLAB implementations
-├── mathematica/           # Mathematica notebooks
-├── examples/              # Demo scripts (beginner, GPU, ML physics)
-├── tests/                 # Test suite (Python, MATLAB, Mathematica)
-├── scripts/               # Validation and deployment scripts
-├── pyproject.toml         # Package configuration
-└── CITATION.cff           # Academic citation metadata
-```
-
----
-
-## Key Configuration
-
-| File | Purpose |
-|------|---------|
-| `pyproject.toml` | Build, deps, tool config |
-| `AGENTS.md` | Governance invariants (normative) |
-| `CITATION.cff` | Academic citation metadata |
-
----
-
-## Important Notes / Known Quirks
-
-<!-- Standard research library notes -->
-
-**Deterministic seeds** -- All benchmark and experiment runs must use fixed seeds.
-Reproducibility is a governance invariant. Never remove seed arguments from benchmark
-or test code.
-
-**Archive is read-only** -- If an `archive/` directory exists, it contains historical
-data and papers. Never modify its contents.
-
-**API stability** -- Breaking changes to the public API require a version bump and a
-`CHANGELOG.md` entry.
-
-**Pre-commit / linting** -- Run the project's format command before committing.
-
-<!-- EXTENSION SLOT: Domain-Specific Notes
-     Add project-specific quirks, numerical issues, data handling rules,
-     dependency caveats, etc.
--->
-
-**Cross-platform parity** -- New Python features should have MATLAB/Mathematica equivalents
-where feasible. This is a governance requirement.
-
-**GPU/CPU fallback** -- All GPU code must include automatic CPU fallback. Never assume CuPy
-is available.
-
-**Google Colab compatibility** -- Do not add dependencies that break Google Colab compatibility.
-
----
-
-## Domain-Specific Rules
-
-<!-- EXTENSION SLOT: Domain-Specific Rules
-     Each project fills this section with rules unique to its research domain.
--->
-
-- **Cross-platform parity required**: New Python features should have MATLAB/Mathematica equivalents where feasible
-- **GPU code must have CPU fallback**: All CuPy/CUDA code must include automatic CPU fallback paths
-- **Google Colab compatibility**: Do not add dependencies that break Colab environments
-- **Update CITATION.cff for releases**: Academic citation metadata must stay current
-- **MATLAB naming**: MATLAB files use `camelCase.m`; Python modules use `snake_case.py`
-
----
-
-## Data Integrity
-
-<!-- EXTENSION SLOT: Data Integrity
-     Define project-specific rules for data handling, reproducibility,
-     and research artifact management.
--->
-
-- **Cross-platform numerical consistency**: Validation suite ensures Python, MATLAB, and Mathematica produce equivalent results within tolerance
-- **Benchmark results must be reproducible**: Fixed seeds and pinned dependency versions for published comparisons
-
----
-
-## Governance
-
-See [AGENTS.md](AGENTS.md) for rules. See [SSOT.md](SSOT.md) for current state.
