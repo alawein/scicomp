@@ -1,6 +1,6 @@
 {
   "_governanceHooksVersion": "1.0.0",
-  "_templateSource": "github.com/alawein/_pkos/templates/governance-hooks",
+  "_templateSource": "github.com/alawein/knowledge-base/templates/governance-hooks",
   "project_name": "scicomp",
   "project_type": "project",
   "hooks": {
