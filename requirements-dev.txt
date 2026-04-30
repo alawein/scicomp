@@ -81,7 +81,7 @@ cirq>=1.2.0
 pennylane>=0.32.0
 # Machine learning testing
 tensorflow>=2.13.0
-jax>=0.4.0
+jax>=0.4.30
 jaxlib>=0.4.0
 # Scientific computing validation
 scipy>=1.10.0
@@ -149,7 +149,7 @@ seaborn>=0.12.0    # Statistical visualizations
 # =============================================================================
 # GPU-accelerated libraries (uncomment for GPU development)
 # tensorflow-gpu>=2.13.0
-# jax[cuda11_pip]>=0.4.0
+# jax[cuda11_pip]>=0.4.30
 # cupy-cuda11x>=12.0.0
 # =============================================================================
 # Version Management
