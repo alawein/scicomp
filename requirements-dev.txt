@@ -55,7 +55,7 @@ sphinx-copybutton>=0.5.2
 # Jupyter Book for interactive docs
 jupyter-book>=0.15.0
 # API documentation
-pdoc>=14.0.0
+pdoc>=15.0.4
 # =============================================================================
 # Development Tools
 # =============================================================================
