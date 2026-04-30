@@ -110,7 +110,7 @@ psutil>=5.9.0
 # GitHub Actions utilities
 github3.py>=4.0.1
 # Build tools
-build>=0.10.0
+build>=1.4.4
 twine>=6.2.0
 # =============================================================================
 # Jupyter and Notebook Development
