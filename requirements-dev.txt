@@ -70,7 +70,7 @@ memory-profiler>=0.61.0
 py-spy>=0.3.14
 # Development utilities
 tox>=4.6.0
-nox>=2023.4.22
+nox>=2026.4.10
 cookiecutter>=2.2.0
 # =============================================================================
 # Berkeley SciComp Specific Testing
