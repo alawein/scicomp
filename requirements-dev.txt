@@ -20,7 +20,7 @@ pytest-benchmark>=4.0.0
 pytest-timeout>=2.1.0
 # Test data and fixtures
 pytest-datafiles>=3.0.1
-pytest-randomly>=3.12.0
+pytest-randomly>=4.0.1
 # =============================================================================
 # Code Quality and Formatting
 # =============================================================================
