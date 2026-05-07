@@ -140,7 +140,7 @@ pypandoc>=1.11
 pandoc-fignos>=2.4.0
 pandoc-eqnos>=2.5.0
 # Citation management
-bibtexparser>=1.4.0
+bibtexparser>=1.4.4
 # Berkeley-specific tools
 matplotlib>=3.6.0  # For Berkeley color schemes
 seaborn>=0.12.0    # Statistical visualizations
