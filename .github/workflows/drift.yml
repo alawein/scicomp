@@ -1,0 +1,30 @@
+name: drift
+
+on:
+  pull_request:
+    paths-ignore:
+      - '**/*.png'
+      - '**/*.jpg'
+      - '**/*.jpeg'
+      - '**/*.svg'
+      - '**/*.gif'
+  push:
+    branches: [main]
+
+jobs:
+  drift:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Install workspace-batch
+        env:
+          WORKSPACE_TOOLS_TOKEN: ${{ secrets.WORKSPACE_TOOLS_TOKEN }}
+        run: |
+          pip install "workspace-batch @ git+https://x-access-token:${WORKSPACE_TOOLS_TOKEN}@github.com/alawein/workspace-tools@v0.1.1"
+      - name: Run drift detectors
+        run: workspace-batch drift check --reporter github
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
