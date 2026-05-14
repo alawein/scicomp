@@ -136,7 +136,7 @@ netcdf4>=1.7.2
 # Berkeley Development Standards
 # =============================================================================
 # Academic paper generation
-pypandoc>=1.11
+pypandoc>=1.17
 pandoc-fignos>=2.4.0
 pandoc-eqnos>=2.5.0
 # Citation management
