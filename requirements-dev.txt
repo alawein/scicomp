@@ -67,7 +67,7 @@ ipywidgets>=8.0.0
 # Profiling and debugging
 line-profiler>=4.1.0
 memory-profiler>=0.61.0
-py-spy>=0.3.14
+py-spy>=0.4.2
 # Development utilities
 tox>=4.30.3
 nox>=2026.4.10
