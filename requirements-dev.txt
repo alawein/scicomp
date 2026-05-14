@@ -26,7 +26,7 @@ pytest-randomly>=4.0.1
 # =============================================================================
 # Code formatting
 black>=23.7.0
-isort>=5.12.0
+isort>=6.1.0
 # Linting
 flake8>=6.0.0
 flake8-docstrings>=1.7.0
