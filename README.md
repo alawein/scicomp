@@ -1,5 +1,12 @@
 # SciComp
 
+Status:      frozen
+Category:    research
+Owner:       alawein
+Visibility:  public
+Purpose:     Scientific computing utilities and shared numerical tooling.
+Next action: continue
+
 SciComp is a cross-platform scientific computing suite that keeps Python,
 MATLAB, and Mathematica in the same repo on purpose. The value here is not just
 having many numerical topics in one place. The value is maintaining a shared
@@ -9,6 +16,14 @@ symbolic, and teaching workflows diverge.
 The Python package surface is unusual by normal packaging standards:
 `Python/` is the canonical import boundary. That constraint is deliberate and
 should stay visible.
+
+## Public value
+
+SciComp is a research-portfolio candidate because it demonstrates breadth
+across numerical methods, languages, GPU workflows, symbolic tooling, and
+teaching examples. Public polish should make the unusual cross-language layout
+feel intentional: explain which surface to use, what each language contributes,
+and how examples can be reproduced.
 
 ## Core surfaces
 
@@ -53,6 +68,13 @@ mypy Python/
 python scripts/validate_framework.py
 matlab -batch "run('tests/matlab/test_heat_transfer.m')"
 ```
+
+## Publication boundaries
+
+Keep machine-specific MATLAB/Mathematica paths, GPU environment assumptions,
+large generated outputs, and unpublished teaching/research data out of public
+examples. If a notebook or script supports a claim, document the required
+runtime and expected output.
 
 ## Documentation
 
