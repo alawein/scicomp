@@ -108,7 +108,7 @@ Parameters
 func : callable
 Function to execute on each chunk
 data_chunks : list
-List of data chunks to process
+Input data chunks to process
 n_workers : int, optional
 Number of worker processes
 timeout : float, optional
