@@ -127,7 +127,7 @@ holoviews>=1.20.2
 # Data Science Development Tools
 # =============================================================================
 # Data manipulation and analysis
-pandas>=2.0.0
+pandas>=2.3.3
 xarray>=2024.7.0
 # File formats
 h5py>=3.9.0
