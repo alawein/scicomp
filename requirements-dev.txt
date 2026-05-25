@@ -60,7 +60,7 @@ pdoc>=15.0.4
 # Development Tools
 # =============================================================================
 # Interactive development
-ipython>=8.14.0
+ipython>=8.18.1
 jupyter>=1.0.0
 jupyterlab>=4.5.7
 ipywidgets>=8.0.0
