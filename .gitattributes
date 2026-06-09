@@ -7,3 +7,7 @@ data/examples/* filter=lfs diff=lfs merge=lfs -text
 results/* filter=lfs diff=lfs merge=lfs -text
 results/*.h5 filter=lfs diff=lfs merge=lfs -text
 data/examples/*.dat filter=lfs diff=lfs merge=lfs -text
+
+# LF enforcement (appended)
+* text=auto eol=lf
+*.sh text eol=lf

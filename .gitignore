@@ -461,3 +461,11 @@ coverage/
 htmlcov/
 .coverage
 *.log
+
+# Credentials / secrets (security hardening)
+*.pem
+*.key
+*.p12
+*.keystore
+id_rsa*
+.claude.json
