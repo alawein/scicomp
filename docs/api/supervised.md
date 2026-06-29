@@ -18,7 +18,7 @@ PolynomialRegression: Polynomial regression for nonlinear relationships
 RidgeRegression: Regularized regression for high-dimensional data
 LogisticRegression: Classification with probabilistic outputs
 SVM: Support Vector Machines for complex decision boundaries
-RandomForest: Ensemble method for robust predictions
+RandomForest: Ensemble method for reliable predictions
 GradientBoosting: Gradient boosting for high-performance modeling
 ## Functions
 ### `create_test_datasets()`

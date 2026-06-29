@@ -9,7 +9,7 @@ sla: none
 **Module:** `Python/Linear_Algebra/core/matrix_operations.py`
 ## Overview
 Matrix Operations for Scientific Computing
-Comprehensive matrix operations including basic arithmetic, decompositions,
+thorough matrix operations including basic arithmetic, decompositions,
 eigenvalue problems, and specialized algorithms for scientific applications.
 ## Functions
 ### `create_test_matrices()`

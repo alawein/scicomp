@@ -63,7 +63,7 @@ Features:
 - Multiple initialization methods
 - Convergence diagnostics
 - Cluster validation metrics
-- Robust distance metrics
+- reliable distance metrics
 #### Methods
 ##### `__init__(self, n_clusters, init, n_init, max_iter, tol, random_state)`
 *No documentation available.*

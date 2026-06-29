@@ -9,7 +9,7 @@ sla: none
 **Module:** `Python/Crystallography/core/diffraction.py`
 ## Overview
 X-ray Diffraction Analysis
-Comprehensive X-ray diffraction pattern simulation and analysis tools.
+thorough X-ray diffraction pattern simulation and analysis tools.
 Includes structure factor calculations, intensity modeling, and
 powder diffraction pattern generation.
 ## Classes

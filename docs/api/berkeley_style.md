@@ -18,7 +18,7 @@ Colors follow UC Berkeley's official brand guidelines:
 Author: Meshal Alawein (contact@meshal.ai)
 Institution: University of California, Berkeley
 License: MIT
-Copyright © 2025 Meshal Alawein — All rights reserved.
+Copyright © 2025 Meshal Alawein , All rights reserved.
 ## Constants
 - **`BERKELEY_COLORS`**
 - **`BERKELEY_BLUE`**

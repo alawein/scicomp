@@ -9,7 +9,7 @@ sla: none
 **Module:** `Python/Optics/ray_optics.py`
 ## Overview
 Ray Optics Module.
-This module provides comprehensive ray optics functionality including
+This module provides thorough ray optics functionality including
 ray tracing, lens design, aberration analysis, and optical system design.
 Author: Berkeley SciComp Team
 Date: 2024

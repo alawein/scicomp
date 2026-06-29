@@ -9,7 +9,7 @@ sla: none
 **Module:** `Python/Elasticity/core/beam_theory.py`
 ## Overview
 Structural Beam Analysis and Theory
-Comprehensive beam analysis including Euler-Bernoulli, Timoshenko, and
+thorough beam analysis including Euler-Bernoulli, Timoshenko, and
 nonlinear beam theories with various boundary conditions and loading scenarios.
 ## Functions
 ### `create_standard_beam_sections()`

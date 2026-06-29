@@ -9,7 +9,7 @@ sla: none
 **Module:** `Python/FEM/core/assembly.py`
 ## Overview
 Global Assembly Procedures for Finite Element Analysis
-Comprehensive assembly algorithms for finite element systems including
+thorough assembly algorithms for finite element systems including
 global matrix assembly, boundary condition application, and solution procedures.
 ## Classes
 ### `GlobalAssembly`

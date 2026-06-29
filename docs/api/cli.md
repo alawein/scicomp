@@ -17,7 +17,7 @@ Author: Meshal Alawein (contact@meshal.ai)
 Institution: University of California, Berkeley
 Created: 2025
 License: MIT
-Copyright © 2025 Meshal Alawein — All rights reserved.
+Copyright © 2025 Meshal Alawein , All rights reserved.
 ## Constants
 - **`BERKELEY_BLUE`**
 - **`CALIFORNIA_GOLD`**

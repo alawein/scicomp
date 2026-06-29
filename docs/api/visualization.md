@@ -101,7 +101,7 @@ Returns:
 Animation object
 **Source:** [Line 286](Python/Optics/visualization.py#L286)
 ##### `create_optical_system_diagram(self, elements, title, figsize)`
-Create comprehensive optical system diagram.
+Create thorough optical system diagram.
 Args:
 elements: List of optical element dictionaries
 title: Diagram title

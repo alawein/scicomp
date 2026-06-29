@@ -26,7 +26,7 @@ export GITHUB_REPOSITORY="alawein/scicomp"   # optional; defaults to alawein/sci
 node scripts/github-sync-report.mjs
 ```
 
-Artifact: `reports/sync-report.scicomp.json` (gitignored). In **GitHub Actions**, run workflow **"Ops — GitHub sync report"** (workflow_dispatch); it uploads the JSON as a workflow artifact.
+Artifact: `reports/sync-report.scicomp.json` (gitignored). In **GitHub Actions**, run workflow **"Ops : GitHub sync report"** (workflow_dispatch); it uploads the JSON as a workflow artifact.
 
 **CI parity:** `GITHUB_TOKEN` is injected automatically; `GITHUB_REPOSITORY` is set by Actions.
 

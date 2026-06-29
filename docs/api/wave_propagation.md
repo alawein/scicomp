@@ -9,7 +9,7 @@ sla: none
 **Module:** `Python/Elasticity/core/wave_propagation.py`
 ## Overview
 Elastic Wave Propagation Analysis
-Comprehensive elastic wave simulation including longitudinal, transverse,
+thorough elastic wave simulation including longitudinal, transverse,
 and surface waves in elastic media with various boundary conditions.
 ## Classes
 ### `WaveProperties`

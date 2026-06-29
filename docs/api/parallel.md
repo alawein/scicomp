@@ -14,7 +14,7 @@ including multiprocessing, memory-efficient computation, and distributed computi
 Author: Meshal Alawein (contact@meshal.ai)
 Institution: University of California, Berkeley
 License: MIT
-Copyright © 2025 Meshal Alawein — All rights reserved.
+Copyright © 2025 Meshal Alawein , All rights reserved.
 ## Functions
 ### `get_optimal_workers(task_complexity, memory_usage, max_workers)`
 Determine optimal number of worker processes based on system resources.

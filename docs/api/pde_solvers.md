@@ -9,7 +9,7 @@ sla: none
 **Module:** `Python/ODE_PDE/pde_solvers.py`
 ## Overview
 Partial Differential Equation Solvers.
-This module provides comprehensive PDE solving capabilities including
+This module provides thorough PDE solving capabilities including
 finite difference, finite element, and spectral methods for various
 types of PDEs including heat, wave, Poisson, and Navier-Stokes equations.
 Classes:

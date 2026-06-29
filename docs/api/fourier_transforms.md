@@ -9,7 +9,7 @@ sla: none
 **Module:** `Python/Signal_Processing/core/fourier_transforms.py`
 ## Overview
 Fourier transform implementations and spectral analysis tools.
-This module provides comprehensive Fourier analysis capabilities including
+This module provides thorough Fourier analysis capabilities including
 FFT, spectral analysis, and frequency domain processing.
 Classes:
 FFT: Fast Fourier Transform implementation

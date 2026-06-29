@@ -9,7 +9,7 @@ sla: none
 **Module:** `Python/Linear_Algebra/core/linear_systems.py`
 ## Overview
 Linear Systems Solvers for Scientific Computing
-Comprehensive algorithms for solving linear systems Ax = b including
+thorough algorithms for solving linear systems Ax = b including
 direct methods, iterative methods, and specialized solvers.
 ## Functions
 ### `create_test_systems()`

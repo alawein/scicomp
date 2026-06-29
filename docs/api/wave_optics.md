@@ -9,7 +9,7 @@ sla: none
 **Module:** `Python/Optics/wave_optics.py`
 ## Overview
 Wave Optics Module.
-This module provides comprehensive wave optics functionality including
+This module provides thorough wave optics functionality including
 wave propagation, diffraction, interference, and coherence analysis.
 Author: Berkeley SciComp Team
 Date: 2024

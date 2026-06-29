@@ -21,7 +21,7 @@ Demonstrate spectral analysis capabilities.
 ## Classes
 ### `SpectralAnalyzer`
 Advanced spectral analysis tools for scientific signal processing.
-Provides comprehensive spectral analysis including FFT, power spectral
+Provides thorough spectral analysis including FFT, power spectral
 density, time-frequency analysis, and wavelet transforms.
 #### Methods
 ##### `__init__(self, sampling_rate)`
@@ -125,7 +125,7 @@ Extract one Intrinsic Mode Function using sifting.
 Simplified EMD sifting process.
 **Source:** [Line 431](Python/Signal_Processing/spectral_analysis.py#L431)
 ##### `compute_spectral_features(self, signal_data, n_bands)`
-Extract comprehensive spectral features.
+Extract thorough spectral features.
 Args:
 signal_data: Input signal
 n_bands: Number of frequency bands for band-wise features

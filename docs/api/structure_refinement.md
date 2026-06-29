@@ -28,7 +28,7 @@ Features:
 - Parameter constraint handling
 - Correlation matrix calculation
 - Uncertainty estimation
-- Robust convergence algorithms
+- reliable convergence algorithms
 Examples:
 >>> crystal = CrystalStructure(lattice, atoms)
 >>> refinement = LeastSquaresRefinement(crystal, observed_data)

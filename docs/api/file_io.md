@@ -14,7 +14,7 @@ including HDF5, NumPy, and CSV. Handles wavefunctions, results, and metadata.
 Author: Meshal Alawein (contact@meshal.ai)
 Institution: University of California, Berkeley
 License: MIT
-Copyright © 2025 Meshal Alawein — All rights reserved.
+Copyright © 2025 Meshal Alawein , All rights reserved.
 ## Functions
 ### `create_output_directory(base_path, experiment_name, timestamp)`
 Create organized output directory structure for scientific results.
@@ -92,7 +92,7 @@ metadata : dict
 Parameters and metadata
 **Source:** [Line 201](Python/utils/file_io.py#L201)
 ### `export_results(results, output_dir, experiment_name, include_plots)`
-Export comprehensive results package with multiple formats.
+Export thorough results package with multiple formats.
 Parameters
 ----------
 results : dict

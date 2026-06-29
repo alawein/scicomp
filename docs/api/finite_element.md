@@ -9,7 +9,7 @@ sla: none
 **Module:** `Python/ODE_PDE/finite_element.py`
 ## Overview
 Finite Element Method for PDEs.
-This module provides comprehensive finite element method (FEM) implementations
+This module provides thorough finite element method (FEM) implementations
 for solving partial differential equations with support for various element types,
 quadrature rules, and boundary conditions.
 Classes:

@@ -9,7 +9,7 @@ sla: none
 **Module:** `Python/Elasticity/core/stress_strain.py`
 ## Overview
 Stress-Strain Analysis for Elastic Materials
-Comprehensive stress and strain tensor operations, elastic moduli calculations,
+thorough stress and strain tensor operations, elastic moduli calculations,
 and constitutive relationship modeling for isotropic and anisotropic materials.
 ## Functions
 ### `create_material_database()`

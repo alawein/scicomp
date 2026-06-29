@@ -10,7 +10,7 @@ sla: none
 ## Overview
 Adaptive Methods for ODE and PDE Solvers.
 This module provides adaptive time stepping, mesh refinement, and error control
-methods for robust and efficient ODE/PDE solving.
+methods for reliable and efficient ODE/PDE solving.
 Classes:
 AdaptiveTimeStepper: Adaptive time stepping for ODEs
 AdaptiveMeshRefiner: Adaptive mesh refinement for PDEs

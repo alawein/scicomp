@@ -9,7 +9,7 @@ sla: none
 **Module:** `Python/FEM/core/mesh_generation.py`
 ## Overview
 Mesh Generation for Finite Element Analysis
-Comprehensive mesh generation algorithms for various geometries and element types.
+thorough mesh generation algorithms for various geometries and element types.
 Includes structured and unstructured mesh generation with adaptive refinement.
 ## Classes
 ### `MeshParameters`
