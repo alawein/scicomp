@@ -7,42 +7,28 @@ Visibility:  public
 Purpose:     Scientific computing utilities and shared numerical tooling.
 Next action: continue
 
+## Abstract
+
 SciComp is a cross-platform scientific computing suite that keeps Python,
-MATLAB, and Mathematica in the same repo on purpose. The value here is not just
-having many numerical topics in one place. The value is maintaining a shared
-scientific vocabulary across those implementations and exposing where GPU,
-symbolic, and teaching workflows diverge.
+MATLAB, and Mathematica in one repo on purpose. The value is a shared scientific
+vocabulary across those implementations, with explicit notes on where GPU,
+symbolic, and teaching workflows diverge. `Python/` is the canonical Python
+import boundary by design.
 
-The Python package surface is unusual by normal packaging standards:
-`Python/` is the canonical import boundary. That constraint is deliberate and
-should stay visible.
+## Status
 
-## Public value
+- Lifecycle: frozen
+- Verification date: 2026-06-29
+- Scope: multi-language numerical modules, examples, and cross-surface tests
 
-SciComp is a research-portfolio candidate because it demonstrates breadth
-across numerical methods, languages, GPU workflows, symbolic tooling, and
-teaching examples. Public polish should make the unusual cross-language layout
-feel intentional: explain which surface to use, what each language contributes,
-and how examples can be reproduced.
+## Runtime requirements
 
-## Core surfaces
+- Python 3.10+ with `pip install -e ".[dev]"`
+- Optional: MATLAB R2024b+ for `MATLAB/` surfaces and batch tests
+- Optional: Wolfram Mathematica for `Mathematica/` notebooks
+- Optional: CUDA-capable GPU for accelerator modules (CPU fallback documented in `docs/GPU_TESTING_GUIDE.md`)
 
-- `Python/`: canonical Python package and CLI entrypoint
-- `MATLAB/`: MATLAB implementation surface
-- `Mathematica/`: Mathematica notebooks and symbolic workflows
-- `examples/`: runnable demos
-- `tests/`: cross-surface verification
-- `docs/`: API, theory, installation, and troubleshooting
-
-## Focus areas
-
-- Quantum mechanics and quantum computing
-- Thermal transport and heat-transfer numerics
-- Physics-informed machine learning
-- GPU acceleration with explicit CPU fallback
-- Spintronics, optics, control, and related computational physics modules
-
-## Quick start
+## Reproducibility
 
 ```bash
 git clone https://github.com/alawein/scicomp.git
@@ -52,31 +38,21 @@ python scripts/validate_framework.py
 pytest
 ```
 
-## CLI
+CLI entry points: `berkeley-scicomp` or `bsc`. For MATLAB parity checks:
 
 ```bash
-berkeley-scicomp --help
-bsc --help
-```
-
-## Development
-
-```bash
-pytest --cov=Python
-ruff check Python/
-mypy Python/
-python scripts/validate_framework.py
 matlab -batch "run('tests/matlab/test_heat_transfer.m')"
 ```
 
-## Publication boundaries
+## Datasets
 
-Keep machine-specific MATLAB/Mathematica paths, GPU environment assumptions,
-large generated outputs, and unpublished teaching/research data out of public
-examples. If a notebook or script supports a claim, document the required
-runtime and expected output.
+- No large vendored datasets; examples use generated or inline numerical inputs
+- `performance_baselines.json` records timing baselines for regression checks
+- Keep machine-local paths, GPU environment assumptions, and unpublished teaching
+  data out of public examples
 
-## Documentation
+## Docs map
 
-Start with [docs/README.md](docs/README.md) for installation notes, API
-reference, GPU guidance, and theory material.
+- [docs/README.md](docs/README.md)
+- [SSOT.md](SSOT.md)
+- [LESSONS.md](LESSONS.md)
