@@ -55,7 +55,7 @@ variable_names: Input variable names
 metadata: Additional information
 **Class Source:** [Line 56](Python/Monte_Carlo/uncertainty.py#L56)
 ### `UncertaintyQuantifier`
-Comprehensive uncertainty quantification framework.
+thorough uncertainty quantification framework.
 Provides Monte Carlo-based uncertainty propagation with various
 sampling strategies and variance reduction techniques.
 #### Methods

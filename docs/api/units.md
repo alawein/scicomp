@@ -9,12 +9,12 @@ sla: none
 **Module:** `Python/utils/units.py`
 ## Overview
 Unit Conversion Module
-Provides comprehensive unit conversion capabilities for scientific computing,
+Provides thorough unit conversion capabilities for scientific computing,
 including energy, length, time, mass, and other physical quantities.
 Author: Meshal Alawein (contact@meshal.ai)
 Institution: University of California, Berkeley
 License: MIT
-Copyright © 2025 Meshal Alawein — All rights reserved.
+Copyright © 2025 Meshal Alawein , All rights reserved.
 ## Functions
 ### `energy_convert(value, from_unit, to_unit)`
 Convert energy units.
@@ -39,7 +39,7 @@ Convert magnetic field units.
 **Source:** [Line 319](Python/utils/units.py#L319)
 ## Classes
 ### `UnitConverter`
-Comprehensive unit conversion utility for scientific computing.
+thorough unit conversion utility for scientific computing.
 Supports conversion between various units commonly used in physics,
 chemistry, and materials science.
 #### Methods

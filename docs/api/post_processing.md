@@ -9,7 +9,7 @@ sla: none
 **Module:** `Python/FEM/core/post_processing.py`
 ## Overview
 Post-Processing and Visualization for Finite Element Analysis
-Comprehensive post-processing tools for FEM results including stress visualization,
+thorough post-processing tools for FEM results including stress visualization,
 deformed shape plotting, contour analysis, and result extraction.
 ## Classes
 ### `FEMPostProcessor`
@@ -67,7 +67,7 @@ Returns:
 Matplotlib figure
 **Source:** [Line 282](Python/FEM/core/post_processing.py#L282)
 ##### `generate_results_summary(self)`
-Generate comprehensive results summary.
+Generate thorough results summary.
 Returns:
 Results summary dictionary
 **Source:** [Line 334](Python/FEM/core/post_processing.py#L334)

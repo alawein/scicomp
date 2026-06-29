@@ -304,5 +304,5 @@ The Berkeley SciComp framework implements these theoretical concepts through:
 4. Tannor, D.J. "Introduction to Quantum Mechanics: A Time-Dependent Perspective"
 5. Messiah, A. "Quantum Mechanics" (Dover Publications)
 ---
-*Copyright © 2025 Meshal Alawein — All rights reserved.*
+*Copyright © 2025 Meshal Alawein : All rights reserved.*
 *University of California, Berkeley*

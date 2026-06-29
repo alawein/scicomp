@@ -9,7 +9,7 @@ sla: none
 **Module:** `Python/ODE_PDE/boundary_conditions.py`
 ## Overview
 Boundary Conditions for PDE Solvers.
-This module provides comprehensive boundary condition handling for PDEs
+This module provides thorough boundary condition handling for PDEs
 including Dirichlet, Neumann, Robin, and periodic boundary conditions.
 Classes:
 BoundaryCondition: Base class for boundary conditions

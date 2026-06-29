@@ -9,7 +9,7 @@ sla: none
 **Module:** `Python/FEM/core/finite_elements.py`
 ## Overview
 Finite Element Method Core Implementation
-Comprehensive finite element framework for structural analysis including
+thorough finite element framework for structural analysis including
 element formulations, assembly procedures, and solution algorithms.
 ## Functions
 ### `create_element_factory()`

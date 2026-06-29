@@ -10,7 +10,7 @@ sla: none
 ## Overview
 Signal Analysis and Processing
 ==============================
-Comprehensive signal processing toolkit for scientific computing applications.
+thorough signal processing toolkit for scientific computing applications.
 Includes time-domain analysis, frequency-domain analysis, filtering, and
 advanced signal processing techniques.
 Author: Berkeley SciComp Team
@@ -25,7 +25,7 @@ Demonstrate signal processing capabilities.
 ## Classes
 ### `SignalProcessor`
 Core signal processing operations for scientific applications.
-Provides comprehensive tools for signal analysis, filtering,
+Provides thorough tools for signal analysis, filtering,
 spectral analysis, and feature extraction.
 #### Methods
 ##### `__init__(self, sampling_rate)`

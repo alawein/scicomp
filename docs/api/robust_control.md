@@ -8,12 +8,12 @@ sla: none
 # robust_control
 **Module:** `Python/Control/core/robust_control.py`
 ## Overview
-Robust Control Methods
-Advanced robust control techniques including H∞ control, μ-synthesis,
+reliable Control Methods
+Advanced reliable control techniques including H∞ control, μ-synthesis,
 and uncertainty modeling for control systems.
 ## Functions
 ### `robust_stability_margin(A, B, uncertainty, n_samples)`
-Compute robust stability margin using Monte Carlo analysis.
+Compute reliable stability margin using Monte Carlo analysis.
 Parameters:
 A: Nominal system matrix
 B: Nominal input matrix
@@ -24,10 +24,10 @@ Dictionary with stability statistics
 **Source:** [Line 267](Python/Control/core/robust_control.py#L267)
 ## Classes
 ### `UncertaintyModel`
-Parametric uncertainty model for robust control.
+Parametric uncertainty model for reliable control.
 **Class Source:** [Line 17](Python/Control/core/robust_control.py#L17)
 ### `HInfinityController`
-H∞ controller design for robust performance.
+H∞ controller design for reliable performance.
 Solves the H∞ control problem:
 min ||T_zw||∞
 Where T_zw is the closed-loop transfer function from disturbances w to
@@ -64,8 +64,8 @@ Compute H∞ controller matrices for given gamma.
 **Source:** [Line 170](Python/Control/core/robust_control.py#L170)
 **Class Source:** [Line 25](Python/Control/core/robust_control.py#L25)
 ### `MuSynthesis`
-μ-synthesis for robust performance with structured uncertainty.
-Addresses the robust performance problem in the presence of
+μ-synthesis for reliable performance with structured uncertainty.
+Addresses the reliable performance problem in the presence of
 structured uncertainty blocks.
 #### Methods
 ##### `__init__(self, nominal_plant, uncertainty_structure, performance_weights)`

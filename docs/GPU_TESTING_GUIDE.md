@@ -12,7 +12,7 @@ sla: none
 **GPU-Accelerated Scientific Computing**
 ---
 ## 🎯 **GPU Testing Overview**
-The SciComp includes GPU acceleration support through CuPy and CUDA kernels. When GPU hardware is available, comprehensive testing should be performed to validate performance and correctness.
+The SciComp includes GPU acceleration support through CuPy and CUDA kernels. When GPU hardware is available, thorough testing should be performed to validate performance and correctness.
 ## 🔧 **GPU Testing Environment Setup**
 ### **Prerequisites**
 - NVIDIA GPU with CUDA capability 6.0+

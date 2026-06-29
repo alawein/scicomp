@@ -64,7 +64,7 @@ Complete API reference for all modules in the SciComp.
 - **[pid_controller](pid_controller.md)** - `Python/Control/core/pid_controller.py`
   PID Controller Implementation.
 - **[robust_control](robust_control.md)** - `Python/Control/core/robust_control.py`
-  Robust Control Methods.
+  reliable Control Methods.
 - **[state_space](state_space.md)** - `Python/Control/core/state_space.py`
   State-Space Control Systems.
 ### Machine Learning

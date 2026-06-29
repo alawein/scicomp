@@ -9,7 +9,7 @@ sla: none
 **Module:** `Python/Optics/optical_materials.py`
 ## Overview
 Optical Materials Module.
-This module provides comprehensive optical material properties including
+This module provides thorough optical material properties including
 refractive index models, dispersion analysis, and material databases.
 Author: Berkeley SciComp Team
 Date: 2024
@@ -27,7 +27,7 @@ Returns:
 Refractive index
 **Source:** [Line 343](Python/Optics/optical_materials.py#L343)
 ### `dispersion_analysis(material, wavelength_range)`
-Perform comprehensive dispersion analysis.
+Perform thorough dispersion analysis.
 Args:
 material: OpticalMaterial object
 wavelength_range: Wavelength range for analysis (meters)
@@ -129,7 +129,7 @@ Calculate group index (real part only).
 **Source:** [Line 168](Python/Optics/optical_materials.py#L168)
 **Class Source:** [Line 134](Python/Optics/optical_materials.py#L134)
 ### `OpticalMaterial`
-Comprehensive optical material class.
+thorough optical material class.
 #### Methods
 ##### `__init__(self, name, dispersion_model, wavelength_range, properties)`
 Initialize optical material.

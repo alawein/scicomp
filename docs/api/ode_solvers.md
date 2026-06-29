@@ -9,7 +9,7 @@ sla: none
 **Module:** `Python/ODE_PDE/ode_solvers.py`
 ## Overview
 Ordinary Differential Equation Solvers.
-This module provides comprehensive ODE solving capabilities including
+This module provides thorough ODE solving capabilities including
 explicit and implicit methods, adaptive time stepping, and stiff equation solvers.
 Classes:
 ODESolver: Base class for ODE solvers

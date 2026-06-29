@@ -9,7 +9,7 @@ sla: none
 **Module:** `Python/ODE_PDE/nonlinear_solvers.py`
 ## Overview
 Nonlinear Solvers for ODEs and PDEs.
-This module provides comprehensive nonlinear solving capabilities including
+This module provides thorough nonlinear solving capabilities including
 Newton methods, continuation methods, and specialized solvers for nonlinear
 differential equations.
 Classes:

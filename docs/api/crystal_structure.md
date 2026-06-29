@@ -9,7 +9,7 @@ sla: none
 **Module:** `Python/Crystallography/core/crystal_structure.py`
 ## Overview
 Crystal Structure Analysis
-Comprehensive crystallographic structure representation and analysis tools.
+thorough crystallographic structure representation and analysis tools.
 Includes lattice parameter calculations, unit cell operations, and
 crystallographic coordinate transformations.
 ## Classes

@@ -9,7 +9,7 @@ sla: none
 **Module:** `Python/Quantum/core/quantum_states.py`
 ## Overview
 Quantum state representations and operations.
-This module provides comprehensive quantum state manipulation including:
+This module provides thorough quantum state manipulation including:
 - Pure and mixed state representations
 - Density matrix operations
 - Entanglement measures

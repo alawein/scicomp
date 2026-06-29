@@ -5,7 +5,7 @@ sync: none
 sla: none
 ---
 
-# Ops runbook — sync reports & Notion
+# Ops runbook :  sync reports & Notion
 
 ## Sync report failures
 

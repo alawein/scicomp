@@ -386,7 +386,7 @@ y = Cx + Du
 **Modern Control**:
 - **LQR**: Linear Quadratic Regulator
 - **LQG**: Linear Quadratic Gaussian
-- **H∞ Control**: Robust control design
+- **H∞ Control**: reliable control design
 ---
 ## Signal Processing
 ### Fourier Analysis
@@ -550,5 +550,5 @@ X(z) = Σ_{n=-∞}^∞ x[n]z^{-n}
 4. Griffiths, D.J. "Introduction to Electrodynamics" (Cambridge, 2017)
 5. Franklin, G.F., et al. "Feedback Control of Dynamic Systems" (Pearson, 2019)
 ---
-*Copyright © 2025 Meshal Alawein — All rights reserved.*
+*Copyright © 2025 Meshal Alawein : All rights reserved.*
 *University of California, Berkeley*

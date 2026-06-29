@@ -9,7 +9,7 @@ sla: none
 **Module:** `Python/ODE_PDE/stability_analysis.py`
 ## Overview
 Stability Analysis for ODE and PDE Methods.
-This module provides comprehensive stability analysis tools for numerical
+This module provides thorough stability analysis tools for numerical
 methods including linear stability analysis, von Neumann analysis,
 and eigenvalue-based stability assessment.
 Classes:
