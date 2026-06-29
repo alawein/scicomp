@@ -6,6 +6,7 @@ stack.
 
 ## Start here
 
+- [architecture/topology.md](architecture/topology.md) for the on-disk layout and language surfaces.
 - [INSTALLATION_GUIDE.md](INSTALLATION_GUIDE.md) for environment setup.
 - [API_REFERENCE.md](API_REFERENCE.md) and `api/` for module and package
   surfaces.
