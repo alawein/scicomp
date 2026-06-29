@@ -51,6 +51,21 @@ matlab -batch "run('tests/matlab/test_heat_transfer.m')"
 - Keep machine-local paths, GPU environment assumptions, and unpublished teaching
   data out of public examples
 
+
+## Architecture
+
+```text
+scicomp/
+├── Python/       # canonical Python import boundary
+├── MATLAB/       # parallel MATLAB modules
+├── Mathematica/  # parallel Wolfram notebooks
+├── examples/     # cross-language usage
+├── tests/        # Python and MATLAB regression
+└── docs/         # installation, API, theory
+```
+
+Detail: [docs/architecture/topology.md](docs/architecture/topology.md) and [docs/architecture.md](docs/architecture.md).
+
 ## Docs map
 
 - [docs/README.md](docs/README.md)
