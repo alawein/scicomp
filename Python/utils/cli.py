@@ -62,17 +62,16 @@ License: MIT
         print(f"{BERKELEY_BLUE}Running Quantum Physics Simulation...{RESET}")
         if args.example == "harmonic_oscillator":
             try:
-                from Python.quantum_physics.harmonic_oscillator import HarmonicOscillator, HarmonicOscillatorConfig
-                config = HarmonicOscillatorConfig(
-                    n_max=args.n_max or 10,
+                from Python.quantum_physics.quantum_dynamics.harmonic_oscillator import QuantumHarmonic
+                n_max = args.n_max or 10
+                ho = QuantumHarmonic(
                     omega=args.omega or 1.0,
                     mass=args.mass or 1.0,
-                    hbar=args.hbar or 1.0
+                    n_max=n_max,
                 )
-                ho = HarmonicOscillator(config)
-                energies = ho.get_energy_levels()
+                energies = [ho.energy(n) for n in range(n_max)]
                 print(f"{GREEN}✓ Harmonic Oscillator Simulation Complete{RESET}")
-                print(f"Energy levels (n=0 to {args.n_max or 10}):")
+                print(f"Energy levels (n=0 to {n_max}):")
                 for i, E in enumerate(energies):
                     print(f"  E_{i} = {E:.6f}")
             except ImportError as e:
