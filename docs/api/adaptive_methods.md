@@ -20,7 +20,7 @@ adaptive_rk_step: Single adaptive RK step
 estimate_local_error: Local error estimation
 compute_optimal_timestep: Optimal time step computation
 refine_mesh: Mesh refinement based on error indicators
-Author: Berkeley SciComp Team
+Author: Meshal Alawein
 Date: 2024
 ## Functions
 ### `adaptive_rk_step(f, t, y, dt, rtol, atol)`

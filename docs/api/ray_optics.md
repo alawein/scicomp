@@ -11,7 +11,7 @@ sla: none
 Ray Optics Module.
 This module provides thorough ray optics functionality including
 ray tracing, lens design, aberration analysis, and optical system design.
-Author: Berkeley SciComp Team
+Author: Meshal Alawein
 Date: 2024
 ## Functions
 ### `paraxial_ray_trace(surfaces, ray_height, ray_angle, wavelength)`

@@ -2,32 +2,29 @@
 """
 SciComp
 ==========================
-UC Berkeley Scientific Computing Framework for multi-platform scientific
+SciComp Scientific Computing Framework for multi-platform scientific
 computing, quantum physics, machine learning, and engineering applications.
-Author: Meshal Alawein (meshal@berkeley.edu)
-Institution: University of California, Berkeley
+Author: Meshal Alawein (contact@meshal.ai)
 Created: 2025
 License: MIT
 """
 # Version information
 __version__ = "1.0.0"
 __author__ = "Meshal Alawein"
-__email__ = "meshal@berkeley.edu"
-__institution__ = "University of California, Berkeley"
+__email__ = "contact@meshal.ai"
 __license__ = "MIT"
-__copyright__ = "Copyright © 2025 Meshal Alawein — All rights reserved."
+__copyright__ = "Copyright © 2025 Meshal Alawein"
 # SciComp metadata
 __title__ = "SciComp"
-__description__ = "UC Berkeley Scientific Computing Framework"
-__url__ = "https://github.com/berkeley-scicomp/SciComp"
-__documentation__ = "https://berkeley-scicomp.readthedocs.io"
+__description__ = "SciComp Scientific Computing Framework"
+__url__ = "https://github.com/alawein/scicomp"
+__documentation__ = "https://scicomp.readthedocs.io"
 # Framework information
 FRAMEWORK_INFO = {
     "name": __title__,
     "version": __version__,
     "author": __author__,
     "email": __email__,
-    "institution": __institution__,
     "license": __license__,
     "url": __url__,
     "platforms": ["Python", "MATLAB", "Mathematica"],
@@ -56,15 +53,15 @@ def print_berkeley_banner():
 {blue}{bold}================================================================
 SciComp v{__version__}
 ================================================================{reset}
-{gold}University of California, Berkeley{reset}
+{gold}Cross-Platform Scientific Computing{reset}
 {blue}{__author__} ({__email__}){reset}
 Multi-Platform Scientific Computing:
   • Quantum Physics & Quantum Computing
   • Machine Learning for Physics
   • Computational Methods & Engineering
-  • Professional Berkeley Visual Identity
+  • Professional Visual Identity
 {blue}Platforms: Python | MATLAB | Mathematica{reset}
-{blue}License: {__license__} | Go Bears! 🐻💙💛{reset}
+{blue}License: {__license__}{reset}
 """
     print(banner)
 def get_version():
@@ -119,7 +116,6 @@ __all__ = [
     "__version__",
     "__author__",
     "__email__",
-    "__institution__",
     "__license__",
     "FRAMEWORK_INFO",
     "BERKELEY_COLORS",

@@ -1,7 +1,7 @@
 """Ray Optics Module.
 This module provides comprehensive ray optics functionality including
 ray tracing, lens design, aberration analysis, and optical system design.
-Author: Berkeley SciComp Team
+Author: Meshal Alawein
 Date: 2024
 """
 import numpy as np

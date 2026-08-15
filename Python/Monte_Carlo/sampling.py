@@ -7,7 +7,7 @@ Classes:
     ImportanceSampler: Importance sampling
     RejectionSampler: Rejection sampling
     GibbsSampler: Gibbs sampling for multivariate distributions
-Author: Berkeley SciComp Team
+Author: Meshal Alawein
 Date: 2024
 """
 import numpy as np

@@ -5,8 +5,7 @@ SciComp Master Test Runner
 Orchestrates comprehensive testing across all SciComp modules and frameworks.
 Provides unified testing interface with detailed reporting and analysis.
 
-Author: Meshal Alawein (meshal@berkeley.edu)
-Institution: University of California, Berkeley
+Author: Meshal Alawein (contact@meshal.ai)
 """
 
 import os
@@ -85,7 +84,6 @@ class MasterTestRunner:
         print(f"\n{Colors.BERKELEY_BLUE}{'='*100}{Colors.RESET}")
         print(f"{Colors.BERKELEY_BLUE}{Colors.BOLD}🧪 SciComp Master Test Runner 🧪{Colors.RESET}")
         print(f"{Colors.BERKELEY_BLUE}{'='*100}{Colors.RESET}")
-        print(f"{Colors.CALIFORNIA_GOLD}University of California, Berkeley{Colors.RESET}")
         print(f"{Colors.CALIFORNIA_GOLD}Comprehensive Quality Assurance & Deployment Readiness Testing{Colors.RESET}")
         print(f"{Colors.BERKELEY_BLUE}{'='*100}{Colors.RESET}")
         print(f"{Colors.DIM}Test Suite Version: 2.0 | Framework: SciComp | Date: {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}{Colors.RESET}\n")

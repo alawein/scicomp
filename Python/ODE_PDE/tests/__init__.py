@@ -12,11 +12,11 @@ To run specific test modules:
     pytest tests/test_ode_solvers.py
     pytest tests/test_pde_solvers.py
     pytest tests/test_nonlinear_solvers.py
-Author: Berkeley SciComp Team
+Author: Meshal Alawein
 Date: 2024
 """
 __version__ = "1.0.0"
-__author__ = "Berkeley SciComp Team"
+__author__ = "Meshal Alawein"
 # Test configuration
 pytest_plugins = []
 # Test utilities that can be imported by test modules

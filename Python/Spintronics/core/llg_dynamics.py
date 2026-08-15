@@ -4,7 +4,7 @@ This module provides tools for simulating magnetization dynamics using
 the Landau-Lifshitz-Gilbert equation.
 Classes:
     LLGSolver: Solver for LLG dynamics
-Author: Berkeley SciComp Team
+Author: Meshal Alawein
 Date: 2025
 """
 import numpy as np

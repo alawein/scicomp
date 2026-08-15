@@ -35,10 +35,9 @@ classdef VQE < handle
     %   plotResults      - Visualize optimization results
     %   calculateExcited - Compute excited states
     %
-    % Author: Meshal Alawein (meshal@berkeley.edu)
-    % Institution: University of California, Berkeley
+    % Author: Meshal Alawein (contact@meshal.ai)
     % License: MIT
-    % Copyright © 2025 Meshal Alawein — All rights reserved.
+    % Copyright © 2025 Meshal Alawein
     properties (SetAccess = private)
         hamiltonian     % System Hamiltonian matrix
         numQubits       % Number of qubits
@@ -378,7 +377,7 @@ classdef VQE < handle
                 grid on;
             end
             % Add Berkeley branding
-            sgtitle('🐻💙💛 VQE Results - UC Berkeley', 'FontSize', 16, 'FontWeight', 'bold');
+            sgtitle('🐻💙💛 VQE Results', 'FontSize', 16, 'FontWeight', 'bold');
             % Save figure if requested
             if ~isempty(p.Results.savefig)
                 saveas(fig, p.Results.savefig, 'png');

@@ -1,12 +1,11 @@
 # SciComp - Development Dependencies
 # ====================================================
 #
-# Development and testing dependencies for the UC Berkeley Scientific
-# Computing Framework. These packages are required for development,
+# Development and testing dependencies for the SciComp Framework. These
+# packages are required for development,
 # testing, documentation, and code quality assurance.
 #
-# Author: Meshal Alawein (meshal@berkeley.edu)
-# Institution: University of California, Berkeley
+# Author: Meshal Alawein (contact@meshal.ai)
 # Created: 2025
 # =============================================================================
 # Testing Framework

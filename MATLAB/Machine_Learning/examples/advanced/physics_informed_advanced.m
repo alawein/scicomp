@@ -12,7 +12,7 @@ function physics_informed_advanced()
 %   - Analyze solution accuracy and convergence
 %   - Apply to multiple PDE types
 %
-% Author: Berkeley SciComp Team
+% Author: Meshal Alawein
 % Date: 2024
 fprintf('🌌 Berkeley SciComp: Advanced Physics-Informed Networks\n');
 fprintf('==================================================\n');

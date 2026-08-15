@@ -1,15 +1,14 @@
 function setBerkeleyDefaults()
-%SETBERKELEYDEFAULTS Configure MATLAB plotting with UC Berkeley visual identity
+%SETBERKELEYDEFAULTS Configure MATLAB plotting with a Berkeley color scheme
 %
-% Sets default plotting parameters to match UC Berkeley's official brand
-% guidelines, creating publication-quality figures with Berkeley Blue and
-% California Gold color scheme.
+% Sets default plotting parameters to create publication-quality figures
+% with a Berkeley Blue and California Gold color scheme.
 %
 % Usage:
 %   setBerkeleyDefaults()
 %
 % Features:
-%   - UC Berkeley official colors (Berkeley Blue #003262, California Gold #FDB515)
+%   - Berkeley color palette (Berkeley Blue #003262, California Gold #FDB515)
 %   - Publication-quality typography and sizing
 %   - Professional axis styling with inward-pointing ticks
 %   - High-resolution output settings
@@ -27,11 +26,10 @@ function setBerkeleyDefaults()
 %
 % See also: BERKELEYPLOTSTYLE, PLOTQUANTUMSTATES
 %
-% Author: Meshal Alawein (meshal@berkeley.edu)
-% Institution: University of California, Berkeley
+% Author: Meshal Alawein (contact@meshal.ai)
 % License: MIT
-% Copyright © 2025 Meshal Alawein — All rights reserved.
-%% UC Berkeley Official Colors
+% Copyright © 2025 Meshal Alawein
+%% Berkeley Color Palette
 % Primary colors
 berkeleyBlue = [0, 50, 98] / 255;          % #003262
 californiaGold = [253, 181, 21] / 255;     % #FDB515
@@ -191,16 +189,13 @@ if nargout == 0
         plot(x, y(i, :) + (i-1)*0.5, 'LineWidth', 2);
     end
     hold off;
-    title('UC Berkeley Color Scheme Demo', 'FontSize', 16, 'FontWeight', 'bold');
+    title('Berkeley Color Scheme Demo', 'FontSize', 16, 'FontWeight', 'bold');
     xlabel('x', 'FontSize', 12);
     ylabel('y + offset', 'FontSize', 12);
     % Add color legend
     colorNames = {'Berkeley Blue', 'California Gold', 'Green Dark', ...
                   'Rose Dark', 'Purple Dark', 'Red Dark', 'Orange Dark', 'Teal Dark'};
     legend(colorNames, 'Location', 'eastoutside', 'FontSize', 10);
-    % Add Berkeley branding
-    text(0.02, 0.98, '🐻💙💛 UC Berkeley', 'Units', 'normalized', ...
-         'VerticalAlignment', 'top', 'FontSize', 10, 'Color', berkeleyBlue);
 end
 end
 %% Helper Functions

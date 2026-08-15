@@ -3,7 +3,7 @@ classdef WaveOptics < handle
     %   Comprehensive wave optics functionality including plane waves,
     %   spherical waves, Gaussian beams, diffraction, and interference
     %
-    %   Author: Berkeley SciComp Team
+    %   Author: Meshal Alawein
     %   Date: 2024
     properties (Access = public)
         wavelength_vacuum    % Wavelength in vacuum (meters)

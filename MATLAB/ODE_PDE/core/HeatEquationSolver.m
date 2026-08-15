@@ -2,7 +2,7 @@ classdef HeatEquationSolver < PDESolver
     %HEATEQUATIONSOLVER Solver for heat equation
     %   Solves ∂u/∂t = α∇²u + f(x,t) using finite differences
     %
-    %   Author: Berkeley SciComp Team
+    %   Author: Meshal Alawein
     %   Date: 2024
     properties
         thermal_diffusivity     % Thermal diffusivity α

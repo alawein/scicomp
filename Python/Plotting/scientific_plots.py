@@ -2,7 +2,7 @@
 Scientific Plotting Module
 =========================
 Professional scientific plotting with Berkeley branding and publication-ready formatting.
-Author: Berkeley SciComp Team
+Author: Meshal Alawein
 Date: 2024
 """
 import numpy as np

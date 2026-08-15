@@ -5,7 +5,7 @@ Comprehensive signal processing toolkit for scientific computing applications.
 Modules:
     signal_analysis: Core signal processing operations
     spectral_analysis: Advanced spectral and time-frequency analysis
-Author: Berkeley SciComp Team
+Author: Meshal Alawein
 Date: 2024
 """
 from .signal_analysis import (
@@ -29,5 +29,5 @@ __all__ = [
 ]
 # Module metadata
 __version__ = '1.0.0'
-__author__ = 'Berkeley SciComp Team'
-__email__ = 'meshal@berkeley.edu'
+__author__ = 'Meshal Alawein'
+__email__ = 'contact@meshal.ai'

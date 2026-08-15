@@ -6,7 +6,7 @@ function init_optics()
 %   Usage:
 %       init_optics()
 %
-%   Author: Berkeley SciComp Team
+%   Author: Meshal Alawein
 %   Date: 2024
 fprintf('Berkeley SciComp - MATLAB Optics Package\n');
 fprintf('========================================\n\n');

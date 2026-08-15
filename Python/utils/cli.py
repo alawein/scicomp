@@ -5,11 +5,10 @@ Berkeley SciComp Command Line Interface
 Professional command-line interface for the UC Berkeley Scientific Computing
 Framework, providing unified access to all computational tools, examples,
 and utilities with Berkeley branding and academic standards.
-Author: Meshal Alawein (meshal@berkeley.edu)
-Institution: University of California, Berkeley
+Author: Meshal Alawein (contact@meshal.ai)
 Created: 2025
 License: MIT
-Copyright © 2025 Meshal Alawein — All rights reserved.
+Copyright © 2025 Meshal Alawein
 """
 import argparse
 import json
@@ -44,13 +43,13 @@ class BerkeleyCLI:
         """Get framework version."""
         return self.config.get('framework', {}).get('version', '1.0.0')
     def print_banner(self):
-        """Print Berkeley SciComp banner."""
+        """Print SciComp banner."""
         banner = f"""
 {BERKELEY_BLUE}{BOLD}================================================================
 SciComp - Command Line Interface
 ================================================================{RESET}
-{CALIFORNIA_GOLD}University of California, Berkeley{RESET}
-{BERKELEY_BLUE}Meshal Alawein (meshal@berkeley.edu){RESET}
+{CALIFORNIA_GOLD}Cross-Platform Scientific Computing{RESET}
+{BERKELEY_BLUE}Meshal Alawein (contact@meshal.ai){RESET}
 Version: {self.version}
 Framework: Multi-platform Scientific Computing (Python, MATLAB, Mathematica)
 License: MIT
@@ -266,23 +265,23 @@ License: MIT
 def create_parser() -> argparse.ArgumentParser:
     """Create command-line argument parser."""
     parser = argparse.ArgumentParser(
-        prog="berkeley-scicomp",
+        prog="scicomp",
         description="SciComp Command Line Interface",
         formatter_class=argparse.RawDescriptionHelpFormatter,
         epilog=f"""
 {BERKELEY_BLUE}Examples:{RESET}
-  berkeley-scicomp run quantum harmonic_oscillator --n_max 20
-  berkeley-scicomp run ml pinn_schrodinger --epochs 500
-  berkeley-scicomp test --platform python
-  berkeley-scicomp demo --type quantum
-  berkeley-scicomp config --section visual_identity
-  berkeley-scicomp docs --topic quantum --open
-  berkeley-scicomp style --platform python
-{CALIFORNIA_GOLD}University of California, Berkeley{RESET}
-{BERKELEY_BLUE}Meshal Alawein (meshal@berkeley.edu){RESET}
+  scicomp run quantum harmonic_oscillator --n_max 20
+  scicomp run ml pinn_schrodinger --epochs 500
+  scicomp test --platform python
+  scicomp demo --type quantum
+  scicomp config --section visual_identity
+  scicomp docs --topic quantum --open
+  scicomp style --platform python
+{CALIFORNIA_GOLD}Cross-Platform Scientific Computing{RESET}
+{BERKELEY_BLUE}Meshal Alawein (contact@meshal.ai){RESET}
         """
     )
-    parser.add_argument('--version', action='version', version='Berkeley SciComp 1.0.0')
+    parser.add_argument('--version', action='version', version='SciComp 1.0.0')
     subparsers = parser.add_subparsers(dest='command', help='Available commands')
     # Run command
     run_parser = subparsers.add_parser('run', help='Run simulations and computations')

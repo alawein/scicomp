@@ -2,7 +2,7 @@ classdef ThinLens < OpticalSurface
     %THINLENS Thin lens optical element
     %   Implements thin lens approximation for ray tracing
     %
-    %   Author: Berkeley SciComp Team
+    %   Author: Meshal Alawein
     %   Date: 2024
     properties (Access = public)
         focal_length    % Focal length (meters, positive for converging)

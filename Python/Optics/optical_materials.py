@@ -1,7 +1,7 @@
 """Optical Materials Module.
 This module provides comprehensive optical material properties including
 refractive index models, dispersion analysis, and material databases.
-Author: Berkeley SciComp Team
+Author: Meshal Alawein
 Date: 2024
 """
 import numpy as np

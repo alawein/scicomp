@@ -14,7 +14,7 @@ FFT, spectral analysis, and frequency domain processing.
 Classes:
 FFT: Fast Fourier Transform implementation
 SpectralAnalysis: Spectral analysis tools
-Author: Berkeley SciComp Team
+Author: Meshal Alawein
 Date: 2025
 ## Classes
 ### `FFT`

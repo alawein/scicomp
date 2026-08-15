@@ -1,6 +1,6 @@
 """Visualization for ODE and PDE Solutions.
 This module provides comprehensive visualization capabilities for ODE and PDE
-solutions with UC Berkeley's official branding and scientific plotting standards.
+solutions with a Berkeley color scheme and scientific plotting standards.
 Classes:
     ODEPDEVisualizer: Main visualization class for ODE/PDE results
 Functions:
@@ -10,7 +10,7 @@ Functions:
     create_phase_portrait: Create phase portraits for ODE systems
     plot_convergence_study: Visualize numerical convergence
     plot_stability_region: Plot stability regions for methods
-Author: Berkeley SciComp Team
+Author: Meshal Alawein
 Date: 2024
 """
 import numpy as np
@@ -526,7 +526,7 @@ class ODEPDEVisualizer:
         return fig
     def _add_berkeley_branding(self, fig: plt.Figure):
         """Add Berkeley branding to figure."""
-        fig.text(0.02, 0.02, 'UC Berkeley SciComp - ODE/PDE',
+        fig.text(0.02, 0.02, 'SciComp - ODE/PDE',
                 fontsize=8, color=self.colors['berkeley_blue'], alpha=0.7)
 # Convenience functions
 def plot_ode_solution(t: np.ndarray, y: np.ndarray,

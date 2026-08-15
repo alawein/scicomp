@@ -7,7 +7,7 @@ classdef LinearProgramming < handle
     % This class implements the simplex method for solving linear programming
     % problems with two-phase method for finding initial feasible solutions.
     %
-    % Author: Berkeley SciComp Team
+    % Author: Meshal Alawein
     % Date: 2024
     properties
         MaxIterations = 1000        % Maximum number of iterations

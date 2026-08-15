@@ -7,8 +7,8 @@ import datetime
 sys.path.insert(0, os.path.abspath('../Python'))
 # -- Project information -----------------------------------------------------
 project = 'SciComp'
-copyright = f'{datetime.datetime.now().year}, University of California, Berkeley'
-author = 'Meshal Alawein, UC Berkeley SciComp Team'
+copyright = f'{datetime.datetime.now().year}, Meshal Alawein'
+author = 'Meshal Alawein, Meshal Alawein'
 release = '1.0.0'
 version = '1.0.0'
 # -- General configuration ---------------------------------------------------

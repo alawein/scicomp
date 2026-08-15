@@ -18,7 +18,7 @@ from .physics_informed import *
 from .optimization import *
 from .utils import *
 __version__ = "1.0.0"
-__author__ = "Berkeley SciComp Team"
+__author__ = "Meshal Alawein"
 __all__ = [
     # Supervised learning
     'LinearRegression', 'PolynomialRegression', 'RidgeRegression',

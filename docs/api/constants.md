@@ -13,9 +13,8 @@ Provides fundamental physical constants and unit conversion factors
 used throughout scientific computing applications.
 All constants are given in SI units unless otherwise specified.
 Author: Meshal Alawein (contact@meshal.ai)
-Institution: University of California, Berkeley
 License: MIT
-Copyright © 2025 Meshal Alawein , All rights reserved.
+Copyright © 2025 Meshal Alawein
 ## Constants
 - **`NA`**
 ## Functions

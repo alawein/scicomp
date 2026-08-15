@@ -2,7 +2,7 @@ classdef ExplicitEuler < ODESolver
     %EXPLICITEULER Explicit Euler ODE solver
     %   First-order explicit method: y_{n+1} = y_n + h*f(t_n, y_n)
     %
-    %   Author: Berkeley SciComp Team
+    %   Author: Meshal Alawein
     %   Date: 2024
     methods
         function obj = ExplicitEuler(varargin)

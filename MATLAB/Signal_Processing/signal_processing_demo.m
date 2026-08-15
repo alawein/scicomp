@@ -7,7 +7,7 @@ function signal_processing_demo()
     % This script demonstrates various signal processing algorithms
     % implemented in the Berkeley SciComp Signal Processing toolbox.
     %
-    % Author: Berkeley SciComp Team
+    % Author: Meshal Alawein
     % Date: 2024
     fprintf('BERKELEY SCICOMP - SIGNAL PROCESSING DEMO\n');
     fprintf('=========================================\n\n');

@@ -10,7 +10,7 @@ Examples:
     - Adaptive mesh refinement
     - Continuation and bifurcation analysis
     - Multiphysics coupling example
-Author: Berkeley SciComp Team
+Author: Meshal Alawein
 Date: 2024
 """
 import numpy as np
