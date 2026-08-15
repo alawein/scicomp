@@ -10,14 +10,12 @@ sla: none
 ## Overview
 Berkeley SciComp Command Line Interface
 ======================================
-Professional command-line interface for the UC Berkeley Scientific Computing
-Framework, providing unified access to all computational tools, examples,
-and utilities with Berkeley branding and academic standards.
+Professional command-line interface for the SciComp Framework, providing
+unified access to all computational tools, examples, and utilities.
 Author: Meshal Alawein (contact@meshal.ai)
-Institution: University of California, Berkeley
 Created: 2025
 License: MIT
-Copyright © 2025 Meshal Alawein , All rights reserved.
+Copyright © 2025 Meshal Alawein
 ## Constants
 - **`BERKELEY_BLUE`**
 - **`CALIFORNIA_GOLD`**

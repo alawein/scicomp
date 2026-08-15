@@ -4,7 +4,7 @@ Comprehensive Tests for Neural Networks Module
 This test suite validates all neural network implementations in the Berkeley
 SciComp Machine Learning package, ensuring correctness, training dynamics,
 and scientific computing applications.
-Author: Berkeley SciComp Team
+Author: Meshal Alawein
 """
 import numpy as np
 import pytest

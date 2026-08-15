@@ -21,7 +21,7 @@ ALE: Arbitrary Lagrangian-Eulerian framework
 Functions:
 fsi_benchmark: Standard FSI benchmark problems
 vortex_induced_vibration: VIV analysis
-Author: Berkeley SciComp Team
+Author: Meshal Alawein
 Date: 2024
 ## Functions
 ### `fsi_benchmark(benchmark_name)`

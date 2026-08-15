@@ -3,10 +3,9 @@
 Quantum Physics Module
 Comprehensive quantum mechanics implementations including time-dependent dynamics,
 electronic structure theory, many-body systems, and quantum optics.
-Author: Meshal Alawein (meshal@berkeley.edu)
-Institution: University of California, Berkeley
+Author: Meshal Alawein (contact@meshal.ai)
 License: MIT
-Copyright © 2025 Meshal Alawein — All rights reserved.
+Copyright © 2025 Meshal Alawein
 """
 try:
     from . import quantum_dynamics

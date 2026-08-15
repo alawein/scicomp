@@ -4,7 +4,7 @@ Berkeley SciComp - Optimization Package
 A comprehensive optimization library for scientific computing applications
 including linear programming, nonlinear optimization, genetic algorithms,
 and multi-objective optimization.
-Author: Berkeley SciComp Team
+Author: Meshal Alawein
 Date: 2024
 Modules:
 --------
@@ -32,8 +32,8 @@ from .utils import *
 # from .visualization import *  # TODO: Implement visualization module
 # Package metadata
 __version__ = '1.0.0'
-__author__ = 'Berkeley SciComp Team'
-__email__ = 'scicomp@berkeley.edu'
+__author__ = 'Meshal Alawein'
+__email__ = 'contact@meshal.ai'
 # Export key classes
 __all__ = [
     # Unconstrained optimization

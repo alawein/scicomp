@@ -11,10 +11,9 @@ Key Features:
 - Automatic differentiation for quantum operators
 - Conservation law enforcement (probability, energy)
 - Multi-dimensional support (1D, 2D, 3D)
-Author: Meshal Alawein (meshal@berkeley.edu)
-Institution: University of California, Berkeley
+Author: Meshal Alawein (contact@meshal.ai)
 License: MIT
-Copyright © 2025 Meshal Alawein — All rights reserved.
+Copyright © 2025 Meshal Alawein
 """
 import numpy as np
 import tensorflow as tf

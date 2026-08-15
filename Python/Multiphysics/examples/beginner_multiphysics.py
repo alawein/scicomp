@@ -7,7 +7,7 @@ Topics covered:
 - Basic FSI concepts
 - Joule heating basics
 - Simple coupling strategies
-Author: Berkeley SciComp Team
+Author: Meshal Alawein
 Date: 2024
 """
 import numpy as np

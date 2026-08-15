@@ -9,7 +9,7 @@ Functions:
     monte_carlo_uncertainty: Standard MC uncertainty propagation
     sensitivity_analysis: Sobol sensitivity analysis
     polynomial_chaos_expansion: PCE surrogate modeling
-Author: Berkeley SciComp Team
+Author: Meshal Alawein
 Date: 2024
 """
 import numpy as np

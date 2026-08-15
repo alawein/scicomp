@@ -20,7 +20,7 @@ Functions:
 simulated_annealing: Convenience function for SA
 genetic_algorithm: Convenience function for GA
 particle_swarm: Convenience function for PSO
-Author: Berkeley SciComp Team
+Author: Meshal Alawein
 Date: 2024
 ## Functions
 ### `simulated_annealing(objective, bounds, initial_guess, initial_temperature, max_iterations, random_state)`

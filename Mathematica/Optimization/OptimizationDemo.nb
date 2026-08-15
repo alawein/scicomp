@@ -3,7 +3,7 @@
 (*** Wolfram Notebook File ***)
 (* http://www.wolfram.com/nb *)
 
-(* Created By: Berkeley SciComp Team *)
+(* Created By: Meshal Alawein *)
 (* Date: 2024 *)
 
 Notebook[{

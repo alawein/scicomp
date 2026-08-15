@@ -14,7 +14,7 @@ finite difference and finite element methods.
 Classes:
 HeatEquationSolver1D: 1D heat equation solver
 HeatEquationSolver2D: 2D heat equation solver
-Author: Berkeley SciComp Team
+Author: Meshal Alawein
 Date: 2025
 ## Classes
 ### `HeatEquationSolver1D`

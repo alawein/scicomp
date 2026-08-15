@@ -9,7 +9,7 @@ Learning Objectives:
 - Learn data preprocessing steps
 - Visualize model performance
 - Interpret regression results
-Author: Berkeley SciComp Team
+Author: Meshal Alawein
 """
 import numpy as np
 import matplotlib.pyplot as plt

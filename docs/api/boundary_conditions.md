@@ -21,7 +21,7 @@ BoundaryConditions: Container for multiple boundary conditions
 Functions:
 apply_boundary_conditions: Apply boundary conditions to system
 create_boundary_condition: Factory function for BC creation
-Author: Berkeley SciComp Team
+Author: Meshal Alawein
 Date: 2024
 ## Functions
 ### `apply_boundary_conditions(matrix, rhs, boundary_conditions, mesh, time)`

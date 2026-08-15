@@ -2,7 +2,7 @@
 
 (* Berkeley SciComp - Optimization Package *)
 (* Newton's Method Implementation *)
-(* Author: Berkeley SciComp Team *)
+(* Author: Meshal Alawein *)
 (* Date: 2024 *)
 
 BeginPackage["BerkeleySciComp`Optimization`NewtonMethod`"]

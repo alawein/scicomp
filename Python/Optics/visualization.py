@@ -1,7 +1,7 @@
 """Visualization Module for Optics.
 This module provides Berkeley-themed visualization tools for optical systems,
 beam profiles, ray diagrams, and interference patterns.
-Author: Berkeley SciComp Team
+Author: Meshal Alawein
 Date: 2024
 """
 import numpy as np

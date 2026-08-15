@@ -11,8 +11,8 @@ sla: none
 GPU acceleration support for SciComp.
 This module provides CUDA/GPU acceleration for computational physics using CuPy.
 Includes optimized kernels for quantum simulations, matrix operations, and FFTs.
-Author: UC Berkeley SciComp Team
-Copyright © 2025 Meshal Alawein , All rights reserved.
+Author: Meshal Alawein
+Copyright © 2025 Meshal Alawein
 ## Functions
 ### `gpu_accelerate_computation(func)`
 Decorator to automatically GPU-accelerate a function.

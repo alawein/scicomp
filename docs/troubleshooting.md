@@ -61,7 +61,7 @@ There is no automatic MATLAB test runner from the Python test suite.
 
 ## Diagnostic Steps
 
-1. Confirm the install is editable: `pip show berkeley-scicomp` should list the repo directory
+1. Confirm the install is editable: `pip show scicomp` should list the repo directory
    as the location.
 2. Run the validation script: `python scripts/validate_framework.py`.
 3. Run the test suite with verbose output: `pytest -v`.

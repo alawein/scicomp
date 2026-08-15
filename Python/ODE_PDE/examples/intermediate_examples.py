@@ -8,7 +8,7 @@ Examples:
     - Advection-diffusion equation
     - Nonlinear PDE (Burgers' equation)
     - Finite element method examples
-Author: Berkeley SciComp Team
+Author: Meshal Alawein
 Date: 2024
 """
 import numpy as np

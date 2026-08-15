@@ -5,8 +5,7 @@ SciComp Integration Tests
 Comprehensive integration testing to verify module interactions,
 data flow, and end-to-end workflows across the SciComp framework.
 
-Author: Meshal Alawein (meshal@berkeley.edu)
-Institution: University of California, Berkeley
+Author: Meshal Alawein (contact@meshal.ai)
 """
 
 import os
@@ -555,7 +554,6 @@ class IntegrationTester:
         """Run all integration tests."""
         print("🔗 SciComp Integration Tests")
         print("=" * 80)
-        print("University of California, Berkeley")
         print("Module Integration & Workflow Validation\n")
         
         # Define integration test suites

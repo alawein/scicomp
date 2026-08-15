@@ -7,7 +7,7 @@
 (*Berkeley SciComp Framework*)
 
 (* ::Author:: *)
-(*Berkeley SciComp Team*)
+(*Meshal Alawein*)
 
 (* ::Date:: *)
 (*2024*)

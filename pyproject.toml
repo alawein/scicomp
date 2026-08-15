@@ -2,7 +2,7 @@
 requires = ["setuptools>=45", "wheel", "setuptools_scm>=6.2"]
 build-backend = "setuptools.build_meta"
 [project]
-name = "berkeley-scicomp"
+name = "scicomp"
 dynamic = ["version"]
 description = "SciComp - A Cross-Platform Scientific Computing Suite for Research and Education"
 readme = "README.md"
@@ -89,7 +89,7 @@ all = [
     "ipywidgets>=7.6.0",
 ]
 [project.scripts]
-berkeley-scicomp = "Python.utils.cli:main"
+scicomp = "Python.utils.cli:main"
 bsc = "Python.utils.cli:main"
 [project.urls]
 Homepage = "https://github.com/alawein/scicomp"

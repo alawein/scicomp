@@ -20,7 +20,7 @@ Functions:
 pseudospectral_solve: General pseudospectral solver
 fourier_derivative: Fourier derivative computation
 chebyshev_derivative: Chebyshev derivative computation
-Author: Berkeley SciComp Team
+Author: Meshal Alawein
 Date: 2024
 ## Functions
 ### `pseudospectral_solve(pde_type, domain, n_modes, boundary_conditions, spectral_type)`

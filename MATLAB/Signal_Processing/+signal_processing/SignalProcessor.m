@@ -7,7 +7,7 @@ classdef SignalProcessor < handle
     % Comprehensive signal processing toolkit including filtering,
     % spectral analysis, and feature extraction.
     %
-    % Author: Berkeley SciComp Team
+    % Author: Meshal Alawein
     % Date: 2024
     properties
         SamplingRate    % Sampling frequency (Hz)

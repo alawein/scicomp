@@ -14,17 +14,15 @@
 % - Performance optimization settings
 % - Cross-platform compatibility checks
 %
-% Author: Meshal Alawein (meshal@berkeley.edu)
-% Institution: University of California, Berkeley
+% Author: Meshal Alawein (contact@meshal.ai)
 % License: MIT
-% Copyright © 2025 Meshal Alawein — All rights reserved.
+% Copyright © 2025 Meshal Alawein
 %% Display startup message
 fprintf('\n');
 fprintf('🔬 SciComp: Professional Scientific Computing Portfolio\n');
 fprintf('========================================================\n');
-fprintf('Author: Meshal Alawein (meshal@berkeley.edu)\n');
-fprintf('Institution: University of California, Berkeley\n');
-fprintf('License: MIT © 2025 Meshal Alawein — All rights reserved\n\n');
+fprintf('Author: Meshal Alawein (contact@meshal.ai)\n');
+fprintf('License: MIT © 2025 Meshal Alawein\n\n');
 %% Get SciComp root directory
 scicompRoot = fileparts(mfilename('fullpath'));
 fprintf('📁 SciComp root directory: %s\n', scicompRoot);
@@ -148,7 +146,7 @@ fprintf('   x = linspace(0, 2*pi, 100);\n');
 fprintf('   berkeleyPlot(x, sin(x), ''title'', ''Sine Wave'');\n\n');
 %% Completion message
 fprintf('✅ SciComp initialization complete!\n');
-fprintf('🐻💙💛 Ready for scientific computing at UC Berkeley\n');
+fprintf('🐻💙💛 Ready for scientific computing\n');
 fprintf('========================================================\n\n');
 %% Save workspace info
 fprintf('💾 Saving workspace information...\n');

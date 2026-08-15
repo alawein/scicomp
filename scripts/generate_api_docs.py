@@ -5,7 +5,7 @@ SciComp - API Documentation Generator
 Automatically generates comprehensive API documentation for all modules
 in the SciComp, including cross-references, examples,
 and Berkeley-styled formatting.
-Author: UC Berkeley SciComp Team
+Author: Meshal Alawein
 Date: 2025
 License: MIT
 """
@@ -38,8 +38,6 @@ class APIDocumentationGenerator:
         # Berkeley styling
         self.berkeley_header = """
 # 🐻 SciComp - API Reference
-![Berkeley SciComp](https://img.shields.io/badge/SciComp-003262?style=flat-square&logo=university)
-**University of California, Berkeley**
 **Scientific Computing Excellence Since 1868**
 ---
 """
@@ -273,14 +271,9 @@ class APIDocumentationGenerator:
         doc.append("- [Installation Guide](../docs/INSTALLATION_GUIDE.md)")
         doc.append("- [Contributing Guide](../CONTRIBUTING.md)")
         doc.append("- [Examples](../examples/)")
-        doc.append("- [GitHub Repository](https://github.com/berkeley/scicomp)")
+        doc.append("- [GitHub Repository](https://github.com/alawein/scicomp)")
         doc.append("")
-        # Berkeley footer
         doc.append("---")
-        doc.append("")
-        doc.append("**🐻💙💛 University of California, Berkeley 💙💛🐻**")
-        doc.append("")
-        doc.append("*Scientific Computing Excellence Since 1868*")
         doc.append("")
         return '\n'.join(doc)
     def generate_all_docs(self):
@@ -330,7 +323,6 @@ class APIDocumentationGenerator:
 def main():
     """Main function."""
     print(f"{Colors.BERKELEY_BLUE}🐻 SciComp - API Documentation Generator 🐻{Colors.RESET}")
-    print(f"{Colors.CALIFORNIA_GOLD}University of California, Berkeley{Colors.RESET}")
     print()
     # Get root path
     root_path = Path(__file__).parent.parent

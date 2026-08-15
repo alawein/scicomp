@@ -13,7 +13,7 @@ Global Optimization Algorithms
 This module implements various global optimization algorithms including
 metaheuristic methods, stochastic optimization, and population-based
 approaches for finding global optima in complex landscapes.
-Author: Berkeley SciComp Team
+Author: Meshal Alawein
 Date: 2024
 ## Constants
 - **`BERKELEY_BLUE`**

@@ -11,7 +11,7 @@ Functions:
     create_coupling_interface: Create interface between domains
     monolithic_coupling: Monolithic coupling approach
     partitioned_coupling: Partitioned coupling approach
-Author: Berkeley SciComp Team
+Author: Meshal Alawein
 Date: 2024
 """
 import numpy as np

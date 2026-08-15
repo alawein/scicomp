@@ -11,7 +11,7 @@ Classes:
 Functions:
     apply_boundary_conditions: Apply boundary conditions to system
     create_boundary_condition: Factory function for BC creation
-Author: Berkeley SciComp Team
+Author: Meshal Alawein
 Date: 2024
 """
 import numpy as np

@@ -7,7 +7,7 @@ Test categories:
 - Performance benchmarks
 - Convergence verification
 - Physical consistency checks
-Author: Berkeley SciComp Team
+Author: Meshal Alawein
 Date: 2024
 """
 import pytest

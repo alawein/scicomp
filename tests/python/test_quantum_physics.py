@@ -10,11 +10,10 @@ Test Categories:
 - Physics validation against analytical solutions
 - Numerical accuracy and stability tests
 - Performance and benchmark tests
-Author: Meshal Alawein (meshal@berkeley.edu)
-Institution: University of California, Berkeley
+Author: Meshal Alawein (contact@meshal.ai)
 Created: 2025
 License: MIT
-Copyright © 2025 Meshal Alawein — All rights reserved.
+Copyright © 2025 Meshal Alawein
 """
 import unittest
 import numpy as np

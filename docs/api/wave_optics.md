@@ -11,7 +11,7 @@ sla: none
 Wave Optics Module.
 This module provides thorough wave optics functionality including
 wave propagation, diffraction, interference, and coherence analysis.
-Author: Berkeley SciComp Team
+Author: Meshal Alawein
 Date: 2024
 ## Functions
 ### `propagate_fresnel(aperture_function, wavelength, propagation_distance, x_aperture, x_screen)`

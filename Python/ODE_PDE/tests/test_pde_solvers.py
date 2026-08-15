@@ -1,7 +1,7 @@
 """Tests for PDE solvers module.
 This module contains comprehensive tests for the PDE solving functionality
 including finite difference methods, various PDE types, and accuracy verification.
-Author: Berkeley SciComp Team
+Author: Meshal Alawein
 Date: 2024
 """
 import pytest

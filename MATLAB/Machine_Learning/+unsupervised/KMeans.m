@@ -18,7 +18,7 @@ classdef KMeans < handle
     %   centroids = kmeans.getCentroids();
     %   inertia = kmeans.getInertia();
     %
-    % Author: Berkeley SciComp Team
+    % Author: Meshal Alawein
     % Date: 2024
     properties (Access = private)
         centroids_

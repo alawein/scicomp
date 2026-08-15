@@ -4,7 +4,7 @@ SciComp - Deployment Script
 ==============================================
 Automated deployment script for the SciComp.
 Handles PyPI publishing, Docker image building, and documentation deployment.
-Author: UC Berkeley SciComp Team
+Author: Meshal Alawein
 Date: 2025
 License: MIT
 """
@@ -29,7 +29,6 @@ def print_berkeley_header():
     print(f"\n{Colors.BERKELEY_BLUE}{'='*80}{Colors.RESET}")
     print(f"{Colors.BERKELEY_BLUE}{Colors.BOLD}🐻 SciComp - Deployment Automation 🐻{Colors.RESET}")
     print(f"{Colors.BERKELEY_BLUE}{'='*80}{Colors.RESET}")
-    print(f"{Colors.CALIFORNIA_GOLD}University of California, Berkeley{Colors.RESET}")
     print(f"{Colors.CALIFORNIA_GOLD}Deploying Scientific Computing Excellence{Colors.RESET}")
     print(f"{Colors.BERKELEY_BLUE}{'='*80}{Colors.RESET}\n")
 class DeploymentManager:

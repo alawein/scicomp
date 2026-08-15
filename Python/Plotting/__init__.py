@@ -12,7 +12,7 @@ Features:
 - Time series analysis
 - Field visualization
 - Animation support
-Author: Berkeley SciComp Team
+Author: Meshal Alawein
 Date: 2024
 """
 # Berkeley color scheme
@@ -42,7 +42,7 @@ from .interactive_plots import *
 from .publication_plots import *
 # Version info
 __version__ = '1.0.0'
-__author__ = 'Berkeley SciComp Team'
+__author__ = 'Meshal Alawein'
 def demo():
     """
     Run a comprehensive demonstration of the plotting capabilities.

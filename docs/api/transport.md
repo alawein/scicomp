@@ -20,7 +20,7 @@ ConvectionDiffusionReaction: CDR equations
 Functions:
 species_transport: Multi-species transport
 coupled_flow_transport: Coupled flow and transport
-Author: Berkeley SciComp Team
+Author: Meshal Alawein
 Date: 2024
 ## Functions
 ### `species_transport(mesh, species_properties, flow_field, boundary_conditions, reactions)`

@@ -4,7 +4,7 @@ Comprehensive Tests for Physics-Informed Neural Networks Module
 This test suite validates the physics-informed ML implementations in the Berkeley
 SciComp package, ensuring PDE solving accuracy, physics compliance, and
 scientific computing reliability.
-Author: Berkeley SciComp Team
+Author: Meshal Alawein
 """
 import numpy as np
 import pytest

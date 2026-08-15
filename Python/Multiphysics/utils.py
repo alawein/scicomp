@@ -12,7 +12,7 @@ Classes:
     FieldInterpolator: Advanced field interpolation
     ConservationChecker: Conservation law verification
     ConvergenceDiagnostics: Convergence analysis tools
-Author: Berkeley SciComp Team
+Author: Meshal Alawein
 Date: 2024
 """
 import numpy as np

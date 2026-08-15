@@ -9,7 +9,7 @@ Learning Objectives:
 - Learn PDE-constrained optimization
 - Apply to heat equation and wave equation
 - Analyze solution accuracy and physics compliance
-Author: Berkeley SciComp Team
+Author: Meshal Alawein
 """
 import numpy as np
 import matplotlib.pyplot as plt

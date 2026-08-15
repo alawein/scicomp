@@ -17,7 +17,7 @@ HamiltonianMonteCarlo: Hamiltonian Monte Carlo sampler
 ImportanceSampler: Importance sampling
 RejectionSampler: Rejection sampling
 GibbsSampler: Gibbs sampling for multivariate distributions
-Author: Berkeley SciComp Team
+Author: Meshal Alawein
 Date: 2024
 ## Functions
 ### `metropolis_hastings(log_prob_func, initial_state, n_samples, burn_in, proposal_cov, random_state)`

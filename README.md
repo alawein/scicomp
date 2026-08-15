@@ -38,7 +38,7 @@ python scripts/validate_framework.py
 pytest
 ```
 
-CLI entry points: `berkeley-scicomp` or `bsc`. For MATLAB parity checks:
+CLI entry points: `scicomp` or `bsc`. For MATLAB parity checks:
 
 ```bash
 matlab -batch "run('tests/matlab/test_heat_transfer.m')"

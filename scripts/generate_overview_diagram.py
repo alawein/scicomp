@@ -3,8 +3,7 @@
 SciComp Overview Diagram Generator
 Generates the framework overview diagram programmatically using matplotlib.
 Creates a professional visualization showing the SciComp architecture.
-Author: Meshal Alawein (meshal@berkeley.edu)
-Institution: University of California, Berkeley
+Author: Meshal Alawein (contact@meshal.ai)
 """
 import matplotlib.pyplot as plt
 import matplotlib.patches as patches
@@ -32,9 +31,6 @@ def create_scicomp_overview():
     ax.text(7, 9.2, 'SciComp: Cross-Platform Scientific Computing Suite',
             fontsize=22, fontweight='bold', ha='center', va='center',
             color=BERKELEY_BLUE)
-    ax.text(7, 8.7, 'University of California, Berkeley',
-            fontsize=14, ha='center', va='center',
-            color=CALIFORNIA_GOLD, style='italic')
     # Central hexagonal framework
     hexagon = patches.RegularPolygon((7, 5), 6, radius=2.5,
                                    facecolor=LIGHT_BLUE,
@@ -132,8 +128,8 @@ def create_scicomp_overview():
             ha='center', va='center', color=BERKELEY_BLUE, zorder=3)
     ax.text(11.5, 0.6, '• Cross-Platform Compatible', fontsize=10,
             ha='center', va='center', color=BERKELEY_BLUE, zorder=3)
-    # UC Berkeley branding
-    ax.text(0.5, 0.5, 'UC Berkeley', fontsize=14, fontweight='bold',
+    # Branding
+    ax.text(0.5, 0.5, 'SciComp', fontsize=14, fontweight='bold',
             ha='left', va='bottom', color=BERKELEY_BLUE, zorder=3)
     ax.text(0.5, 0.2, 'Scientific Computing Excellence', fontsize=10,
             ha='left', va='bottom', color=CALIFORNIA_GOLD,
@@ -166,9 +162,6 @@ def create_simple_logo():
     ax.text(4, 0.8, 'Cross-Platform Scientific Computing Suite',
             fontsize=16, ha='center', va='center',
             color=CALIFORNIA_GOLD, style='italic')
-    # UC Berkeley attribution
-    ax.text(4, 0.3, 'University of California, Berkeley',
-            fontsize=12, ha='center', va='center', color=BERKELEY_BLUE)
     return fig
 def main():
     """Generate both overview diagram and logo."""

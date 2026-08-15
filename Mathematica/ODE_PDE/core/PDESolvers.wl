@@ -3,7 +3,7 @@
 (* PDE Solvers Package for Mathematica
    Comprehensive PDE solving functionality with Berkeley SciComp standards
    
-   Author: Berkeley SciComp Team
+   Author: Meshal Alawein
    Date: 2024
 *)
 
