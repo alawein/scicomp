@@ -61,7 +61,7 @@ pdoc>=15.0.4
 # Interactive development
 ipython>=8.18.1
 jupyter>=1.0.0
-jupyterlab>=4.5.7
+jupyterlab>=4.6.0
 ipywidgets>=8.0.0
 # Profiling and debugging
 line-profiler>=5.0.2
