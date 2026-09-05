@@ -9,7 +9,13 @@ Created: 2025
 License: MIT
 """
 # Version information
-__version__ = "1.0.0"
+try:
+    from importlib.metadata import version as _distribution_version
+
+    __version__ = _distribution_version("scicomp")
+except Exception:
+    # A source checkout without installed distribution metadata is not a release.
+    __version__ = "0+unknown"
 __author__ = "Meshal Alawein"
 __email__ = "contact@meshal.ai"
 __license__ = "MIT"

@@ -46,8 +46,8 @@ def tutorial_quantum_basics(output_dir: Path):
         # Demonstrate superposition
         alpha, beta = 0.6, 0.8
         superposition = QuantumState([alpha, beta])
-        prob_0 = superposition.measurement_probability(0)
-        prob_1 = superposition.measurement_probability(1)
+        probabilities = np.abs(superposition.state_vector) ** 2
+        prob_0, prob_1 = probabilities[0], probabilities[1]
         print(f"   Superposition state |ψ⟩ = {alpha}|0⟩ + {beta}|1⟩")
         print(f"   P(|0⟩) = {prob_0:.3f}, P(|1⟩) = {prob_1:.3f}")
     except ImportError as e:
@@ -60,7 +60,8 @@ def tutorial_signal_processing(output_dir: Path):
     """Tutorial on signal processing basics."""
     print("   Analyzing signals with Fourier transforms...")
     try:
-        from Signal_Processing.core.fourier_transforms import FFT, SpectralAnalysis
+        from Signal_Processing.core.fourier_transforms import FFT
+        from Signal_Processing.spectral_analysis import SpectralAnalyzer
         # Create a test signal: sine wave with noise
         t = np.linspace(0, 1, 1000)
         frequency = 50  # Hz
@@ -74,8 +75,9 @@ def tutorial_signal_processing(output_dir: Path):
         print(f"   Signal created with frequency: {frequency} Hz")
         print(f"   FFT detected dominant frequency: {dominant_freq:.1f} Hz")
         # Spectral analysis
-        spectral = SpectralAnalysis()
-        power_spectrum = spectral.power_spectral_density(signal, sample_rate=1000)
+        spectral = SpectralAnalyzer(sampling_rate=1000)
+        psd_frequencies, power_spectrum = spectral.compute_power_spectrum(signal)
+        print(f"   PSD bins computed: {len(psd_frequencies)}")
         # Plot signal and spectrum
         plt.figure(figsize=(12, 5))
         plt.subplot(1, 2, 1)

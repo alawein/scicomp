@@ -7,7 +7,7 @@ sla: none
 
 # SciComp Installation
 
-[![Python](https://img.shields.io/badge/Python-3.8%2B-blue?style=flat-square&logo=python)](https://python.org)
+[![Python](https://img.shields.io/badge/Python-3.10%2B-blue?style=flat-square&logo=python)](https://python.org)
 [![License](https://img.shields.io/badge/License-MIT-green?style=flat-square)](../LICENSE)
 
 ## Quick Start
@@ -23,7 +23,7 @@ docker run -p 8888:8888 alawein/scicomp:latest
 ```
 ## Requirements
 
-- Python 3.8+
+- Python 3.10+
 - Windows 10+/macOS 10.14+/Linux  
 - 4 GB RAM, 2 GB storage
 ### Recommended Requirements
@@ -55,7 +55,9 @@ pip install scicomp[ml]
 # Performance optimization
 pip install scicomp[performance]
 # Enhanced visualization
-pip install scicomp[visualization]
+pip install scicomp[viz]
+# Quantum-computing integrations
+pip install scicomp[quantum]
 # Documentation tools
 pip install scicomp[docs]
 # Development tools
@@ -100,8 +102,12 @@ pip install -e .
 # Install development dependencies
 pip install -e .[dev]
 # Verify installation
-python -m pytest tests/ -v
+python -m pytest
 ```
+
+See the [support matrix](SUPPORT_MATRIX.md) before running optional examples:
+the Python core is verified in CI, while optional modules and non-Python
+language trees are experimental.
 #### Development Setup
 ```bash
 # Install pre-commit hooks
