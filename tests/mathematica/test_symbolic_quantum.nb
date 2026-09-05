@@ -9,7 +9,7 @@
 
 
 (* ::Text:: *)
-(*Advanced testing framework for symbolic quantum mechanics implementations in the Berkeley SciComp Mathematica framework. Validates analytical solutions, operator algebra, and mathematical consistency.*)
+(*Advanced testing framework for symbolic quantum mechanics implementations in the SciComp Mathematica framework. Validates analytical solutions, operator algebra, and mathematical consistency.*)
 (**)
 (*Test Categories:*)
 (*- Harmonic oscillator analytical solutions*)
@@ -20,12 +20,11 @@
 (*- Special function identities*)
 (*- Numerical precision and convergence*)
 (**)
-(*Author: Meshal Alawein (meshal@berkeley.edu)*)
-(*Institution: University of California, Berkeley*)
+(*Author: Meshal Alawein (contact@meshal.ai)*)
 (*Created: 2025*)
 (*License: MIT*)
 (**)
-(*Copyright \[Copyright] 2025 Meshal Alawein \[LongDash] All rights reserved.*)
+(*Copyright \[Copyright] 2025 Meshal Alawein*)
 
 
 (* ::Section:: *)

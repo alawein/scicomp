@@ -7,23 +7,23 @@ sla: none
 
 # SciComp Installation
 
-[![Python](https://img.shields.io/badge/Python-3.8%2B-blue?style=flat-square&logo=python)](https://python.org)
+[![Python](https://img.shields.io/badge/Python-3.10%2B-blue?style=flat-square&logo=python)](https://python.org)
 [![License](https://img.shields.io/badge/License-MIT-green?style=flat-square)](../LICENSE)
 
 ## Quick Start
 ```bash
-pip install berkeley-scicomp
+pip install scicomp
 python -c "import Python.Quantum; print('SciComp ready')"
 ```
 
 Docker option:
 ```bash  
-docker pull berkeley/scicomp:latest
-docker run -p 8888:8888 berkeley/scicomp:latest
+docker pull alawein/scicomp:latest
+docker run -p 8888:8888 alawein/scicomp:latest
 ```
 ## Requirements
 
-- Python 3.8+
+- Python 3.10+
 - Windows 10+/macOS 10.14+/Linux  
 - 4 GB RAM, 2 GB storage
 ### Recommended Requirements
@@ -38,46 +38,48 @@ docker run -p 8888:8888 berkeley/scicomp:latest
 #### Basic Installation
 ```bash
 # Create virtual environment (recommended)
-python -m venv berkeley-scicomp-env
-source berkeley-scicomp-env/bin/activate  # Linux/macOS
-# berkeley-scicomp-env\Scripts\activate   # Windows
+python -m venv scicomp-env
+source scicomp-env/bin/activate  # Linux/macOS
+# scicomp-env\Scripts\activate   # Windows
 # Install base package
-pip install berkeley-scicomp
+pip install scicomp
 # Test installation
 python -c "from Python.Quantum.core.quantum_states import BellStates; print('✅ Quantum module ready')"
 ```
 #### Feature-Specific Installations
 ```bash
 # GPU acceleration support
-pip install berkeley-scicomp[gpu]
+pip install scicomp[gpu]
 # Machine learning capabilities
-pip install berkeley-scicomp[ml]
+pip install scicomp[ml]
 # Performance optimization
-pip install berkeley-scicomp[performance]
+pip install scicomp[performance]
 # Enhanced visualization
-pip install berkeley-scicomp[visualization]
+pip install scicomp[viz]
+# Quantum-computing integrations
+pip install scicomp[quantum]
 # Documentation tools
-pip install berkeley-scicomp[docs]
+pip install scicomp[docs]
 # Development tools
-pip install berkeley-scicomp[dev]
+pip install scicomp[dev]
 # Everything included
-pip install berkeley-scicomp[all]
+pip install scicomp[all]
 ```
 ### Method 2: Docker Installation
 #### Quick Start Container
 ```bash
 # Pull the latest image
-docker pull berkeley/scicomp:latest
+docker pull alawein/scicomp:latest
 # Run with Jupyter Lab
-docker run -p 8888:8888 berkeley/scicomp:latest
+docker run -p 8888:8888 alawein/scicomp:latest
 # Run with local data mounting
-docker run -p 8888:8888 -v $(pwd)/data:/app/data berkeley/scicomp:latest
+docker run -p 8888:8888 -v $(pwd)/data:/app/data alawein/scicomp:latest
 # Run interactive container
-docker run -it berkeley/scicomp:latest /bin/bash
+docker run -it alawein/scicomp:latest /bin/bash
 ```
 #### Custom Container Build
 ```dockerfile
-FROM berkeley/scicomp:latest
+FROM alawein/scicomp:latest
 # Add your custom dependencies
 RUN pip install your-additional-packages
 # Copy your code
@@ -100,8 +102,12 @@ pip install -e .
 # Install development dependencies
 pip install -e .[dev]
 # Verify installation
-python -m pytest tests/ -v
+python -m pytest
 ```
+
+See the [support matrix](SUPPORT_MATRIX.md) before running optional examples:
+the Python core is verified in CI, while optional modules and non-Python
+language trees are experimental.
 #### Development Setup
 ```bash
 # Install pre-commit hooks
@@ -132,10 +138,10 @@ pip --version
 #### Installation
 ```powershell
 # Create virtual environment
-python -m venv berkeley-scicomp-env
-berkeley-scicomp-env\Scripts\activate
+python -m venv scicomp-env
+scicomp-env\Scripts\activate
 # Install Berkeley SciComp
-pip install berkeley-scicomp[all]
+pip install scicomp[all]
 # Test installation
 python -c "import Python.Quantum; print('Windows installation successful!')"
 ```
@@ -159,10 +165,10 @@ brew install gcc gfortran openblas lapack
 #### Installation
 ```bash
 # Create virtual environment
-python3 -m venv berkeley-scicomp-env
-source berkeley-scicomp-env/bin/activate
+python3 -m venv scicomp-env
+source scicomp-env/bin/activate
 # Install Berkeley SciComp
-pip install berkeley-scicomp[all]
+pip install scicomp[all]
 # For macOS-specific optimizations
 pip install accelerate  # Apple Silicon optimization
 ```
@@ -172,11 +178,11 @@ pip install accelerate  # Apple Silicon optimization
 wget https://github.com/conda-forge/miniforge/releases/latest/download/Miniforge3-MacOSX-arm64.sh
 bash Miniforge3-MacOSX-arm64.sh
 # Create conda environment
-conda create -n berkeley-scicomp python=3.11
-conda activate berkeley-scicomp
+conda create -n scicomp python=3.11
+conda activate scicomp
 # Install with conda-forge packages for better ARM64 support
 conda install -c conda-forge numpy scipy matplotlib
-pip install berkeley-scicomp
+pip install scicomp
 ```
 ### Linux (Ubuntu/Debian)
 #### Prerequisites
@@ -193,12 +199,12 @@ sudo apt install nvidia-cuda-toolkit  # if using NVIDIA GPU
 #### Installation
 ```bash
 # Create virtual environment
-python3 -m venv berkeley-scicomp-env
-source berkeley-scicomp-env/bin/activate
+python3 -m venv scicomp-env
+source scicomp-env/bin/activate
 # Upgrade pip
 pip install --upgrade pip setuptools wheel
 # Install Berkeley SciComp
-pip install berkeley-scicomp[all]
+pip install scicomp[all]
 # Verify installation
 python -c "import Python; print('Linux installation successful!')"
 ```
@@ -213,7 +219,7 @@ sudo dnf groupinstall "Development Tools"
 sudo dnf install python3-devel python3-pip
 sudo dnf install openblas-devel lapack-devel
 # Continue with standard installation
-pip install berkeley-scicomp[all]
+pip install scicomp[all]
 ```
 ---
 ## ⚡ GPU Acceleration Setup
@@ -260,12 +266,12 @@ python -c "import torch; print(torch.backends.mps.is_available())"
 ### Using Conda/Mamba
 ```bash
 # Create conda environment
-conda create -n berkeley-scicomp python=3.11
-conda activate berkeley-scicomp
+conda create -n scicomp python=3.11
+conda activate scicomp
 # Install scientific computing stack via conda-forge
 conda install -c conda-forge numpy scipy matplotlib sympy h5py
 # Install Berkeley SciComp via pip (no conda package yet)
-pip install berkeley-scicomp
+pip install scicomp
 # For GPU support through conda
 conda install -c conda-forge cupy  # CUDA support
 conda install -c conda-forge pytorch  # PyTorch with GPU
@@ -273,7 +279,7 @@ conda install -c conda-forge pytorch  # PyTorch with GPU
 ### Environment File
 Create `environment.yml`:
 ```yaml
-name: berkeley-scicomp
+name: scicomp
 channels:
   - conda-forge
   - pytorch
@@ -288,12 +294,12 @@ dependencies:
   - pytest
   - pip
   - pip:
-    - berkeley-scicomp[all]
+    - scicomp[all]
 ```
 Install:
 ```bash
 conda env create -f environment.yml
-conda activate berkeley-scicomp
+conda activate scicomp
 ```
 ---
 ## 🧪 Verify Installation
@@ -381,10 +387,10 @@ if __name__ == "__main__":
 # Solution: Check if package is installed in correct environment
 import sys
 print(sys.path)  # Verify Python path
-pip list | grep berkeley-scicomp  # Check if installed
+pip list | grep scicomp  # Check if installed
 # Reinstall if necessary
-pip uninstall berkeley-scicomp
-pip install berkeley-scicomp[all]
+pip uninstall scicomp
+pip install scicomp[all]
 ```
 #### Installation Failures
 ```bash
@@ -392,7 +398,7 @@ pip install berkeley-scicomp[all]
 # Solution: Upgrade build tools
 pip install --upgrade pip setuptools wheel
 # Install with no cache to force rebuild
-pip install --no-cache-dir berkeley-scicomp[all]
+pip install --no-cache-dir scicomp[all]
 # On Windows, install Visual C++ Build Tools
 # Download from: https://visualstudio.microsoft.com/visual-cpp-build-tools/
 ```
@@ -435,10 +441,10 @@ gc.collect()
 - **Solution**: Ensure proper permissions or use virtual environment
 ### Getting Help
 If you encounter issues not covered here:
-1. **Check Documentation**: https://berkeley-scicomp.readthedocs.io
+1. **Check Documentation**: https://scicomp.readthedocs.io
 2. **GitHub Issues**: https://github.com/alawein/scicomp/issues
 3. **Discussions**: https://github.com/alawein/scicomp/discussions
-4. **Email Support**: scicomp@berkeley.edu
+4. **Email Support**: contact@meshal.ai
 ---
 ## 🚀 Next Steps
 After successful installation:
@@ -463,13 +469,8 @@ After successful installation:
 ## 📄 License
 MIT License - see [LICENSE](../LICENSE) file for details.
 ---
-## 🏛️ About UC Berkeley
-The SciComp is developed at the **University of California, Berkeley**.
+## 👤 Author
 **Contact Information**:
-- **Email**: scicomp@berkeley.edu
-- **Principal Architect**: Meshal Alawein (contact@meshal.ai)
-- **Institution**: University of California, Berkeley
+- **Email**: contact@meshal.ai
+- **Author**: Meshal Alawein (contact@meshal.ai)
 - **GitHub**: https://github.com/alawein/scicomp
----
-**🐻💙💛 Go Bears! Fiat Lux - Let There Be Light 💙💛🐻**
-*University of California, Berkeley - Scientific Computing Excellence Since 1868*

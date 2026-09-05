@@ -10,10 +10,9 @@ where:
 - u(x,t) is temperature/concentration field
 - α is thermal diffusivity/diffusion coefficient
 - f(x,t) is source term
-Author: Meshal Alawein (meshal@berkeley.edu)
-Institution: University of California, Berkeley
+Author: Meshal Alawein (contact@meshal.ai)
 License: MIT
-Copyright © 2025 Meshal Alawein — All rights reserved.
+Copyright © 2025 Meshal Alawein
 """
 import numpy as np
 import tensorflow as tf

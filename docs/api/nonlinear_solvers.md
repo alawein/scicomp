@@ -23,7 +23,7 @@ newton_raphson: Newton-Raphson solver
 solve_nonlinear_ode: Nonlinear ODE solver
 solve_nonlinear_pde: Nonlinear PDE solver
 continuation_method: Parameter continuation
-Author: Berkeley SciComp Team
+Author: Meshal Alawein
 Date: 2024
 ## Functions
 ### `newton_raphson(f, x0, jacobian, tolerance, max_iterations)`

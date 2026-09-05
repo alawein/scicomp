@@ -16,7 +16,7 @@ Features:
 - Berkeley-themed visualizations
 - Scientific computing integration
 
-Author: Berkeley SciComp Team
+Author: Meshal Alawein
 Date: 2024
 *)
 

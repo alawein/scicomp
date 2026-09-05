@@ -3,7 +3,7 @@ classdef RayOptics < handle
     %   Comprehensive ray tracing functionality including ray propagation,
     %   optical surfaces, and system analysis
     %
-    %   Author: Berkeley SciComp Team
+    %   Author: Meshal Alawein
     %   Date: 2024
     properties (Access = public)
         surfaces           % Cell array of optical surfaces

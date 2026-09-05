@@ -2,7 +2,7 @@ classdef ODESolver < handle
     %ODESOLVER Base class for ODE solvers
     %   Provides common interface and functionality for all ODE solving methods
     %
-    %   Author: Berkeley SciComp Team
+    %   Author: Meshal Alawein
     %   Date: 2024
     properties (Access = protected)
         tolerance = 1e-8        % Error tolerance
@@ -10,7 +10,7 @@ classdef ODESolver < handle
         current_time = 0        % Current time
         current_solution        % Current solution vector
         step_count = 0          % Number of steps taken
-        berkeley_blue = [0, 50, 98]/255      % UC Berkeley Blue
+        berkeley_blue = [0, 50, 98]/255      % Berkeley Blue
         california_gold = [253, 181, 21]/255 % California Gold
     end
     properties (Access = public)

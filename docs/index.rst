@@ -5,7 +5,7 @@
 
 .. image:: https://img.shields.io/badge/Berkeley-SciComp-003262?style=flat-square&logo=university
    :alt: Berkeley SciComp
-   :target: https://github.com/berkeley/scicomp
+   :target: https://github.com/alawein/scicomp
 
 .. image:: https://img.shields.io/badge/version-1.0.0-blue?style=flat-square
    :alt: Version
@@ -13,16 +13,8 @@
 .. image:: https://img.shields.io/badge/license-MIT-green?style=flat-square
    :alt: License
 
-**University of California, Berkeley**
-
-**Scientific Computing Excellence Since 1868**
-
-Welcome to the comprehensive documentation for the Berkeley SciComp Framework, 
-a cutting-edge scientific computing platform developed at UC Berkeley.
-
-.. note::
-   This framework represents the culmination of Berkeley's commitment to 
-   excellence in computational physics, quantum mechanics, and scientific computing.
+Welcome to the comprehensive documentation for the Berkeley SciComp Framework,
+a cutting-edge scientific computing platform.
 
 Quick Start
 -----------
@@ -31,7 +23,7 @@ Install the framework:
 
 .. code-block:: bash
 
-   pip install berkeley-scicomp
+   pip install scicomp
 
 Get started with a simple example:
 
@@ -71,9 +63,6 @@ Key Features
 
 ⚡ **GPU Acceleration**
    CUDA-accelerated computations with automatic CPU fallback.
-
-📊 **Berkeley Integration**
-   Official UC Berkeley branding, colors, and academic standards compliance.
 
 Documentation Contents
 -----------------------
@@ -156,10 +145,9 @@ Performance Metrics
 Getting Help
 ------------
 
-- **Documentation**: https://berkeley-scicomp.readthedocs.io
-- **GitHub Issues**: https://github.com/berkeley/scicomp/issues
-- **Email Support**: meshal@berkeley.edu
-- **Berkeley Community**: UC Berkeley Physics & Engineering
+- **Documentation**: https://scicomp.readthedocs.io
+- **GitHub Issues**: https://github.com/alawein/scicomp/issues
+- **Email Support**: contact@meshal.ai
 
 Citation
 --------
@@ -170,25 +158,11 @@ If you use the Berkeley SciComp Framework in your research, please cite:
 
    @software{berkeley_scicomp,
      title = {Berkeley SciComp Framework: Scientific Computing Excellence},
-     author = {Alawein, Meshal and UC Berkeley SciComp Team},
-     institution = {University of California, Berkeley},
+     author = {Alawein, Meshal},
      year = {2025},
-     url = {https://github.com/berkeley/scicomp},
+     url = {https://github.com/alawein/scicomp},
      version = {1.0.0}
    }
-
-Berkeley Excellence
--------------------
-
-.. note::
-   🎓 **Fiat Lux** - *Let There Be Light*
-   
-   The Berkeley SciComp Framework embodies UC Berkeley's mission of advancing 
-   human knowledge through computational excellence and open science.
-
-**💙💛 University of California, Berkeley 💙💛**
-
-*Scientific Computing Excellence Since 1868*
 
 Indices and tables
 ==================

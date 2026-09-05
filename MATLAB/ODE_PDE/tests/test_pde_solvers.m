@@ -2,7 +2,7 @@ function test_pde_solvers()
 %TEST_PDE_SOLVERS Test suite for PDE solvers
 %   Comprehensive tests for all PDE solving functionality
 %
-%   Author: Berkeley SciComp Team
+%   Author: Meshal Alawein
 %   Date: 2024
 fprintf('Running PDE Solver Tests\n');
 fprintf('========================\n\n');

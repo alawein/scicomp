@@ -16,7 +16,7 @@ classdef Adam < handle
     %   adam = optimization.Adam(0.001, 'Beta1', 0.9, 'Beta2', 0.999);
     %   [x_opt, f_opt, history] = adam.minimize(@objective, x0, 'MaxIter', 1000);
     %
-    % Author: Berkeley SciComp Team
+    % Author: Meshal Alawein
     % Date: 2024
     properties (Access = private)
         m_  % First moment estimate

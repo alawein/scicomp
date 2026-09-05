@@ -11,7 +11,7 @@ sla: none
 Scientific Plotting Module
 =========================
 Professional scientific plotting with Berkeley branding and publication-ready formatting.
-Author: Berkeley SciComp Team
+Author: Meshal Alawein
 Date: 2024
 ## Constants
 - **`BERKELEY_BLUE`**

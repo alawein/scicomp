@@ -7,7 +7,7 @@ classdef GeneticAlgorithm < handle
     % This class implements a genetic algorithm for global optimization
     % with various selection, crossover, and mutation operators.
     %
-    % Author: Berkeley SciComp Team
+    % Author: Meshal Alawein
     % Date: 2024
     properties
         PopulationSize = 50         % Population size

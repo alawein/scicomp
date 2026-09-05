@@ -1,7 +1,7 @@
 """Tests for nonlinear solvers module.
 This module contains comprehensive tests for nonlinear solving functionality
 including Newton methods, continuation methods, and convergence analysis.
-Author: Berkeley SciComp Team
+Author: Meshal Alawein
 Date: 2024
 """
 import pytest

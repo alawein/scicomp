@@ -3,7 +3,7 @@ Stochastic Processes Module
 ===========================
 Implementation of various stochastic processes and methods for scientific computing,
 including Brownian motion, random walks, SDEs, and Monte Carlo simulations.
-Author: Berkeley SciComp Team
+Author: Meshal Alawein
 Date: 2024
 """
 import numpy as np

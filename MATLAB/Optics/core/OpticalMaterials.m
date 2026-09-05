@@ -3,7 +3,7 @@ classdef OpticalMaterials < handle
     %   Comprehensive optical material properties including refractive index
     %   models, dispersion analysis, and material databases
     %
-    %   Author: Berkeley SciComp Team
+    %   Author: Meshal Alawein
     %   Date: 2024
     properties (Access = public)
         materials_database  % Container for material properties

@@ -7,7 +7,7 @@ Constants:
 Functions:
     get_distribution: Get standard probability distribution
     standard_distributions: Dictionary of standard distributions
-Author: Berkeley SciComp Team
+Author: Meshal Alawein
 Date: 2024
 """
 import numpy as np

@@ -19,7 +19,7 @@ classdef MLP < handle
     %   net.fit(X, y, 'Epochs', 100, 'BatchSize', 32);
     %   predictions = net.predict(X_test);
     %
-    % Author: Berkeley SciComp Team
+    % Author: Meshal Alawein
     % Date: 2024
     properties (Access = private)
         weights_

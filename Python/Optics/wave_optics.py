@@ -1,7 +1,7 @@
 """Wave Optics Module.
 This module provides comprehensive wave optics functionality including
 wave propagation, diffraction, interference, and coherence analysis.
-Author: Berkeley SciComp Team
+Author: Meshal Alawein
 Date: 2024
 """
 import numpy as np

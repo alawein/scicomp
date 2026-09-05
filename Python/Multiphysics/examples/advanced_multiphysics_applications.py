@@ -8,7 +8,7 @@ Topics covered:
 - Uncertainty quantification in coupled systems
 - High-performance computing considerations
 - Industrial applications (nuclear, aerospace, biomedical)
-Author: Berkeley SciComp Team
+Author: Meshal Alawein
 Date: 2024
 """
 import numpy as np

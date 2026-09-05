@@ -10,7 +10,7 @@ Topics covered:
 - Electromagnetism (electric fields, circuits)
 - Quantum mechanics (particle in a box, tunneling)
 - Thermodynamics (gas laws, heat engines)
-Author: UC Berkeley SciComp Team
+Author: Meshal Alawein
 Date: 2025
 License: MIT
 """

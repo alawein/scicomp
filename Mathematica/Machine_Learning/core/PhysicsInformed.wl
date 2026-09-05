@@ -15,7 +15,7 @@ Features:
 - Berkeley-themed scientific visualizations
 - Advanced PDE solving capabilities
 
-Author: Berkeley SciComp Team
+Author: Meshal Alawein
 Date: 2024
 *)
 

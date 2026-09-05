@@ -3,7 +3,7 @@
 (* ODE Solvers Package for Mathematica
    Comprehensive ODE solving functionality with Berkeley SciComp standards
    
-   Author: Berkeley SciComp Team
+   Author: Meshal Alawein
    Date: 2024
 *)
 

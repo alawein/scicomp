@@ -12,9 +12,8 @@ Unit Conversion Module
 Provides thorough unit conversion capabilities for scientific computing,
 including energy, length, time, mass, and other physical quantities.
 Author: Meshal Alawein (contact@meshal.ai)
-Institution: University of California, Berkeley
 License: MIT
-Copyright © 2025 Meshal Alawein , All rights reserved.
+Copyright © 2025 Meshal Alawein
 ## Functions
 ### `energy_convert(value, from_unit, to_unit)`
 Convert energy units.

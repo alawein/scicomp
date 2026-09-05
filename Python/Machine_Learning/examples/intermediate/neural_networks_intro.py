@@ -9,7 +9,7 @@ Learning Objectives:
 - Learn training dynamics and optimization
 - Apply to nonlinear scientific problems
 - Analyze network behavior and performance
-Author: Berkeley SciComp Team
+Author: Meshal Alawein
 """
 import numpy as np
 import matplotlib.pyplot as plt

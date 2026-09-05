@@ -10,7 +10,7 @@ Functions:
     pseudospectral_solve: General pseudospectral solver
     fourier_derivative: Fourier derivative computation
     chebyshev_derivative: Chebyshev derivative computation
-Author: Berkeley SciComp Team
+Author: Meshal Alawein
 Date: 2024
 """
 import numpy as np

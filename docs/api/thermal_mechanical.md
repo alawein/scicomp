@@ -20,7 +20,7 @@ HeatGenerationModel: Heat generation from deformation
 Functions:
 thermal_stress_analysis: Compute thermal stresses
 coupled_heat_conduction: Solve coupled heat transfer
-Author: Berkeley SciComp Team
+Author: Meshal Alawein
 Date: 2024
 ## Functions
 ### `thermal_stress_analysis(geometry, temperature_field, material, constraint_type)`

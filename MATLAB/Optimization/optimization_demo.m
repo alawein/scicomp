@@ -7,7 +7,7 @@ function optimization_demo()
     % This script demonstrates various optimization algorithms implemented
     % in the Berkeley SciComp Optimization toolbox.
     %
-    % Author: Berkeley SciComp Team
+    % Author: Meshal Alawein
     % Date: 2024
     fprintf('BERKELEY SCICOMP - OPTIMIZATION TOOLBOX DEMO\n');
     fprintf('==========================================\n\n');

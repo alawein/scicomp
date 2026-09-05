@@ -11,7 +11,7 @@ sla: none
 Optical Materials Module.
 This module provides thorough optical material properties including
 refractive index models, dispersion analysis, and material databases.
-Author: Berkeley SciComp Team
+Author: Meshal Alawein
 Date: 2024
 ## Functions
 ### `create_material_database()`

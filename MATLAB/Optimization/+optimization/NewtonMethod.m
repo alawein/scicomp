@@ -7,7 +7,7 @@ classdef NewtonMethod < handle
     % This class implements Newton's method with line search and Hessian
     % modification strategies for unconstrained optimization.
     %
-    % Author: Berkeley SciComp Team
+    % Author: Meshal Alawein
     % Date: 2024
     properties
         MaxIterations = 1000        % Maximum number of iterations

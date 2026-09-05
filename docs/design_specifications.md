@@ -17,7 +17,6 @@ sla: none
    - Nucleus: Small circle in California Gold
    - Electron orbits: Two intersecting ellipses in Berkeley Blue
 3. **Tagline**: "Cross-Platform Scientific Computing" in smaller text below
-4. **UC Berkeley Integration**: Small "UC Berkeley" text or bear silhouette
 **Layout Options**:
 - **Horizontal**: Logo + tagline side by side
 - **Vertical**: Logo above tagline
@@ -61,7 +60,6 @@ sla: none
 ### Visual Connections
 - **Flow Arrows**: Berkeley Blue arrows showing data flow
 - **Golden Ratio Grid**: Subtle California Gold grid lines
-- **UC Berkeley Branding**: Small bear silhouette or "UC Berkeley" text
 ### Typography
 - **Headers**: Bold, modern sans-serif in Berkeley Blue
 - **Subtext**: Regular weight in dark gray
@@ -135,17 +133,16 @@ plt.tight_layout()
 plt.savefig('scicomp_overview.png', dpi=300, bbox_inches='tight')
 plt.show()
 ```
-## Brand Guidelines
+## Style Guidelines
 ### Do's:
 - Use Berkeley Blue and California Gold as primary colors
 - Maintain clean, professional appearance
-- Include UC Berkeley attribution
 - Use modern, readable fonts
 - Ensure scalability across sizes
 ### Don'ts:
 - Don't use Comic Sans or overly decorative fonts
 - Avoid cluttered designs
-- Don't use colors that conflict with UC Berkeley branding
+- Don't use colors that clash with the primary palette
 - Avoid low-resolution or pixelated elements
 - Don't obscure readability with excessive effects
 ## File Naming Convention

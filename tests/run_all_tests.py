@@ -10,11 +10,10 @@ Test Coverage:
 - Mathematica: Symbolic quantum mechanics
 - Integration tests across platforms
 - Performance benchmarks
-Author: Meshal Alawein (meshal@berkeley.edu)
-Institution: University of California, Berkeley
+Author: Meshal Alawein (contact@meshal.ai)
 Created: 2025
 License: MIT
-Copyright © 2025 Meshal Alawein — All rights reserved.
+Copyright © 2025 Meshal Alawein
 """
 import os
 import sys
@@ -53,8 +52,8 @@ class BerkeleyTestRunner:
 SciComp - Comprehensive Test Suite
 ================================================================
 {self.colors['reset']}
-{self.colors['california_gold']}University of California, Berkeley{self.colors['reset']}
-{self.colors['founders_rock']}Meshal Alawein (meshal@berkeley.edu){self.colors['reset']}
+{self.colors['california_gold']}SciComp Test Suite{self.colors['reset']}
+{self.colors['founders_rock']}Meshal Alawein (contact@meshal.ai){self.colors['reset']}
 Testing across platforms: Python, MATLAB, Mathematica
 Validating: Quantum Physics, ML Physics, Engineering Analysis
 {self.colors['berkeley_blue']}Starting comprehensive validation...{self.colors['reset']}
@@ -419,7 +418,6 @@ Validating: Quantum Physics, ML Physics, Engineering Analysis
             print(f"{self.colors['red']}{self.colors['bold']}❌ FRAMEWORK NEEDS WORK ❌{self.colors['reset']}")
             print(f"{self.colors['red']}Significant issues detected. Review failed tests.{self.colors['reset']}")
         print()
-        print(f"{self.colors['berkeley_blue']}University of California, Berkeley{self.colors['reset']}")
         print(f"{self.colors['founders_rock']}Scientific Computing Framework Validation Complete{self.colors['reset']}")
     def run_all_tests(self):
         """Run all test suites across all platforms."""

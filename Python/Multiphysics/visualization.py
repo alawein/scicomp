@@ -1,6 +1,6 @@
 """Berkeley-themed Visualization for Multiphysics Simulations.
 This module provides comprehensive visualization utilities for multiphysics
-simulations with UC Berkeley's official branding and color scheme.
+simulations with a Berkeley color scheme.
 Classes:
     MultiphysicsVisualizer: Main visualization class
 Functions:
@@ -11,7 +11,7 @@ Functions:
 Colors:
     Berkeley Blue: #003262
     California Gold: #FDB515
-Author: Berkeley SciComp Team
+Author: Meshal Alawein
 Date: 2024
 """
 import numpy as np
@@ -446,7 +446,7 @@ class MultiphysicsVisualizer:
             return 'other'
     def _add_berkeley_branding(self, fig: plt.Figure):
         """Add Berkeley branding to figure."""
-        fig.text(0.02, 0.02, 'UC Berkeley SciComp - Multiphysics',
+        fig.text(0.02, 0.02, 'SciComp - Multiphysics',
                 fontsize=8, color=self.colors['berkeley_blue'], alpha=0.7)
 # Convenience functions
 def plot_coupled_fields(mesh: Dict[str, np.ndarray],

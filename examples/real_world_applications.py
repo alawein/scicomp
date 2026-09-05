@@ -7,8 +7,8 @@ Demonstrates practical applications of the framework in:
 - Climate modeling
 - Financial physics
 - Biomedical engineering
-Author: UC Berkeley SciComp Team
-Copyright © 2025 Meshal Alawein — All rights reserved.
+Author: Meshal Alawein
+Copyright © 2025 Meshal Alawein
 """
 import numpy as np
 import matplotlib.pyplot as plt
@@ -532,7 +532,6 @@ def main():
     """Main demonstration function."""
     print("🐻💙💛 BERKELEY SCICOMP FRAMEWORK - REAL-WORLD APPLICATIONS 🐻💙💛")
     print("=" * 80)
-    print("University of California, Berkeley")
     print("Advancing Science Through Computation")
     print("=" * 80)
     # Store all results
@@ -553,7 +552,6 @@ def main():
     print("✅ Climate Modeling: Energy balance and heat transport")
     print("✅ Financial Physics: Option pricing and portfolio dynamics")
     print("✅ Biomedical Engineering: Drug diffusion and cardiac modeling")
-    print("\n🐻 University of California, Berkeley - Go Bears! 💙💛")
     print("SciComp: From Theory to Real-World Impact!")
     print("=" * 80)
 if __name__ == '__main__':

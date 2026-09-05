@@ -1,7 +1,7 @@
 # SciComp
 
 Status:      frozen
-Category:    research
+Category:    lab
 Owner:       alawein
 Visibility:  public
 Purpose:     Scientific computing utilities and shared numerical tooling.
@@ -9,17 +9,21 @@ Next action: continue
 
 ## Abstract
 
-SciComp is a cross-platform scientific computing suite that keeps Python,
-MATLAB, and Mathematica in one repo on purpose. The value is a shared scientific
-vocabulary across those implementations, with explicit notes on where GPU,
-symbolic, and teaching workflows diverge. `Python/` is the canonical Python
-import boundary by design.
+SciComp is a research-library repository containing numerical work across
+`Python/` (the canonical import boundary), `MATLAB/`, and `Mathematica/`.
+The verified support promise is intentionally limited to the Python core
+exercised in CI. The remaining language trees, hardware-dependent features,
+optional integrations, and untested domain modules are retained as
+**experimental research surfaces**; they are not a claim of equivalent
+cross-language verification.
 
 ## Status
 
-- Lifecycle: frozen
-- Verification date: 2026-06-29
-- Scope: multi-language numerical modules, examples, and cross-surface tests
+- Lifecycle: experimental research library
+- Verified scope: Python core test suite on Python 3.10–3.12
+- Experimental scope: optional Python features, MATLAB, Mathematica, GPU, and
+  untested domain modules
+- Details: [support matrix](docs/SUPPORT_MATRIX.md)
 
 ## Runtime requirements
 
@@ -31,26 +35,28 @@ import boundary by design.
 ## Reproducibility
 
 ```bash
-git clone https://github.com/alawein/scicomp.git
-cd scicomp
-pip install -e ".[dev]"
-python scripts/validate_framework.py
-pytest
+python -m pip install -e ".[dev]"
+python -m pytest
 ```
 
-CLI entry points: `berkeley-scicomp` or `bsc`. For MATLAB parity checks:
+The default test command collects the root regression tests and Python test
+tree. Coverage is reported in CI for visibility; it is not used as a release
+threshold because experimental modules materially exceed the verified core.
+Install an optional feature only when needed, for example
+`pip install -e ".[viz]"`, `.[quantum]`, or `.[ml]`. See the
+[support matrix](docs/SUPPORT_MATRIX.md) for per-example prerequisites.
 
-```bash
-matlab -batch "run('tests/matlab/test_heat_transfer.m')"
-```
+CLI entry points: `scicomp` and `bsc` (both resolve to
+`Python.utils.cli:main`).
+
+`tests/matlab/test_heat_transfer.m` requires MATLAB and
+`tests/mathematica/test_symbolic_quantum.nb` requires Mathematica. They are
+not run by Python CI and remain experimental.
 
 ## Datasets
 
 - No large vendored datasets; examples use generated or inline numerical inputs
 - `performance_baselines.json` records timing baselines for regression checks
-- Keep machine-local paths, GPU environment assumptions, and unpublished teaching
-  data out of public examples
-
 
 ## Architecture
 

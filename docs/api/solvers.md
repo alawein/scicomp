@@ -21,7 +21,7 @@ NewtonRaphson: Newton-Raphson for nonlinear coupling
 FixedPointIteration: Fixed-point iteration solver
 Functions:
 solve_coupled_system: General coupled system solver
-Author: Berkeley SciComp Team
+Author: Meshal Alawein
 Date: 2024
 ## Functions
 ### `solve_coupled_system(coupled_system, solver_type, solver_parameters, initial_guess)`

@@ -10,7 +10,7 @@ Functions:
     estimate_local_error: Local error estimation
     compute_optimal_timestep: Optimal time step computation
     refine_mesh: Mesh refinement based on error indicators
-Author: Berkeley SciComp Team
+Author: Meshal Alawein
 Date: 2024
 """
 import numpy as np

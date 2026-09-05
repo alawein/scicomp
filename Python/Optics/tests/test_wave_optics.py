@@ -1,7 +1,7 @@
 """Tests for wave optics module.
 This module contains comprehensive tests for wave optics functionality
 including wave propagation, diffraction, interference, and Gaussian beams.
-Author: Berkeley SciComp Team
+Author: Meshal Alawein
 Date: 2024
 """
 import pytest

@@ -329,7 +329,7 @@ class CloudComputing:
         yum install -y python3 python3-pip
         pip3 install numpy scipy matplotlib scikit-learn dask
         # Install SciComp
-        git clone https://github.com/berkeley/scicomp.git
+        git clone https://github.com/alawein/scicomp.git
         cd scicomp
         pip3 install -e .
         # Start Dask scheduler
@@ -424,7 +424,7 @@ EXPOSE 8888 8787
 CMD ["jupyter", "lab", "--ip=0.0.0.0", "--port=8888", "--no-browser", "--allow-root"]
 """
         return dockerfile_content
-    def build_image(self, tag: str = "berkeley-scicomp:latest",
+    def build_image(self, tag: str = "scicomp:latest",
                    dockerfile_path: str = "Dockerfile") -> bool:
         """
         Build Docker image.
@@ -445,7 +445,7 @@ CMD ["jupyter", "lab", "--ip=0.0.0.0", "--port=8888", "--no-browser", "--allow-r
         except subprocess.CalledProcessError as e:
             warnings.warn(f"Docker build failed: {e}")
             return False
-    def run_container(self, tag: str = "berkeley-scicomp:latest",
+    def run_container(self, tag: str = "scicomp:latest",
                      ports: Dict[int, int] = None,
                      volumes: Dict[str, str] = None,
                      environment: Dict[str, str] = None) -> Optional[str]:
@@ -524,7 +524,7 @@ def create_deployment_package(output_dir: str = "deployment") -> str:
     # Create docker-compose.yml
     compose_content = """version: '3.8'
 services:
-  berkeley-scicomp:
+  scicomp:
     build: .
     ports:
       - "8888:8888"
@@ -554,7 +554,7 @@ services:
 ## Docker Deployment
 1. Build the image:
    ```bash
-   docker build -t berkeley-scicomp .
+   docker build -t scicomp .
    ```
 2. Run with docker-compose:
    ```bash

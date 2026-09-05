@@ -2,14 +2,14 @@ classdef PDESolver < handle
     %PDESOLVER Base class for PDE solvers
     %   Provides common interface and functionality for all PDE solving methods
     %
-    %   Author: Berkeley SciComp Team
+    %   Author: Meshal Alawein
     %   Date: 2024
     properties (Access = protected)
         domain                  % Spatial domain
         boundary_conditions     % Boundary conditions
         tolerance = 1e-6       % Error tolerance
         max_iterations = 10000 % Maximum iterations
-        berkeley_blue = [0, 50, 98]/255      % UC Berkeley Blue
+        berkeley_blue = [0, 50, 98]/255      % Berkeley Blue
         california_gold = [253, 181, 21]/255 % California Gold
     end
     properties (Access = public)

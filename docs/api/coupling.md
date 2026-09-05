@@ -21,7 +21,7 @@ Functions:
 create_coupling_interface: Create interface between domains
 monolithic_coupling: Monolithic coupling approach
 partitioned_coupling: Partitioned coupling approach
-Author: Berkeley SciComp Team
+Author: Meshal Alawein
 Date: 2024
 ## Functions
 ### `create_coupling_interface(source_domain, target_domain, source_nodes, target_nodes, name)`

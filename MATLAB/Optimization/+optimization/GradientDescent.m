@@ -7,7 +7,7 @@ classdef GradientDescent < handle
     % This class implements the gradient descent algorithm for unconstrained
     % optimization with various line search methods and momentum options.
     %
-    % Author: Berkeley SciComp Team
+    % Author: Meshal Alawein
     % Date: 2024
     properties
         MaxIterations = 1000        % Maximum number of iterations

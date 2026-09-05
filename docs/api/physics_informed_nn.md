@@ -11,8 +11,8 @@ sla: none
 Physics-Informed Neural Networks (PINNs) for SciComp.
 This module implements physics-informed machine learning for solving PDEs,
 discovering governing equations, and accelerating simulations.
-Author: UC Berkeley SciComp Team
-Copyright © 2025 Meshal Alawein , All rights reserved.
+Author: Meshal Alawein
+Copyright © 2025 Meshal Alawein
 ## Functions
 ### `create_pinn_for_pde(pde_type, config)`
 Create a PINN for a specific PDE type.

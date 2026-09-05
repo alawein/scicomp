@@ -2,11 +2,10 @@
 """
 Scientific Visualization Module
 Berkeley-themed plotting utilities for scientific computing applications.
-Provides publication-quality figures with UC Berkeley's official color scheme.
-Author: Meshal Alawein (meshal@berkeley.edu)
-Institution: University of California, Berkeley
+Provides publication-quality figures with a Berkeley color scheme.
+Author: Meshal Alawein (contact@meshal.ai)
 License: MIT
-Copyright © 2025 Meshal Alawein — All rights reserved.
+Copyright © 2025 Meshal Alawein
 """
 from .berkeley_style import *
 from .interactive import *

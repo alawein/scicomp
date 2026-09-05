@@ -12,7 +12,7 @@ Genetic Algorithms and Evolutionary Computation
 ==============================================
 This module implements genetic algorithms, evolution strategies, and
 other evolutionary computation methods for optimization and machine learning.
-Author: Berkeley SciComp Team
+Author: Meshal Alawein
 Date: 2024
 ## Constants
 - **`BERKELEY_BLUE`**

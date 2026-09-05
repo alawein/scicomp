@@ -6,8 +6,6 @@ authors:
   given-names: "Meshal"
   email: "contact@meshal.ai"
 title: "SciComp: Cross-Platform Scientific Computing Framework"
-version: 1.0.0
-date-released: 2025-01-01
 url: "https://github.com/alawein/scicomp"
 repository-code: "https://github.com/alawein/scicomp"
 license: MIT
@@ -22,7 +20,7 @@ keywords:
   - Mathematica
   - physics simulation
 abstract: >-
-  SciComp is a cross-platform scientific computing framework
-  for quantum mechanics, thermal transport, and physics-informed
-  machine learning. Provides equivalent implementations across
-  Python, MATLAB, and Mathematica.
+  SciComp is an experimental research library for quantum mechanics,
+  thermal transport, and physics-informed machine learning across Python,
+  MATLAB, and Mathematica source trees. The verified support promise is
+  limited to the Python core documented in the repository support matrix.

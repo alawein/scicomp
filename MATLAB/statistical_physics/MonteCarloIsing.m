@@ -35,10 +35,9 @@ classdef MonteCarloIsing < handle
     %   plotResults       - Berkeley-styled visualization
     %   correlationFunction - Compute spin correlations
     %
-    % Author: Meshal Alawein (meshal@berkeley.edu)
-    % Institution: University of California, Berkeley
+    % Author: Meshal Alawein (contact@meshal.ai)
     % License: MIT
-    % Copyright © 2025 Meshal Alawein — All rights reserved.
+    % Copyright © 2025 Meshal Alawein
     properties (SetAccess = private)
         L           % Lattice size (L×L)
         J           % Exchange coupling constant
@@ -494,7 +493,7 @@ classdef MonteCarloIsing < handle
             grid on;
             xline(T_c_theory, '--', 'Color', 'red', 'LineWidth', 2);
             % Add overall title
-            sgtitle('🐻💙💛 2D Ising Model Phase Diagram - UC Berkeley', ...
+            sgtitle('🐻💙💛 2D Ising Model Phase Diagram', ...
                    'FontSize', 16, 'FontWeight', 'bold');
         end
         function fig = plotTimeSeries(obj)
@@ -535,7 +534,7 @@ classdef MonteCarloIsing < handle
                  'DisplayName', 'Running Average');
             legend('Instantaneous', 'Running Average', 'Location', 'best');
             hold off;
-            sgtitle('🐻💙💛 Monte Carlo Time Series - UC Berkeley', ...
+            sgtitle('🐻💙💛 Monte Carlo Time Series', ...
                    'FontSize', 14, 'FontWeight', 'bold');
         end
     end

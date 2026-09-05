@@ -11,7 +11,7 @@ Classes:
     FixedPointIteration: Fixed-point iteration solver
 Functions:
     solve_coupled_system: General coupled system solver
-Author: Berkeley SciComp Team
+Author: Meshal Alawein
 Date: 2024
 """
 import numpy as np

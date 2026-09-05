@@ -2,7 +2,7 @@
 
 (* Berkeley SciComp - Optimization Package *)
 (* Gradient Descent Implementation *)
-(* Author: Berkeley SciComp Team *)
+(* Author: Meshal Alawein *)
 (* Date: 2024 *)
 
 BeginPackage["BerkeleySciComp`Optimization`GradientDescent`"]

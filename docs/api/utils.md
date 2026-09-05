@@ -12,7 +12,7 @@ Optimization Utilities and Benchmark Functions
 ==============================================
 This module provides utility functions, benchmark test problems,
 and analysis tools for optimization algorithms.
-Author: Berkeley SciComp Team
+Author: Meshal Alawein
 Date: 2024
 ## Constants
 - **`BERKELEY_BLUE`**

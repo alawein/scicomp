@@ -5,7 +5,7 @@ SciComp - Performance Benchmarks
 Comprehensive performance benchmarking suite for the SciComp.
 Tests computational efficiency across all major modules and provides detailed
 performance metrics for optimization and deployment planning.
-Author: UC Berkeley SciComp Team
+Author: Meshal Alawein
 Date: 2025
 License: MIT
 """
@@ -31,7 +31,6 @@ def print_berkeley_header():
     print(f"\n{Colors.BERKELEY_BLUE}{'='*80}{Colors.RESET}")
     print(f"{Colors.BERKELEY_BLUE}{Colors.BOLD}🐻 SciComp - Performance Benchmarks 🐻{Colors.RESET}")
     print(f"{Colors.BERKELEY_BLUE}{'='*80}{Colors.RESET}")
-    print(f"{Colors.CALIFORNIA_GOLD}University of California, Berkeley{Colors.RESET}")
     print(f"{Colors.CALIFORNIA_GOLD}Scientific Computing Performance Excellence{Colors.RESET}")
     print(f"{Colors.BERKELEY_BLUE}{'='*80}{Colors.RESET}\n")
 class PerformanceBenchmark:

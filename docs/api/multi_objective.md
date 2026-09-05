@@ -13,7 +13,7 @@ Multi-Objective Optimization Algorithms
 This module implements algorithms for multi-objective optimization including
 Pareto optimization, weighted sum methods, epsilon-constraint methods, and
 evolutionary multi-objective algorithms like NSGA-II.
-Author: Berkeley SciComp Team
+Author: Meshal Alawein
 Date: 2024
 ## Constants
 - **`BERKELEY_BLUE`**

@@ -46,11 +46,11 @@ from .utils.material_properties import (
 # Version information
 __version__ = "1.0.0"
 __author__ = "SciComp"
-__email__ = "scicomp@berkeley.edu"
+__email__ = "contact@meshal.ai"
 # Package metadata
 __title__ = "FEM"
 __description__ = "Comprehensive Finite Element Method package"
-__url__ = "https://github.com/berkeley/scicomp"
+__url__ = "https://github.com/alawein/scicomp"
 # Main exports
 __all__ = [
     # Core classes
