@@ -1,11 +1,11 @@
 # SciComp
 
-Status:      experimental research library
+Status:      frozen
 Category:    lab
 Owner:       alawein
 Visibility:  public
 Purpose:     Scientific computing utilities and shared numerical tooling.
-Next action: maintain verified Python core
+Next action: continue
 
 ## Abstract
 
