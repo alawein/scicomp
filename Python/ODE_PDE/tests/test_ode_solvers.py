@@ -1,7 +1,7 @@
 """Tests for ODE solvers module.
 This module contains comprehensive tests for the ODE solving functionality
 including basic solvers, adaptive methods, and accuracy verification.
-Author: Berkeley SciComp Team
+Author: Meshal Alawein
 Date: 2024
 """
 import pytest

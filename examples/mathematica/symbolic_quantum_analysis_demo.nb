@@ -9,7 +9,7 @@
 
 
 (* ::Text:: *)
-(*Advanced demonstration of symbolic quantum mechanics analysis using the Berkeley SciComp Mathematica framework. Features analytical solutions, symbolic manipulations, and Berkeley-styled visualizations.*)
+(*Advanced demonstration of symbolic quantum mechanics analysis using the SciComp Mathematica framework. Features analytical solutions, symbolic manipulations, and professional visualizations.*)
 (**)
 (*Key Demonstrations:*)
 (*- Symbolic quantum harmonic oscillator analysis*)
@@ -17,7 +17,7 @@
 (*- Perturbation theory calculations*)
 (*- Angular momentum coupling*)
 (*- Quantum scattering theory*)
-(*- Professional Berkeley visualizations*)
+(*- Professional visualizations*)
 (**)
 (*Educational Objectives:*)
 (*- Master symbolic quantum mechanics*)
@@ -26,12 +26,11 @@
 (*- Visualize quantum phenomena*)
 (*- Apply advanced mathematical techniques*)
 (**)
-(*Author: Meshal Alawein (meshal@berkeley.edu)*)
-(*Institution: University of California, Berkeley*)
+(*Author: Meshal Alawein (contact@meshal.ai)*)
 (*Created: 2025*)
 (*License: MIT*)
 (**)
-(*Copyright \[Copyright] 2025 Meshal Alawein \[LongDash] All rights reserved.*)
+(*Copyright \[Copyright] 2025 Meshal Alawein*)
 
 
 (* ::Section:: *)

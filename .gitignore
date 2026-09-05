@@ -1,12 +1,11 @@
 # Berkeley SciComp Framework - Git Ignore Rules
 # ==============================================
 # 
-# Comprehensive .gitignore for UC Berkeley Scientific Computing Framework
+# Comprehensive .gitignore
 # Excludes build artifacts, temporary files, and sensitive data while
 # preserving essential source code and documentation.
 #
-# Author: Dr. Meshal Alawein (meshal@berkeley.edu)
-# Institution: University of California, Berkeley
+# Author: Dr. Meshal Alawein (contact@meshal.ai)
 # Created: 2025
 
 # =============================================================================

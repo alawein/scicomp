@@ -7,7 +7,7 @@ last-reviewed: 2026-03-31
 # Deployment and Release -- scicomp
 
 SciComp is a research library, not a hosted service. There is no server deployment, container
-orchestration, or infrastructure to operate. The release surface is the `berkeley-scicomp` Python
+orchestration, or infrastructure to operate. The release surface is the `scicomp` Python
 package on PyPI and the public GitHub repository.
 
 ## Deployment Process
@@ -40,7 +40,7 @@ handled via the project's CI workflow.
 ## Rollback Procedures
 
 Not applicable for a library. If a published PyPI release is broken, the prior version can be
-pinned by consumers with `pip install berkeley-scicomp==<previous-version>`. Yanking a release
+pinned by consumers with `pip install scicomp==<previous-version>`. Yanking a release
 from PyPI requires maintainer access (contact: contact@meshal.ai).
 
 ## Environment Configuration

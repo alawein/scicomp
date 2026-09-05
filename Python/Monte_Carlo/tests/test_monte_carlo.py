@@ -10,7 +10,7 @@ Test Coverage:
 - Uncertainty quantification and sensitivity analysis
 - Utility functions and diagnostics
 - Visualization components
-Author: Berkeley SciComp Team
+Author: Meshal Alawein
 Date: 2024
 """
 import unittest

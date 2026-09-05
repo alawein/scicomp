@@ -9,7 +9,7 @@ Topics covered:
 - Advanced sampling techniques (LHS, importance sampling)
 - Variance reduction methods
 - Physics-based examples
-Author: Berkeley SciComp Team
+Author: Meshal Alawein
 Date: 2024
 """
 import numpy as np

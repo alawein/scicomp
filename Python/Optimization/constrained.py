@@ -4,7 +4,7 @@ Constrained Optimization Algorithms
 This module implements various constrained optimization algorithms including
 penalty methods, barrier methods, Lagrange multipliers, and sequential
 quadratic programming for handling equality and inequality constraints.
-Author: Berkeley SciComp Team
+Author: Meshal Alawein
 Date: 2024
 """
 import numpy as np

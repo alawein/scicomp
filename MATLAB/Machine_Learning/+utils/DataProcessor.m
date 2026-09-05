@@ -18,7 +18,7 @@ classdef DataProcessor < handle
     %   X_scaled = processor.standardScale(X_clean);
     %   [X_train, X_test, y_train, y_test] = processor.trainTestSplit(X_scaled, y_clean, 0.8);
     %
-    % Author: Berkeley SciComp Team
+    % Author: Meshal Alawein
     % Date: 2024
     properties (Access = private)
         scalers_

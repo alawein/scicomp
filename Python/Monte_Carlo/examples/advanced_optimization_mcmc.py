@@ -10,7 +10,7 @@ Topics covered:
 - Bayesian parameter estimation
 - Advanced MCMC diagnostics
 - Physics-informed applications
-Author: Berkeley SciComp Team
+Author: Meshal Alawein
 Date: 2024
 """
 import numpy as np

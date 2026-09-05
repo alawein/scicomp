@@ -7,8 +7,8 @@ function sampler = MonteCarloSampling()
 % - Importance sampling
 % - Metropolis-Hastings algorithm
 %
-% Author: UC Berkeley SciComp Team
-% Copyright © 2025 Meshal Alawein — All rights reserved.
+% Author: Meshal Alawein
+% Copyright © 2025 Meshal Alawein
     sampler.uniformSample = @uniformSample;
     sampler.normalSample = @normalSample;
     sampler.metropolisHastings = @metropolisHastings;

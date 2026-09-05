@@ -6,8 +6,6 @@ sla: manual
 ---
 
 # 🐻 SciComp - API Reference
-![Berkeley SciComp](https://img.shields.io/badge/SciComp-003262?style=flat-square&logo=university)
-**University of California, Berkeley**
 **Scientific Computing Excellence Since 1868**
 ---
 ## Module Index
@@ -207,5 +205,5 @@ Complete API reference for all modules in the SciComp.
 - [Examples](../examples/)
 - [GitHub Repository](https://github.com/alawein/scicomp)
 ---
-**🐻💙💛 University of California, Berkeley 💙💛🐻**
+
 *Scientific Computing Excellence Since 1868*

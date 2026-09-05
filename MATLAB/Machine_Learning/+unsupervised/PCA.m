@@ -16,7 +16,7 @@ classdef PCA < handle
     %   X_transformed = pca.fitTransform(X);
     %   variance_ratio = pca.getExplainedVarianceRatio();
     %
-    % Author: Berkeley SciComp Team
+    % Author: Meshal Alawein
     % Date: 2024
     properties (Access = private)
         components_

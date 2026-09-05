@@ -2,9 +2,9 @@ name: Docs Doctrine
 
 on:
   push:
-    paths: ["**/*.md"]
+    branches: [main]
   pull_request:
-    paths: ["**/*.md"]
+    branches: [main]
 
 concurrency:
   group: ${{ github.workflow }}-${{ github.ref }}

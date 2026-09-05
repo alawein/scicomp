@@ -15,7 +15,7 @@ classdef SGD < handle
     %   sgd = optimization.SGD(0.01, 'Momentum', 0.9, 'Schedule', 'exponential');
     %   [x_opt, f_opt, history] = sgd.minimize(@objective, x0, 'MaxIter', 1000);
     %
-    % Author: Berkeley SciComp Team
+    % Author: Meshal Alawein
     % Date: 2024
     properties (Access = private)
         velocity_

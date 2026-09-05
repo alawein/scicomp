@@ -7,7 +7,7 @@ classdef BFGS < handle
     % This class implements the BFGS algorithm for unconstrained optimization
     % with line search and various initialization strategies.
     %
-    % Author: Berkeley SciComp Team
+    % Author: Meshal Alawein
     % Date: 2024
     properties
         MaxIterations = 1000        % Maximum number of iterations

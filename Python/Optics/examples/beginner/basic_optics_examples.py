@@ -2,7 +2,7 @@
 """Basic Optics Examples - Beginner Level.
 This script demonstrates fundamental optics concepts using the Berkeley SciComp
 Optics package including geometric optics, wave optics, and material properties.
-Author: Berkeley SciComp Team
+Author: Meshal Alawein
 Date: 2024
 """
 import sys

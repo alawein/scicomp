@@ -3,7 +3,7 @@ classdef GaussianBeam < handle
     %   Comprehensive Gaussian beam functionality including propagation,
     %   beam parameter calculations, and intensity profiles
     %
-    %   Author: Berkeley SciComp Team
+    %   Author: Meshal Alawein
     %   Date: 2024
     properties (Access = public)
         wavelength_vacuum    % Wavelength in vacuum (meters)

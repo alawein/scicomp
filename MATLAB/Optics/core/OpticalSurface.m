@@ -3,7 +3,7 @@ classdef (Abstract) OpticalSurface < handle
     %   Defines interface for optical surface interactions including
     %   ray intersections, refraction, and reflection
     %
-    %   Author: Berkeley SciComp Team
+    %   Author: Meshal Alawein
     %   Date: 2024
     properties (Access = public)
         position        % Z position of surface (meters)

@@ -2,7 +2,7 @@ function test_ode_solvers()
 %TEST_ODE_SOLVERS Test suite for ODE solvers
 %   Comprehensive tests for all ODE solving functionality
 %
-%   Author: Berkeley SciComp Team
+%   Author: Meshal Alawein
 %   Date: 2024
 fprintf('Running ODE Solver Tests\n');
 fprintf('========================\n\n');

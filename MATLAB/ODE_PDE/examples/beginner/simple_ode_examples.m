@@ -1,7 +1,7 @@
 %% Simple ODE Examples - Beginner Level
 %  Basic demonstrations of ODE solving with the Berkeley SciComp framework
 %
-%  Author: Berkeley SciComp Team
+%  Author: Meshal Alawein
 %  Date: 2024
 %% Setup
 clear; close all; clc;

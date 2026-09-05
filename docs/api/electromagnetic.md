@@ -21,7 +21,7 @@ EddyCurrentSolver: Eddy current analysis
 Functions:
 electromagnetic_heating: Compute EM heating
 coupled_em_thermal: Solve coupled EM-thermal problem
-Author: Berkeley SciComp Team
+Author: Meshal Alawein
 Date: 2024
 ## Constants
 - **`MU_0`**

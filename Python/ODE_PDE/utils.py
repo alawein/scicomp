@@ -11,7 +11,7 @@ Functions:
     interpolate_solution: Interpolate solutions
     check_convergence: Check numerical convergence
     estimate_error: Estimate numerical errors
-Author: Berkeley SciComp Team
+Author: Meshal Alawein
 Date: 2024
 """
 import numpy as np

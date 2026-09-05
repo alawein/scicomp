@@ -23,7 +23,7 @@ BDF: Backward differentiation formulas for stiff ODEs
 Functions:
 solve_ode: General ODE solving interface
 solve_ivp: Initial value problem solver
-Author: Berkeley SciComp Team
+Author: Meshal Alawein
 Date: 2024
 ## Functions
 ### `solve_ode(fun, y0, t_span, method, t_eval, dense_output, events, vectorized, args)`

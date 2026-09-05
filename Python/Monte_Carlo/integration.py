@@ -9,7 +9,7 @@ Functions:
     monte_carlo_integrate: Standard MC integration
     quasi_monte_carlo_integrate: QMC integration
     importance_sampling_integrate: Importance sampling
-Author: Berkeley SciComp Team
+Author: Meshal Alawein
 Date: 2024
 """
 import numpy as np

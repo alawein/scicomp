@@ -2,7 +2,7 @@ classdef Ray < handle
     %RAY Optical ray for ray tracing
     %   Represents a light ray with position, direction, wavelength, and intensity
     %
-    %   Author: Berkeley SciComp Team
+    %   Author: Meshal Alawein
     %   Date: 2024
     properties (Access = public)
         position        % Ray position [x, y, z] (meters)

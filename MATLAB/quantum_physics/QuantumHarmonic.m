@@ -35,10 +35,9 @@ classdef QuantumHarmonic < handle
     %   wignerFunction  - Compute Wigner function
     %   plot            - Berkeley-styled visualization
     %
-    % Author: Meshal Alawein (meshal@berkeley.edu)
-    % Institution: University of California, Berkeley
+    % Author: Meshal Alawein (contact@meshal.ai)
     % License: MIT
-    % Copyright © 2025 Meshal Alawein — All rights reserved.
+    % Copyright © 2025 Meshal Alawein
     properties (SetAccess = private)
         omega       % Angular frequency (rad/s)
         mass        % Particle mass (kg)
@@ -399,7 +398,7 @@ classdef QuantumHarmonic < handle
             grid on;
             hold off;
             % Add Berkeley branding
-            sgtitle('🐻💙💛 UC Berkeley - Quantum Harmonic Oscillator', ...
+            sgtitle('🐻💙💛 Quantum Harmonic Oscillator', ...
                     'FontSize', 14, 'FontWeight', 'bold');
         end
         function plotCoherentState(obj, alpha)

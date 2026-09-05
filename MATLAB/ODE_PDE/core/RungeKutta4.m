@@ -2,7 +2,7 @@ classdef RungeKutta4 < ODESolver
     %RUNGEKUTTA4 Fourth-order Runge-Kutta ODE solver
     %   Classical RK4 method with fourth-order accuracy
     %
-    %   Author: Berkeley SciComp Team
+    %   Author: Meshal Alawein
     %   Date: 2024
     methods
         function obj = RungeKutta4(varargin)

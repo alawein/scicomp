@@ -25,7 +25,7 @@ Functions:
     calculate_interference: Interference pattern calculation
     analyze_spectrum: Spectral analysis
     design_cavity: Laser cavity design
-Author: Berkeley SciComp Team
+Author: Meshal Alawein
 Date: 2024
 """
 from .wave_optics import (
@@ -80,8 +80,8 @@ from .visualization import (
 )
 # Package metadata
 __version__ = "1.0.0"
-__author__ = "Berkeley SciComp Team"
-__email__ = "scicomp@berkeley.edu"
+__author__ = "Meshal Alawein"
+__email__ = "contact@meshal.ai"
 # Package-level configuration
 import numpy as np
 import matplotlib.pyplot as plt

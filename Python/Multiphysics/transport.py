@@ -10,7 +10,7 @@ Classes:
 Functions:
     species_transport: Multi-species transport
     coupled_flow_transport: Coupled flow and transport
-Author: Berkeley SciComp Team
+Author: Meshal Alawein
 Date: 2024
 """
 import numpy as np

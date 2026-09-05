@@ -8,7 +8,6 @@ sla: none
 # Computational Methods Theory Reference
 **SciComp - Computational Foundation**
 *Author: Meshal Alawein (contact@meshal.ai)*
-*Institution: University of California, Berkeley*
 *Created: 2025*
 ---
 ## Table of Contents
@@ -371,5 +370,4 @@ gᵢ(x*) = 0, hⱼ(x*) ≤ 0
 4. Nocedal, J., Wright, S.J. "Numerical Optimization" (Springer, 2006)
 5. LeVeque, R.J. "Finite Difference Methods for ODEs and PDEs" (SIAM, 2007)
 ---
-*Copyright © 2025 Meshal Alawein : All rights reserved.*
-*University of California, Berkeley*
+Copyright © 2025 Meshal Alawein

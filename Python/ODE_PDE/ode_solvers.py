@@ -13,7 +13,7 @@ Classes:
 Functions:
     solve_ode: General ODE solving interface
     solve_ivp: Initial value problem solver
-Author: Berkeley SciComp Team
+Author: Meshal Alawein
 Date: 2024
 """
 import numpy as np

@@ -12,7 +12,7 @@ function test_machine_learning()
 %   - Optimization algorithms
 %   - Utility functions
 %
-% Author: Berkeley SciComp Team
+% Author: Meshal Alawein
 % Date: 2024
 fprintf('🧪 Berkeley SciComp: Machine Learning Test Suite\n');
 fprintf('===============================================\n');

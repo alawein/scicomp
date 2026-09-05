@@ -26,7 +26,7 @@ Functions:
     solve_pde: General PDE solving interface
     analyze_stability: Stability analysis
     generate_mesh: Mesh generation utilities
-Author: Berkeley SciComp Team
+Author: Meshal Alawein
 Date: 2024
 """
 from .ode_solvers import (
@@ -74,8 +74,8 @@ from .utils import (
 )
 # Package metadata
 __version__ = "1.0.0"
-__author__ = "Berkeley SciComp Team"
-__email__ = "scicomp@berkeley.edu"
+__author__ = "Meshal Alawein"
+__email__ = "contact@meshal.ai"
 # Package-level configuration
 import numpy as np
 import matplotlib.pyplot as plt

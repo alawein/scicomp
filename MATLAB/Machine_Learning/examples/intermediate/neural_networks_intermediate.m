@@ -12,7 +12,7 @@ function neural_networks_intermediate()
 %   - Analyze training dynamics and optimization
 %   - Apply to quantum harmonic oscillator problem
 %
-% Author: Berkeley SciComp Team
+% Author: Meshal Alawein
 % Date: 2024
 fprintf('🧠 Berkeley SciComp: Intermediate Neural Networks\n');
 fprintf('================================================\n');

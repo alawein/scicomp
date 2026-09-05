@@ -4,7 +4,7 @@ Signal Analysis and Processing
 Comprehensive signal processing toolkit for scientific computing applications.
 Includes time-domain analysis, frequency-domain analysis, filtering, and
 advanced signal processing techniques.
-Author: Berkeley SciComp Team
+Author: Meshal Alawein
 Date: 2024
 """
 import numpy as np

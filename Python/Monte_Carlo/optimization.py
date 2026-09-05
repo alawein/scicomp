@@ -10,7 +10,7 @@ Functions:
     simulated_annealing: Convenience function for SA
     genetic_algorithm: Convenience function for GA
     particle_swarm: Convenience function for PSO
-Author: Berkeley SciComp Team
+Author: Meshal Alawein
 Date: 2024
 """
 import numpy as np

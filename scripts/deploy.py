@@ -4,8 +4,7 @@ SciComp Automated Deployment Script
 
 Handles complete deployment workflow including validation, backup, and rollout.
 
-Author: Meshal Alawein (meshal@berkeley.edu)
-Institution: University of California, Berkeley
+Author: Meshal Alawein (contact@meshal.ai)
 """
 
 import os

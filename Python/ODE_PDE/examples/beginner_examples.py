@@ -7,7 +7,7 @@ Examples:
     - Basic heat equation
     - Simple wave equation
     - Poisson equation with Dirichlet BC
-Author: Berkeley SciComp Team
+Author: Meshal Alawein
 Date: 2024
 """
 import numpy as np
