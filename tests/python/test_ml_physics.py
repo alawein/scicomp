@@ -11,11 +11,10 @@ Test Categories:
 - Uncertainty quantification tests
 - Inverse problem solving validation
 - Physics constraint satisfaction
-Author: Meshal Alawein (meshal@berkeley.edu)
-Institution: University of California, Berkeley
+Author: Meshal Alawein (contact@meshal.ai)
 Created: 2025
 License: MIT
-Copyright © 2025 Meshal Alawein — All rights reserved.
+Copyright © 2025 Meshal Alawein
 """
 import unittest
 import numpy as np

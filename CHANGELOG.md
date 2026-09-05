@@ -10,7 +10,10 @@ sla: none
 All notable changes to SciComp will be documented here.
 
 Format follows [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
-This project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
+Package versions are derived from the source-control build metadata. This
+repository has no published Git release tags at the time of this update, so the
+historical version headings below are archival notes rather than verifiable
+released artifacts.
 
 ---
 
@@ -40,7 +43,3 @@ This project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.htm
 - Scientific computing toolkit for computational physics
 - Eigenstate solvers and numerical methods
 - Comprehensive numpy/scipy integration
-
-[Unreleased]: https://github.com/alawein/scicomp/compare/v1.1.0...HEAD
-[1.1.0]: https://github.com/alawein/scicomp/compare/v1.0.0...v1.1.0
-[1.0.0]: https://github.com/alawein/scicomp/releases/tag/v1.0.0

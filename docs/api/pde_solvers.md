@@ -24,7 +24,7 @@ Functions:
 solve_pde: General PDE solving interface
 solve_heat_equation: Heat equation solver
 solve_wave_equation: Wave equation solver
-Author: Berkeley SciComp Team
+Author: Meshal Alawein
 Date: 2024
 ## Functions
 ### `solve_pde(pde_type, domain, boundary_conditions, initial_condition, time_span, dt, source_term, parameters, options)`

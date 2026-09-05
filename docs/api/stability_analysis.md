@@ -21,7 +21,7 @@ analyze_rk_stability: Runge-Kutta stability analysis
 von_neumann_analysis: Von Neumann stability analysis
 compute_stability_region: Stability region computation
 cfl_analysis: CFL condition analysis
-Author: Berkeley SciComp Team
+Author: Meshal Alawein
 Date: 2024
 ## Functions
 ### `analyze_rk_stability(order, z_values)`

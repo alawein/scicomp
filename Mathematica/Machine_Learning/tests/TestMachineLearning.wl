@@ -14,7 +14,7 @@ Test Coverage:
 - Optimization algorithms
 - Utility functions
 
-Author: Berkeley SciComp Team
+Author: Meshal Alawein
 Date: 2024
 *)
 

@@ -18,7 +18,7 @@ classdef LinearRegression < handle
     %   predictions = model.predict(X_test);
     %   score = model.score(X_test, y_test);
     %
-    % Author: Berkeley SciComp Team
+    % Author: Meshal Alawein
     % Date: 2024
     properties (Access = private)
         coefficients_

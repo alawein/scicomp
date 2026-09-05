@@ -9,10 +9,9 @@ Key Concepts:
 - Parameterized quantum circuits (ansatz)
 - Classical optimization in hybrid algorithms
 - Quantum advantage for many-body problems
-Author: Meshal Alawein (meshal@berkeley.edu)
-Institution: University of California, Berkeley
+Author: Meshal Alawein (contact@meshal.ai)
 License: MIT
-Copyright © 2025 Meshal Alawein — All rights reserved.
+Copyright © 2025 Meshal Alawein
 """
 import numpy as np
 import matplotlib.pyplot as plt
@@ -48,7 +47,7 @@ def main():
     print("-" * 40)
     demo_ansatz_comparison(output_dir)
     print(f"\n✅ VQE demo completed! Results saved to: {output_dir}")
-    print("🐻💙💛 Quantum computing at UC Berkeley")
+    print("🐻💙💛 Quantum computing")
 def demo_single_qubit_vqe(output_dir: Path):
     """Demonstrate VQE on single qubit systems."""
     print("   Testing VQE on Pauli operators...")

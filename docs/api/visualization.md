@@ -11,7 +11,7 @@ sla: none
 Visualization Module for Optics.
 This module provides Berkeley-themed visualization tools for optical systems,
 beam profiles, ray diagrams, and interference patterns.
-Author: Berkeley SciComp Team
+Author: Meshal Alawein
 Date: 2024
 ## Functions
 ### `plot_beam_profile(x, y, z, intensity)`

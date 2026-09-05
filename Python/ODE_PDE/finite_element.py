@@ -12,7 +12,7 @@ Functions:
     assemble_stiffness_matrix: Assemble global stiffness matrix
     assemble_mass_matrix: Assemble global mass matrix
     solve_fem_poisson: FEM solver for Poisson equation
-Author: Berkeley SciComp Team
+Author: Meshal Alawein
 Date: 2024
 """
 import numpy as np

@@ -3,7 +3,7 @@ Spectral Analysis Module
 ========================
 Advanced spectral analysis techniques for signal processing including
 power spectral density, spectrograms, wavelets, and time-frequency analysis.
-Author: Berkeley SciComp Team
+Author: Meshal Alawein
 Date: 2024
 """
 import numpy as np

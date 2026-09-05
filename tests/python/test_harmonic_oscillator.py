@@ -3,10 +3,9 @@
 Test Suite for Quantum Harmonic Oscillator
 Comprehensive tests for the quantum harmonic oscillator implementation
 including eigenstate accuracy, time evolution unitarity, and coherent states.
-Author: Meshal Alawein (meshal@berkeley.edu)
-Institution: University of California, Berkeley
+Author: Meshal Alawein (contact@meshal.ai)
 License: MIT
-Copyright © 2025 Meshal Alawein — All rights reserved.
+Copyright © 2025 Meshal Alawein
 """
 import pytest
 import numpy as np

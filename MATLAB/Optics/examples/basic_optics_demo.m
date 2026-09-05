@@ -3,7 +3,7 @@
 % SciComp MATLAB Optics toolbox including geometric optics, wave optics,
 % and material properties.
 %
-% Author: Berkeley SciComp Team
+% Author: Meshal Alawein
 % Date: 2024
 %% Initialize
 clear; close all; clc;

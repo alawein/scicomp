@@ -5,8 +5,7 @@ SciComp Quick Deployment Check
 Fast verification script to ensure deployment readiness.
 Runs essential checks in under 30 seconds.
 
-Author: Meshal Alawein (meshal@berkeley.edu)
-Institution: University of California, Berkeley
+Author: Meshal Alawein (contact@meshal.ai)
 """
 
 import sys
@@ -30,8 +29,6 @@ def print_header():
     print(f"\n{Colors.BLUE}{'='*60}{Colors.RESET}")
     print(f"{Colors.BLUE}{Colors.BOLD}🚀 SciComp Quick Deployment Check 🚀{Colors.RESET}")
     print(f"{Colors.BLUE}{'='*60}{Colors.RESET}")
-    print(f"{Colors.YELLOW}University of California, Berkeley{Colors.RESET}\n")
-
 def check_core_imports():
     """Check if core modules can be imported."""
     print(f"{Colors.BOLD}1. Checking Core Module Imports...{Colors.RESET}")

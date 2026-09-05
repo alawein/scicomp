@@ -28,7 +28,7 @@ Cell["Simple ODE Examples - Beginner Level", "Title",
 
 Cell[TextData[{
  "Basic demonstrations of ODE solving with the Berkeley SciComp framework\n",
- "Author: Berkeley SciComp Team\n",
+ "Author: Meshal Alawein\n",
  "Date: 2024"
 }], "Text",
  CellChangeTimes->{{3.9*^9, 3.9*^9}},ExpressionUUID->"b2c3d4e5-f6g7-8901-bcde-f23456789012"],

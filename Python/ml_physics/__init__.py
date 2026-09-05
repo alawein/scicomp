@@ -4,10 +4,9 @@ Physics-Informed Machine Learning Module
 Cutting-edge ML techniques for scientific computing including physics-informed
 neural networks (PINNs), materials property prediction, quantum machine learning,
 and scientific computing acceleration.
-Author: Meshal Alawein (meshal@berkeley.edu)
-Institution: University of California, Berkeley
+Author: Meshal Alawein (contact@meshal.ai)
 License: MIT
-Copyright © 2025 Meshal Alawein — All rights reserved.
+Copyright © 2025 Meshal Alawein
 """
 from . import pinns
 from . import materials_ml

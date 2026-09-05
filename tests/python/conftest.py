@@ -35,9 +35,6 @@ def _ensure_stub_packages():
         # Thermal transport
         ('Python.Thermal_Transport', 'Python/Thermal_Transport'),
         ('Python.Thermal_Transport.core', 'Python/Thermal_Transport/core'),
-        # Signal processing
-        ('Python.Signal_Processing', 'Python/Signal_Processing'),
-        ('Python.Signal_Processing.core', 'Python/Signal_Processing/core'),
         # GPU acceleration
         ('Python.gpu_acceleration', 'Python/gpu_acceleration'),
         # Utilities

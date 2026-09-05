@@ -16,7 +16,7 @@ Examples:
     >>> from Multiphysics import CoupledSystem, FluidStructureInteraction
     >>> fsi = FluidStructureInteraction(fluid_model, structure_model)
     >>> result = fsi.solve(time_span=(0, 10), coupling_scheme='implicit')
-Author: Berkeley SciComp Team
+Author: Meshal Alawein
 Date: 2024
 """
 from .coupling import (
@@ -146,5 +146,5 @@ __all__ = [
     'multiphysics_metrics'
 ]
 __version__ = '1.0.0'
-__author__ = 'Berkeley SciComp Team'
-__email__ = 'scicomp@berkeley.edu'
+__author__ = 'Meshal Alawein'
+__email__ = 'contact@meshal.ai'

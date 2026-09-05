@@ -2,7 +2,7 @@
 FROM python:3.11-slim
 
 # Metadata
-LABEL maintainer="UC Berkeley SciComp Team <scicomp@berkeley.edu>"
+LABEL maintainer="Meshal Alawein <contact@meshal.ai>"
 LABEL version="1.0.1"
 LABEL description="SciComp - Cross-Platform Scientific Computing Suite"
 

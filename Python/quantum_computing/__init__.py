@@ -3,10 +3,9 @@
 Quantum Computing Module
 Modern quantum computing algorithms, circuits, and noise models for
 variational quantum algorithms, error mitigation, and quantum simulation.
-Author: Meshal Alawein (meshal@berkeley.edu)
-Institution: University of California, Berkeley
+Author: Meshal Alawein (contact@meshal.ai)
 License: MIT
-Copyright © 2025 Meshal Alawein — All rights reserved.
+Copyright © 2025 Meshal Alawein
 """
 from . import algorithms
 from . import circuits

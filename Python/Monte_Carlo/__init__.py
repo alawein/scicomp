@@ -14,7 +14,7 @@ Examples:
     >>> from Monte_Carlo import integration, sampling
     >>> result = integration.monte_carlo_integrate(lambda x: x**2, 0, 1, n_samples=10000)
     >>> samples = sampling.metropolis_hastings(target_pdf, initial_state, n_samples=5000)
-Author: Berkeley SciComp Team
+Author: Meshal Alawein
 Date: 2024
 """
 from .integration import (
@@ -129,5 +129,5 @@ __all__ = [
     'standard_distributions'
 ]
 __version__ = '1.0.0'
-__author__ = 'Berkeley SciComp Team'
-__email__ = 'scicomp@berkeley.edu'
+__author__ = 'Meshal Alawein'
+__email__ = 'contact@meshal.ai'

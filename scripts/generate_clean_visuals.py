@@ -3,8 +3,7 @@
 SciComp Clean Visual Assets Generator
 Generates clean, professional visual assets without emojis for maximum compatibility.
 Creates overview diagram and logo suitable for all platforms and documentation.
-Author: Meshal Alawein (meshal@berkeley.edu)
-Institution: University of California, Berkeley
+Author: Meshal Alawein (contact@meshal.ai)
 """
 import matplotlib.pyplot as plt
 import matplotlib.patches as patches
@@ -33,8 +32,6 @@ def create_professional_overview():
     ax.text(7, 8.7, 'Cross-Platform Scientific Computing Suite',
             fontsize=16, ha='center', va='center',
             color=CALIFORNIA_GOLD, style='italic')
-    ax.text(7, 8.3, 'University of California, Berkeley',
-            fontsize=12, ha='center', va='center', color=BERKELEY_BLUE)
     # Central framework hexagon
     hexagon = patches.RegularPolygon((7, 5), 6, radius=2.2,
                                    facecolor=LIGHT_BLUE,
@@ -135,16 +132,16 @@ def create_professional_overview():
     for i, metric in enumerate(metrics):
         ax.text(11.25, 2.8 - i*0.25, f'• {metric}', fontsize=10,
                 ha='center', va='center', color=BERKELEY_BLUE, zorder=3)
-    # Footer with UC Berkeley branding
+    # Footer
     footer_box = FancyBboxPatch((0.5, 0.3), 6, 0.8,
                                boxstyle="round,pad=0.1",
                                facecolor=LIGHT_BLUE,
                                edgecolor=BERKELEY_BLUE,
                                linewidth=1, zorder=2)
     ax.add_patch(footer_box)
-    ax.text(3.5, 0.8, 'UC Berkeley', fontsize=14, fontweight='bold',
+    ax.text(3.5, 0.8, 'SciComp', fontsize=14, fontweight='bold',
             ha='center', va='center', color=BERKELEY_BLUE, zorder=3)
-    ax.text(3.5, 0.5, 'Scientific Computing Excellence Since 1868', fontsize=10,
+    ax.text(3.5, 0.5, 'Scientific Computing Excellence', fontsize=10,
             ha='center', va='center', color=CALIFORNIA_GOLD,
             style='italic', zorder=3)
     return fig
@@ -178,9 +175,6 @@ def create_minimal_logo():
     ax.text(5, 1.6, 'Cross-Platform Scientific Computing Suite',
             fontsize=18, ha='center', va='center',
             color=CALIFORNIA_GOLD, style='italic')
-    # UC Berkeley attribution
-    ax.text(5, 0.8, 'University of California, Berkeley',
-            fontsize=14, ha='center', va='center', color=BERKELEY_BLUE)
     # Decorative line elements
     ax.plot([1, 9], [0.4, 0.4], color=BERKELEY_BLUE, linewidth=2)
     ax.plot([3, 7], [0.2, 0.2], color=CALIFORNIA_GOLD, linewidth=1)

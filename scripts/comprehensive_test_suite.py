@@ -5,8 +5,7 @@ SciComp Comprehensive Test Suite
 Advanced testing framework for deep coherence, error detection, and system integrity.
 Goes beyond basic validation to ensure production-ready quality.
 
-Author: Meshal Alawein (meshal@berkeley.edu)
-Institution: University of California, Berkeley
+Author: Meshal Alawein (contact@meshal.ai)
 """
 
 import os
@@ -580,8 +579,6 @@ class ComprehensiveTestSuite:
         """Run all comprehensive tests."""
         self.print_header("SciComp Comprehensive Test Suite")
         print(f"{Colors.CALIFORNIA_GOLD}Deep Analysis for Production Readiness{Colors.RESET}")
-        print(f"{Colors.CALIFORNIA_GOLD}University of California, Berkeley{Colors.RESET}\n")
-        
         all_results = {}
         start_time = time.time()
         

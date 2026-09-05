@@ -7,7 +7,7 @@ classdef SimulatedAnnealing < handle
     % This class implements simulated annealing for global optimization
     % with various cooling schedules and acceptance criteria.
     %
-    % Author: Berkeley SciComp Team
+    % Author: Meshal Alawein
     % Date: 2024
     properties
         MaxIterations = 10000       % Maximum number of iterations

@@ -8,7 +8,6 @@ sla: none
 # Engineering Applications Theory Reference
 **SciComp - Engineering Foundation**
 *Author: Meshal Alawein (contact@meshal.ai)*
-*Institution: University of California, Berkeley*
 *Created: 2025*
 ---
 ## Table of Contents
@@ -550,5 +549,4 @@ X(z) = Σ_{n=-∞}^∞ x[n]z^{-n}
 4. Griffiths, D.J. "Introduction to Electrodynamics" (Cambridge, 2017)
 5. Franklin, G.F., et al. "Feedback Control of Dynamic Systems" (Pearson, 2019)
 ---
-*Copyright © 2025 Meshal Alawein : All rights reserved.*
-*University of California, Berkeley*
+Copyright © 2025 Meshal Alawein

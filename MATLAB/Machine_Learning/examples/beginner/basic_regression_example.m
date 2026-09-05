@@ -11,7 +11,7 @@ function basic_regression_example()
 %   - Visualize model performance
 %   - Interpret regression results
 %
-% Author: Berkeley SciComp Team
+% Author: Meshal Alawein
 % Date: 2024
 fprintf('🎯 Berkeley SciComp: Basic Linear Regression\n');
 fprintf('====================================================\n');

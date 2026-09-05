@@ -13,7 +13,7 @@ Unconstrained Optimization Algorithms
 This module implements various unconstrained optimization algorithms
 including gradient-based methods, Newton-type methods, and quasi-Newton
 approaches with Berkeley SciComp framework integration.
-Author: Berkeley SciComp Team
+Author: Meshal Alawein
 Date: 2024
 ## Constants
 - **`BERKELEY_BLUE`**

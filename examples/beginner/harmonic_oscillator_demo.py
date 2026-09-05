@@ -9,10 +9,9 @@ Key Concepts Demonstrated:
 - Wavefunction shapes and probability densities
 - Coherent states and classical-like motion
 - Uncertainty relations and quantum fluctuations
-Author: Meshal Alawein (meshal@berkeley.edu)
-Institution: University of California, Berkeley
+Author: Meshal Alawein (contact@meshal.ai)
 License: MIT
-Copyright © 2025 Meshal Alawein — All rights reserved.
+Copyright © 2025 Meshal Alawein
 """
 import numpy as np
 import matplotlib.pyplot as plt
@@ -57,7 +56,7 @@ def main():
     print("-" * 40)
     demo_wigner_functions(qho, output_dir)
     print(f"\n✅ Demo completed! Results saved to: {output_dir}")
-    print("🐻💙💛 Crafted with precision at UC Berkeley")
+    print("🐻💙💛 Crafted with precision")
 def demo_eigenstates(qho: QuantumHarmonic, output_dir: Path):
     """Demonstrate energy eigenstates."""
     # Calculate first few eigenstates

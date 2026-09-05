@@ -3,7 +3,7 @@
 Advanced Quantum Machine Learning Integration
 =============================================
 This advanced example demonstrates the integration of quantum computing,
-machine learning, and physics-informed neural networks using the Berkeley
+machine learning, and physics-informed neural networks using the
 SciComp Framework. It showcases cutting-edge computational methods for
 solving complex quantum many-body problems.
 Features Demonstrated:
@@ -12,10 +12,10 @@ Features Demonstrated:
 - Quantum-Classical Hybrid Optimization
 - GPU-accelerated computations
 - Real-time visualization and monitoring
-Author: UC Berkeley SciComp Team
+Author: Meshal Alawein
 Date: 2025
 License: MIT
-Copyright © 2025 University of California, Berkeley
+Copyright © 2025 Meshal Alawein
 """
 import numpy as np
 import matplotlib.pyplot as plt

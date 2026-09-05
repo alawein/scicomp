@@ -46,4 +46,4 @@ __all__ = [
     'QuantumWalk'
 ]
 __version__ = '1.0.0'
-__author__ = 'UC Berkeley SciComp Team'
+__author__ = 'Meshal Alawein'

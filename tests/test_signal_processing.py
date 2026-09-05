@@ -2,7 +2,7 @@
 Test Suite for Signal Processing Module
 ========================================
 Comprehensive tests for signal processing functionality.
-Author: Berkeley SciComp Team
+Author: Meshal Alawein
 Date: 2024
 """
 import pytest

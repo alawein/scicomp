@@ -1,16 +1,13 @@
 #!/usr/bin/env python3
 """
-Berkeley Visual Identity - Scientific Plotting Style
-Official UC Berkeley color scheme and styling for publication-quality figures.
-Implements university branding guidelines for academic and research publications.
-Colors follow UC Berkeley's official brand guidelines:
+Berkeley-Themed Scientific Plotting Style
+Berkeley color scheme and styling for publication-quality figures.
 - Primary: Berkeley Blue (#003262), California Gold (#FDB515)
 - Secondary palette for diverse visualizations
 - High-contrast accessibility compliance
-Author: Meshal Alawein (meshal@berkeley.edu)
-Institution: University of California, Berkeley
+Author: Meshal Alawein (contact@meshal.ai)
 License: MIT
-Copyright © 2025 Meshal Alawein — All rights reserved.
+Copyright © 2025 Meshal Alawein
 """
 import matplotlib.pyplot as plt
 import matplotlib as mpl
@@ -19,7 +16,7 @@ import numpy as np
 from typing import Optional, Dict, List, Tuple, Union
 import seaborn as sns
 from pathlib import Path
-# UC Berkeley Official Color Palette
+# Berkeley Color Palette
 BERKELEY_COLORS = {
     'primary': {
         'berkeley_blue': '#003262',
@@ -142,7 +139,7 @@ class BerkeleyPlot:
     """
     Berkeley-styled plotting class for scientific figures.
     Provides convenient methods for creating publication-quality plots
-    following UC Berkeley's visual identity guidelines.
+    using the Berkeley color palette.
     """
     def __init__(self, figsize: Tuple[float, float] = (10, 6),
                  style: str = 'publication'):

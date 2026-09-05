@@ -11,7 +11,7 @@ Classes:
 Functions:
     fsi_benchmark: Standard FSI benchmark problems
     vortex_induced_vibration: VIV analysis
-Author: Berkeley SciComp Team
+Author: Meshal Alawein
 Date: 2024
 """
 import numpy as np

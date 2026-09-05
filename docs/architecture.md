@@ -14,7 +14,7 @@ overlapping topic areas so that implementations can be compared and verified acr
 
 The repository is organized into four primary surfaces:
 
-- **`Python/`** -- canonical Python package and CLI entry point (`berkeley-scicomp` / `bsc`).
+- **`Python/`** -- canonical Python package and CLI entry point (`scicomp` / `bsc`).
   Sub-directories mirror the domain structure (Quantum, Thermal_Transport, Machine_Learning,
   Spintronics, Optics, etc.). GPU acceleration is provided by CuPy and degrades cleanly to
   NumPy/SciPy when a CUDA device is unavailable.

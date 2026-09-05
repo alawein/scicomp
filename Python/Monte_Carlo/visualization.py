@@ -1,6 +1,6 @@
 """Berkeley-themed Visualization for Monte Carlo Methods.
 This module provides comprehensive visualization utilities for Monte Carlo
-simulations with UC Berkeley's official branding and color scheme.
+simulations with a Berkeley color scheme.
 Classes:
     MonteCarloVisualizer: Main visualization class
 Functions:
@@ -11,7 +11,7 @@ Functions:
 Colors:
     Berkeley Blue: #003262
     California Gold: #FDB515
-Author: Berkeley SciComp Team
+Author: Meshal Alawein
 Date: 2024
 """
 import numpy as np
@@ -471,7 +471,7 @@ class MonteCarloVisualizer:
     def _add_berkeley_branding(self, fig: plt.Figure):
         """Add Berkeley branding to figure."""
         # Add subtle Berkeley logo or text
-        fig.text(0.02, 0.02, 'UC Berkeley SciComp', fontsize=8,
+        fig.text(0.02, 0.02, 'SciComp', fontsize=8,
                 color=self.colors['berkeley_blue'], alpha=0.7)
 # Convenience functions
 def plot_convergence(convergence_data: Union[List[float], Dict[str, List[float]]],

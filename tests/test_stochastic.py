@@ -2,7 +2,7 @@
 Test Suite for Stochastic Processes Module
 ==========================================
 Comprehensive tests for stochastic processes functionality.
-Author: Berkeley SciComp Team
+Author: Meshal Alawein
 Date: 2024
 """
 import pytest

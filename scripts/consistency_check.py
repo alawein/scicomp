@@ -9,8 +9,7 @@ Comprehensive pre-deployment verification script that checks:
 - File structure and organization
 - Dependencies and requirements
 - Cross-platform compatibility markers
-Author: Meshal Alawein (meshal@berkeley.edu)
-Institution: University of California, Berkeley
+Author: Meshal Alawein (contact@meshal.ai)
 """
 import os
 import re
@@ -42,11 +41,10 @@ class ConsistencyChecker:
             'project_name': 'SciComp',
             'full_name': 'SciComp: A Cross-Platform Scientific Computing Suite for Research and Education',
             'author': 'Meshal Alawein',
-            'email': 'meshal@berkeley.edu',
-            'institution': 'University of California, Berkeley',
+            'email': 'contact@meshal.ai',
             'license': 'MIT',
             'tagline': 'Crafted with love, 🐻 energy, and zero sleep.',
-            'repo_url': 'https://github.com/berkeley/scicomp',
+            'repo_url': 'https://github.com/alawein/scicomp',
             'copyright': '© 2025 Meshal Alawein'
         }
         # Deprecated/incorrect naming patterns to flag
@@ -66,7 +64,6 @@ class ConsistencyChecker:
         print(f"\n{Colors.BERKELEY_BLUE}{'='*80}{Colors.RESET}")
         print(f"{Colors.BERKELEY_BLUE}{Colors.BOLD}🔍 SciComp Repository Consistency Check 🔍{Colors.RESET}")
         print(f"{Colors.BERKELEY_BLUE}{'='*80}{Colors.RESET}")
-        print(f"{Colors.CALIFORNIA_GOLD}University of California, Berkeley{Colors.RESET}")
         print(f"{Colors.CALIFORNIA_GOLD}Pre-Deployment Verification System{Colors.RESET}")
         print(f"{Colors.BERKELEY_BLUE}{'='*80}{Colors.RESET}\n")
     def check_naming_consistency(self):

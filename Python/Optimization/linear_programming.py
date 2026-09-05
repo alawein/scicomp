@@ -4,7 +4,7 @@ Linear Programming Solvers
 This module implements linear programming algorithms including the
 simplex method, interior point methods, and revised simplex for
 solving linear optimization problems.
-Author: Berkeley SciComp Team
+Author: Meshal Alawein
 Date: 2024
 """
 import numpy as np

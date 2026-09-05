@@ -3,7 +3,7 @@ classdef OpticsVisualization < handle
     %   Provides comprehensive visualization functionality for optical systems,
     %   beam profiles, ray diagrams, and interference patterns
     %
-    %   Author: Berkeley SciComp Team
+    %   Author: Meshal Alawein
     %   Date: 2024
     properties (Access = public)
         % Berkeley color scheme

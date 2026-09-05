@@ -10,8 +10,7 @@ This package provides:
 - Quantum Computing: Algorithms, Circuits, Gates
 - Visualization: Berkeley-styled plotting and analysis tools
 - Utilities: Parallel computing, file I/O, constants
-Author: Meshal Alawein (meshal@berkeley.edu)
-Institution: University of California, Berkeley
+Author: Meshal Alawein (contact@meshal.ai)
 Created: 2025
 License: MIT
 """
@@ -20,7 +19,6 @@ from .init_berkeley import (
     __version__,
     __author__,
     __email__,
-    __institution__,
     __license__,
     __copyright__,
     FRAMEWORK_INFO,
@@ -83,7 +81,6 @@ __all__ = [
     "__version__",
     "__author__",
     "__email__",
-    "__institution__",
     "__license__",
     "__copyright__",
     # Framework info

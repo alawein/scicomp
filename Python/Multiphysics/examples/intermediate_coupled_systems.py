@@ -8,7 +8,7 @@ Topics covered:
 - Electromagnetic-thermal coupling in devices
 - Reactive transport in porous media
 - Advanced solver techniques
-Author: Berkeley SciComp Team
+Author: Meshal Alawein
 Date: 2024
 """
 import numpy as np

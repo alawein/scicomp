@@ -2,7 +2,7 @@
 type: canonical
 source: none
 sla: on-change
-last_updated: "2026-06-06"
+last_updated: "2026-09-05"
 audience: [ai-agents, contributors]
 ---
 

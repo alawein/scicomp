@@ -11,7 +11,7 @@ Functions:
 Classes:
     RandomNumberGenerator: Advanced random number generator
     StatisticalTests: Collection of statistical tests
-Author: Berkeley SciComp Team
+Author: Meshal Alawein
 Date: 2024
 """
 import numpy as np

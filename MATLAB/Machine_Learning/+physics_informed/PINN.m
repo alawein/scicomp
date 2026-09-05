@@ -20,7 +20,7 @@ classdef PINN < handle
     %                       'Epochs', 1000);
     %   solution = pinn.predict(x_test, t_test);
     %
-    % Author: Berkeley SciComp Team
+    % Author: Meshal Alawein
     % Date: 2024
     properties (Access = private)
         network_

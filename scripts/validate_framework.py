@@ -5,7 +5,7 @@ SciComp - Complete Validation Script
 This script performs comprehensive validation of the entire SciComp
 suite, testing all major modules, performance benchmarks, and integration
 capabilities.
-Author: UC Berkeley SciComp Team
+Author: Meshal Alawein
 Date: 2025
 License: MIT
 """
@@ -31,7 +31,6 @@ def print_berkeley_header():
     print(f"\n{Colors.BERKELEY_BLUE}{'='*80}{Colors.RESET}")
     print(f"{Colors.BERKELEY_BLUE}{Colors.BOLD}🐻 SciComp - Comprehensive Validation 🐻{Colors.RESET}")
     print(f"{Colors.BERKELEY_BLUE}{'='*80}{Colors.RESET}")
-    print(f"{Colors.CALIFORNIA_GOLD}University of California, Berkeley{Colors.RESET}")
     print(f"{Colors.CALIFORNIA_GOLD}Scientific Computing Excellence Since 1868{Colors.RESET}")
     print(f"{Colors.BERKELEY_BLUE}{'='*80}{Colors.RESET}\n")
 class ValidationResults:
