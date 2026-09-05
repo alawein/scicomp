@@ -18,7 +18,7 @@ jobs:
   drift:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v6
+      - uses: actions/checkout@v7
       # repo-drift v0.1.0
       - uses: alawein/repo-drift@c9937d8df883da3f1561361e7b006201d380f07b
         env:
