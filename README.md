@@ -9,21 +9,21 @@ Next action: continue
 
 ## Abstract
 
-SciComp keeps equivalent numerical implementations of the same physics
-problems, quantum mechanics, thermal transport, and physics-informed ML,
-across three language trees: `Python/` (the canonical import boundary),
-`MATLAB/`, and `Mathematica/`. It is for researchers who need to check a
-result in whichever of those three languages their institution or
-collaborators already use, rather than reimplementing from a
-single-language library. It does not require MATLAB, Mathematica, or a
-GPU: those are optional per-tree runtimes, with CPU fallback for GPU code
-documented in `docs/GPU_TESTING_GUIDE.md`.
+SciComp is a research-library repository containing numerical work across
+`Python/` (the canonical import boundary), `MATLAB/`, and `Mathematica/`.
+The verified support promise is intentionally limited to the Python core
+exercised in CI. The remaining language trees, hardware-dependent features,
+optional integrations, and untested domain modules are retained as
+**experimental research surfaces**; they are not a claim of equivalent
+cross-language verification.
 
 ## Status
 
-- Lifecycle: frozen
-- Verification date: 2026-08-28
-- Scope: multi-language numerical modules, examples, and cross-surface tests
+- Lifecycle: experimental research library
+- Verified scope: Python core test suite on Python 3.10–3.12
+- Experimental scope: optional Python features, MATLAB, Mathematica, GPU, and
+  untested domain modules
+- Details: [support matrix](docs/SUPPORT_MATRIX.md)
 
 ## Runtime requirements
 
@@ -35,22 +35,23 @@ documented in `docs/GPU_TESTING_GUIDE.md`.
 ## Reproducibility
 
 ```bash
-python -m pip install -e .
-python -m pytest tests/python -q
+python -m pip install -e ".[dev]"
+python -m pytest
 ```
 
-`pip install -e .` and `pytest tests/python -q` exit 0 (378 passed, 80
-skipped: quantum and ML-physics tests that need the optional `ml` extra).
-The framework check needs the optional `ml` extra: `pip install -e ".[ml]"`
-then `python scripts/validate_framework.py` (11 of 13 checks pass without
-it).
+The default test command collects the root regression tests and Python test
+tree. Coverage is reported in CI for visibility; it is not used as a release
+threshold because experimental modules materially exceed the verified core.
+Install an optional feature only when needed, for example
+`pip install -e ".[viz]"`, `.[quantum]`, or `.[ml]`. See the
+[support matrix](docs/SUPPORT_MATRIX.md) for per-example prerequisites.
 
 CLI entry points: `scicomp` and `bsc` (both resolve to
 `Python.utils.cli:main`).
 
 `tests/matlab/test_heat_transfer.m` requires MATLAB and
-`tests/mathematica/test_symbolic_quantum.nb` requires Mathematica; neither
-runtime is available here, so those tests are not run.
+`tests/mathematica/test_symbolic_quantum.nb` requires Mathematica. They are
+not run by Python CI and remain experimental.
 
 ## Datasets
 

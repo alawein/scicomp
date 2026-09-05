@@ -41,7 +41,12 @@ class BerkeleyCLI:
         return {}
     def _get_version(self) -> str:
         """Get framework version."""
-        return self.config.get('framework', {}).get('version', '1.0.0')
+        try:
+            from importlib.metadata import version
+
+            return version("scicomp")
+        except Exception:
+            return self.config.get('framework', {}).get('version', '0+unknown')
     def print_banner(self):
         """Print SciComp banner."""
         banner = f"""
@@ -280,7 +285,7 @@ def create_parser() -> argparse.ArgumentParser:
 {BERKELEY_BLUE}Meshal Alawein (contact@meshal.ai){RESET}
         """
     )
-    parser.add_argument('--version', action='version', version='SciComp 1.0.0')
+    parser.add_argument('--version', action='version', version=f'SciComp {BerkeleyCLI().version}')
     subparsers = parser.add_subparsers(dest='command', help='Available commands')
     # Run command
     run_parser = subparsers.add_parser('run', help='Run simulations and computations')
