@@ -16,6 +16,7 @@ stack.
   validation.
 - `theory/` for the mathematical and scientific background material.
 - [troubleshooting.md](troubleshooting.md) for recurring operational failures.
+- [ROADMAP.md](ROADMAP.md) for the shared module documentation backlog.
 - [INDEX.md](INDEX.md) for the derived document map.
 
 ## Notes
