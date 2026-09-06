@@ -353,11 +353,20 @@ def validate_documentation(results: ValidationResults):
             root_path / "README.md",
             root_path / "CONTRIBUTING.md",
             docs_path / "INSTALLATION_GUIDE.md",
+            docs_path / "ROADMAP.md",
             root_path / "setup.py",
             root_path / "pyproject.toml",
             root_path / "requirements.txt"
         ]
         existing_files = [f for f in essential_files if f.exists()]
+        module_readmes = [
+            path for surface in ("Python", "MATLAB", "Mathematica")
+            for path in (root_path / surface).glob("*/README.md")
+        ]
+        linked_readmes = [
+            path for path in module_readmes
+            if "../../docs/ROADMAP.md#work-items" in path.read_text()
+        ]
         # Check examples directories
         example_dirs = [
             root_path / "examples" / "beginner",
@@ -366,8 +375,14 @@ def validate_documentation(results: ValidationResults):
         ]
         existing_dirs = [d for d in example_dirs if d.exists()]
         execution_time = time.time() - start_time
-        results.add_result("Documentation", True,
-                         f"Essential files: {len(existing_files)}/{len(essential_files)}, Example dirs: {len(existing_dirs)}/{len(example_dirs)}",
+        documentation_ok = (
+            len(existing_files) == len(essential_files)
+            and len(linked_readmes) == len(module_readmes)
+        )
+        results.add_result("Documentation", documentation_ok,
+                         f"Essential files: {len(existing_files)}/{len(essential_files)}, "
+                         f"roadmap links: {len(linked_readmes)}/{len(module_readmes)}, "
+                         f"Example dirs: {len(existing_dirs)}/{len(example_dirs)}",
                          execution_time)
     except Exception as e:
         results.add_result("Documentation", False, f"Error: {str(e)}")

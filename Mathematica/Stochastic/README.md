@@ -9,20 +9,20 @@ sla: manual
 
 ## Theory Background
 
-TODO: Add mathematical foundations
+[Shared roadmap: theory background](../../docs/ROADMAP.md#work-items)
 
 ## Implementation Overview
 
-TODO: Add algorithm descriptions
+[Shared roadmap: implementation overview](../../docs/ROADMAP.md#work-items)
 
 ## Canonical Problems
 
-TODO: Add classic problems
+[Shared roadmap: canonical problems](../../docs/ROADMAP.md#work-items)
 
 ## Platform-Specific Notes
 
-TODO: Add optimization notes
+[Shared roadmap: platform-specific notes](../../docs/ROADMAP.md#work-items)
 
 ## References
 
-TODO: Add citations
+[Shared roadmap: references](../../docs/ROADMAP.md#work-items)
